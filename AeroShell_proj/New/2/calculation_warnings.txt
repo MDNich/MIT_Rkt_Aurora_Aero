@@ -1,0 +1,7 @@
+2024-Oct-05 16:08:01
+Computer name:	MARCDNICHITBF25
+Number of cores used in calculation:	12
+Configuration name:	Default
+Project name:	Mach1
+
+Warnings on last iteration: 
