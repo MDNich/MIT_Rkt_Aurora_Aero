@@ -1,0 +1,9 @@
+2024-Oct-05 16:14:10
+Computer name:	MARCDNICHITBF25
+Number of cores used in calculation:	12
+Configuration name:	Default
+Project name:	Mach1
+
+Warnings on last iteration: 
+1. The flow has low Mach number, the «High Mach number flow» option is not recommended. :
+	Maximum Mach number=1.34722
