@@ -1,0 +1,166 @@
+{
+    "version": 0,
+    "model_name": "Aeroshell_Prometheus_Assem_FINAL_12Apr2024.SLDASM",
+    "project_name": "Mach1",
+    "config_name": "Default",
+    "project_path": "Z:\\Developer\\MIT_Rkt_Team\\AeroShell_proj\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 8158,
+        "cells_fluid": 8158,
+        "cells_solid": 4652,
+        "cells_fluid_containing_solid": 3587
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "15:46:27-0400",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 96,
+        "iteration": 605,
+        "travel": 1.1634615384615385,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "15:48:02-0400",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 8,
+        "iterations_per_travel": 520
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Average Dynamic Pressure 1",
+                "unit": "pressure and stress",
+                "value": 251342.07707888214,
+                "progress": 100.0,
+                "criteria": 3026.1371917149404,
+                "delta": 648.4360040442552,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Average Mach Number 2",
+                "unit": "mach number",
+                "value": 1.8342019818070225,
+                "progress": 100.0,
+                "criteria": 0.015611670521933213,
+                "delta": 0.008506071372165636,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force 3",
+                "unit": "force",
+                "value": 1019.2582409470511,
+                "progress": 100.0,
+                "criteria": 12.811444850809275,
+                "delta": 5.400320947602836,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (X) 4",
+                "unit": "force",
+                "value": 17.645866310109934,
+                "progress": 100.0,
+                "criteria": 0.9783329827751793,
+                "delta": 0.765360706486014,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 5",
+                "unit": "force",
+                "value": -1015.1284260266774,
+                "progress": 100.0,
+                "criteria": 11.070569958753314,
+                "delta": 6.399852624983396,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 6",
+                "unit": "force",
+                "value": -89.94589380979713,
+                "progress": 100.0,
+                "criteria": 44.287309291164775,
+                "delta": 10.628669493815664,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Average Shear Stress 7",
+                "unit": "pressure and stress",
+                "value": 286.5568439455175,
+                "progress": 100.0,
+                "criteria": 24.972738741527007,
+                "delta": 7.088254278409522,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Average Shear Stress (X) 8",
+                "unit": "pressure and stress",
+                "value": 1.3544921893050352,
+                "progress": 100.0,
+                "criteria": 0.3255655536481031,
+                "delta": 0.2787904715789937,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Average Shear Stress (Y) 9",
+                "unit": "pressure and stress",
+                "value": 4.868301990214549,
+                "progress": 100.0,
+                "criteria": 1.3238520575390353,
+                "delta": 0.28375329520590853,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Average Shear Stress (Z) 10",
+                "unit": "pressure and stress",
+                "value": -274.3867781466089,
+                "progress": 100.0,
+                "criteria": 24.168863484894107,
+                "delta": 6.715394524714327,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2024  x64 / 6234 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2024 SP1.0",
+        "computer_name": "MARCDNICHITBF25",
+        "user_name": "mdn",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "                          Virtual CPU @ 3.20GHz",
+        "number_of_cores": 12,
+        "memory_avail": 108273,
+        "memory_total": 114682
+    }
+}
