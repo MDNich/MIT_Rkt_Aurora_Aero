@@ -1,0 +1,62 @@
+Model: Assembly1.0.SLDASM
+Project name: Mach1.5
+Config name: Default
+Project path: Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\4\4.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 3006
+    Fluid cells: 3006
+    Solid cells: 2877
+    Fluid cells containing solids: 1654
+
+
+Geometry preparation finished: 12:43:07
+Geometry preparation time: 00:00:00
+Solver CPU time: 00:01:12
+Iterations: 505
+Travels: 1.14773
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 12:44:18
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:05
+Iterations per 1 travel: 440
+
+Goals
+    Name                           | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Average Dynamic Pressure 1  | pressure and stress |       131733.04 |     100.0 |         3788.26 |         1323.91 | On
+    GG Average Mach Number 2       | mach number         |            1.32 |     100.0 |            0.02 |            0.02 | On
+    GG Force 3                     | force               |          604.70 |     100.0 |            7.53 |            4.53 | On
+    GG Force (X) 4                 | force               |          -13.92 |     100.0 |            0.69 |            0.52 | On
+    GG Force (Y) 5                 | force               |         -603.07 |     100.0 |            6.39 |            4.75 | On
+    GG Force (Z) 6                 | force               |           42.15 |     100.0 |           15.21 |            2.64 | On
+    GG Average Shear Stress 7      | pressure and stress |          183.38 |     100.0 |           22.00 |            6.44 | On
+    GG Average Shear Stress (X) 8  | pressure and stress |           -0.49 |     100.0 |            0.27 |            0.25 | On
+    GG Average Shear Stress (Y) 9  | pressure and stress |           10.56 |     100.0 |            2.01 |            0.33 | On
+    GG Average Shear Stress (Z) 10 | pressure and stress |          173.70 |     100.0 |           21.41 |            8.76 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2024  x64 / 6234 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2024 SP1.0
+    Computer name: MARCDNICHITBF25
+    User name: mdn
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors:                           Virtual CPU @ 3.20GHz
+    Number of cores: 12
+    Memory: 107900 MB / 114682 MB
+
