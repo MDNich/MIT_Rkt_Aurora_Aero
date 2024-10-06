@@ -22,7 +22,28 @@ plt.rc('text.latex', preamble=r'\usepackage{amsmath}\usepackage{amssymb}')
 
 ##### DATA ######
 
+# FORMAT: [DyP, M, F, Fx, Fy, Fz, Shr, ShrX, ShrY, ShrZ]
+# UNITÉS: [Pa,  #, N, ->          Pa, ->               ]
 
+f = {
+	"DyP" : 0,
+	"M" : 1,
+	"F": 2,
+	"Fx" : 3,
+	"Fy" : 4,
+	"Fz" : 5,
+	"Shr" : 6,
+	"ShrX" : 7,
+	"ShrY" : 8,
+	"ShrZ" : 9,
+}
+
+# NOUVEAU
+
+# MACH 0.5
+
+n_m_0p5_dat = np.array([16100.33,0.47,567.578,-10.158,-567.478, 3.119,28.13,-0.31,2.19,26.50])
+n_m_0p5_dat_err = 0.5*np.abs(np.array([16194.72-16003,0.47-0.46,568.494-567.052,-10.077+10.346,-566.953+568.389,3.566-2.788,29.09-27.69,-0.28+0.33,2.24-2.16,26.96-26.16]))
 
 
 
