@@ -58,16 +58,24 @@
 	<problem_type>0</problem_type>
 	<rotation_type>0</rotation_type>
 	<plane_irr_shift>4.3300999999999998e-05</plane_irr_shift>
-	<min_grid_step>0.0004892664030194283</min_grid_step>
+	<min_grid_step>0.00067769480273209071</min_grid_step>
 	<transient>false</transient>
 	<task_attributes>
-		<arrFSubst/>
+		<arrFSubst>
+			<item>
+				<SubstUUID>2B966F4A9A9F11D4A50048A0E8000000</SubstUUID>
+				<SubstNAME>Air</SubstNAME>
+				<AllowedMF>true</AllowedMF>
+				<AllowedVF>true</AllowedVF>
+				<AllowedF>true</AllowedF>
+			</item>
+		</arrFSubst>
 		<arrCombustionProductsAllowed/>
 		<arrSubstUUIDs_immi/>
 		<arrSubstNAMESs_immi/>
 		<b_SUPPORT>false</b_SUPPORT>
 		<b_CPT_only>false</b_CPT_only>
-		<b_Use_surface>true</b_Use_surface>
+		<b_Use_surface>false</b_Use_surface>
 		<b_HMN>true</b_HMN>
 		<b_IsAnyCompressible>true</b_IsAnyCompressible>
 		<b_IsAnyGas>true</b_IsAnyGas>

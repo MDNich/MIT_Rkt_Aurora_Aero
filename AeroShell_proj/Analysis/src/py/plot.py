@@ -25,6 +25,19 @@ plt.rc('text.latex', preamble=r'\usepackage{amsmath}\usepackage{amssymb}')
 # FORMAT: [DyP, M, F, Fx, Fy, Fz, Shr, ShrX, ShrY, ShrZ]
 # UNITÉS: [Pa,  #, N, ->          Pa, ->               ]
 
+
+def importDataCSV(path):
+	raw = np.loadtxt(path,dtype='str',delimiter=',')
+	psd_avg = []
+	psd_err = []
+	for i in range(len(f_kwd.keys())):
+		if(i == 0):
+			continue
+		psd_avg.append(float(raw[i][3]))
+		psd_err.append(0.5*np.abs(float(raw[i][5])-float(raw[i][4])))
+
+	return np.array(psd_avg), np.array(psd_err)
+
 f = {
 	"DyP" : 0,
 	"M" : 1,
@@ -38,13 +51,95 @@ f = {
 	"ShrZ" : 9,
 }
 
-# NOUVEAU
+f_kwd = {
+	"DyP" : "GG Average Dynamic Pressure 1",
+	"M" : 'GG Average Mach Number 2',
+	"F": 'GG Force 3',
+	"Fx" : 'GG Force (X) 4',
+	"Fy" : 'GG Force (Y) 5',
+	"Fz" : 'GG Force (Z) 6',
+	"Shr" : 'GG Average Shear Stress 7',
+	"ShrX" : 'GG Average Shear Stress (X) 8',
+	"ShrY" : 'GG Average Shear Stress (Y) 9',
+	"ShrZ" : 'GG Average Shear Stress (Z) 10',
+}
 
-# MACH 0.5
+header = "../../dat/csv/"
+t = {
+	"new" : 1,
+	"old" : 2
+}
+m = {
+	"0p5": 1,
+	"1": 2,
+	"1p5": 3,
+	"2" : 4
+}
+types = t.keys()
+machs = m.keys()
+end = ".csv"
+lFs = []
+lID = []
+ctr1 = 0
+ctr2 = 0
+for i in types:
+	ctr1 += 1
+	ctr2 = 0
+	for j in machs:
+		ctr2 += 1
+		lFs.append(header + i + "_" + j + end)
+		lID.append(ctr1*10+ctr2)
+		print("Parsed file " + header + i + "_" + j + end)
+		print("Saving with identifier " + str(lID[-1]))
 
-n_m_0p5_dat = np.array([16100.33,0.47,567.578,-10.158,-567.478, 3.119,28.13,-0.31,2.19,26.50])
-n_m_0p5_dat_err = 0.5*np.abs(np.array([16194.72-16003,0.47-0.46,568.494-567.052,-10.077+10.346,-566.953+568.389,3.566-2.788,29.09-27.69,-0.28+0.33,2.24-2.16,26.96-26.16]))
+d = {}
+for i in range(len(lID)):
+	d[lID[i]] = importDataCSV(lFs[i])
 
+# d conține datele.
+
+def getInfo_str(modelSTR,speedSTR,paramSTR):
+	return d[t[modelSTR]*10+m[speedSTR]][0][f[paramSTR]]
+
+def getInfo_int(modelINT,speedINT,paramINT):
+	return d[modelINT*10+speedINT][0][paramINT]
+
+# demonstrator: Fx of 1p5 new:
+val = getInfo_str("new","1p5","Fx")
+print(val)
+
+
+
+###### TABLE GEN ######
+
+# TODO: pentru fiecare viteză (0p5 -> 2), 
+# tabelă comparând cele două modele (new, old) 
+# pentru caracteristicile următoare:
+
+"""
+	"DyP" : "GG Average Dynamic Pressure 1",
+	"M" : 'GG Average Mach Number 2',
+
+	"F": 'GG Force 3',
+	"Fy" : 'GG Force (Y) 5',
+	"Fz" : 'GG Force (Z) 6',
+
+	"Shr" : 'GG Average Shear Stress 7',
+	"ShrZ" : 'GG Average Shear Stress (Z) 10',
+	"ShrY" : 'GG Average Shear Stress (Y) 9',
+"""
+toTablSub = ["DyP","M","F","Fy","Fz","Shr","ShrY","ShrZ"]
+units = ["Pa","","N","N","N","Pa","Pa","Pa"]
+
+
+for i in range(len(m.keys())):
+	v = m.keys()[i]
+	out = "Cat.,New,Old\n"
+	for j in range(len(toTablSub)):
+		unitPart = ""
+		if(units[j] != ""):
+			unitPart = " (" + units[j] + ")"
+		out += toTablSub[j] + unitPart + "," + getInfo_str("new",v,toTablSub[j])+"\n"
 
 
 
@@ -71,9 +166,4 @@ def plot():
 		plt.close()
 
 		print("COMPLETELY done!")
-
-plot()
-
-
-
 
