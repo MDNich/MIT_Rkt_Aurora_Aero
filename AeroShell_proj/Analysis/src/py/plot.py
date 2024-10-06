@@ -167,18 +167,27 @@ def writeTabToSTDOUT():
 def plot():
 	outPDF = 'figure1.pdf' # shear, force func viteza 
 	matplotlib.rcParams['figure.figsize'] = (8.5, 11*2/3)  # 17,22
-	plt.rc('font', size=16)  # controls default text size
+	plt.rc('font', size=12)  # controls default text size
 	plt.rc('axes', labelsize=12)  # fontsize of the x and y labels
 	plt.rc('xtick', labelsize=12)  # fontsize of the x tick labels
 	plt.rc('ytick', labelsize=12)  # fontsize of the y tick labels
-	plt.rc('legend', fontsize=14)  # fontsize of the legend
+	plt.rc('legend', fontsize=10)  # fontsize of the legend
 	print("init complete, beginning plotting...")
 	# plt.rcParams['font.size'] = '10'
 	with matplotlib.backends.backend_pdf.PdfPages(outPDF) as pdf:
-		fig, axs = plt.subplots(nrows=3, ncols=1, sharex='col')
+		fig, axs = plt.subplots(nrows=2, ncols=2, sharex='col')
+		plt.subplots_adjust(
+			top=0.96,
+			bottom=0.1,
+			left=0.08,
+			right=0.98,
+			hspace=0.2,
+			wspace=0.2
+			)
  
-		ax = axs[0]
-
+		ax = axs[0][0]
+		
+		# prep for first two plots
 		v = mFLT.values()
 		vInd = list(m.values())
 		forceNet_n = []
@@ -205,16 +214,87 @@ def plot():
 			ShrY_o.append(getInfo_int(t["old"],vInd[i],f["ShrY"]))
 
 		masterArr = [forceNet_n,forceNetY_n,ShrNet_n,ShrZ_n,ShrY_n,forceNet_o,forceNetY_o,ShrNet_o,ShrZ_o,ShrY_o]
-		for i in range(len(masterArr))
-		ax.plot(v,forceNet_n,marker='v',linestyle='solid',c='blue',label="Net Force (N) (New)")
-		ax.plot(v,forceNetY_n,marker='v',linestyle='solid',c='blue',label="Y Force (N) (New)")
+		newMaster = []
+		for i in range(len(masterArr)):
+			newMaster.append(np.array(masterArr[i]))
+			newMaster[i] = np.abs(newMaster[i])
+		forceNet_n,forceNetY_n,ShrNet_n,ShrZ_n,ShrY_n,forceNet_o,forceNetY_o,ShrNet_o,ShrZ_o,ShrY_o = tuple(newMaster)
+		
+		ax.plot(v,forceNet_n,marker='v',linestyle='solid',c='royalblue',label="Net (New)")
+		ax.plot(v,forceNetY_n,marker='v',linestyle='solid',c='navy',label="Y (New)")
+		ax.plot(v,forceNet_o,marker='v',linestyle='dotted',c='royalblue',label="Net (Old)")
+		ax.plot(v,forceNetY_o,marker='v',linestyle='dotted',c='navy',label="Y (Old)")
+		ax.set_ylim(500,1200)
+		ax.set_ylabel("Force (N)")
+		ax.legend(loc='upper left',ncol=2)
+		ax.tick_params(axis='y', colors='royalblue')
+		ax.yaxis.label.set_color('royalblue')
+
+		ax2 = axs[0][1]
+		ax2.plot(v,ShrNet_n,marker='o',linestyle='solid',c='red',label="Net (New)")
+		ax2.plot(v,ShrZ_n,marker='o',linestyle='solid',c='maroon',label="Z (New)")
+		ax2.plot(v,ShrY_n,marker='o',linestyle='solid',c='lightcoral',label="Y (New)")
+		ax2.plot(v,ShrNet_o,marker='o',linestyle='dotted',c='red',label="Net (Old)")
+		ax2.plot(v,ShrZ_o,marker='o',linestyle='dotted',c='maroon',label="Z (Old)")
+		ax2.plot(v,ShrY_o,marker='o',linestyle='dotted',c='lightcoral',label="Y (Old)")
+		ax2.legend(ncol=2)
+		ax2.set_ylim(0,375)
+		ax2.yaxis.label.set_color('red')
+		ax2.tick_params(axis='y', colors='red')
+		ax2.set_ylabel("Shear Stress (Pa)")
 
 
-		ax = axs[2]
-		ax.set_xlim(0.25,2.25)
+		ax = axs[1][0] # lower left
+		ax2 = axs[1][1] # lower right
+
+		dyP_n = []
+		M_n = []
+
+		dyP_o = []
+		M_o = []
+
+		for i in range(len(v)):
+			dyP_n.append(getInfo_int(t["new"],vInd[i],f["DyP"]))
+			M_n.append(getInfo_int(t["new"],vInd[i],f["M"]))
+			dyP_o.append(getInfo_int(t["old"],vInd[i],f["DyP"]))
+			M_o.append(getInfo_int(t["old"],vInd[i],f["M"]))
+
+		masterArr = [dyP_n,M_n,dyP_o,M_o]
+		newMaster = []
+		for i in range(len(masterArr)):
+			newMaster.append(np.array(masterArr[i]))
+			newMaster[i] = np.abs(newMaster[i])
+		dyP_n,M_n,dyP_o,M_o = tuple(newMaster)
+		
+		dyP_n *= 1e-4
+		dyP_o *= 1e-4
+		
+		ax.plot(v,dyP_n,marker='s',markersize=5,linestyle='solid',c='green',label="New")
+		ax.plot(v,dyP_o,marker='s',markersize=5,linestyle='dotted',c='green',label="Old")
+		ax.set_ylim(0,26)
+		ax.yaxis.label.set_color('green')
+		ax.tick_params(axis='y', colors='green')
+		ax.set_ylabel("Dynamic Pressure ($10^4$ Pa)")
+		ax.legend()
+
+		ax2.plot(np.linspace(0,3,1000),np.linspace(0,3,1000),linestyle='solid',alpha=0.4,c='k',label="Freestream")
+		ax2.plot(v,M_n,marker='*',markersize=10,linestyle='solid',c='sandybrown',label="New")
+		ax2.plot(v,M_o,marker='*',markersize=10,linestyle='dotted',c='saddlebrown',label="Old")
+		ax2.legend()
+		ax2.set_ylim(0.4,2)
+		ax2.yaxis.label.set_color('saddlebrown')
+		ax2.tick_params(axis='y', colors='saddlebrown')
+		ax2.set_ylabel("Mach Number")
+		
+
+
+		ax.set_xlim(0.45,2.05)
 		ax.set_xlabel("Mach Number")
+		ax.set_xticks([0.5,1,1.5,2])
 
-
+		ax2.set_xlim(0.45,2.05)
+		ax2.set_xlabel("Mach Number")
+		ax2.set_xticks([0.5,1,1.5,2])
 
 		print("Rendering and saving to PDF...")
 		pdf.savefig(fig)
