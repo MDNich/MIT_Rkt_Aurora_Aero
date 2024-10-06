@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature>
 	<version>2</version>
-	<uuid>6bf1ab06-1a4a-4587-907e-210e1ba23e53</uuid>
+	<uuid>7148ca61-76df-4a7c-8f98-cc456839bc38</uuid>
 	<name>Goal Plot 1</name>
 	<type>3</type>
-	<res_file_key>944b77ca-28a8-49c4-adb7-b19495352a71</res_file_key>
+	<res_file_key>aa9135c0-0c52-43d7-9a4c-4e70a9658461</res_file_key>
 	<cs_name/>
 	<cs_uuid/>
 	<x_form>
@@ -35,7 +35,7 @@
 	<use_in_BRP>false</use_in_BRP>
 	<transparency>0</transparency>
 	<palette>
-		<uuid>28ca087d-e9d3-42ec-aa24-ca0efffe75d6</uuid>
+		<uuid>3bc2f2c2-6f48-439b-8655-b54a52e3f47c</uuid>
 		<parameter>
 			<uuid/>
 			<name/>
@@ -248,7 +248,7 @@
 	<iteration>-1</iteration>
 	<time>-1</time>
 	<limit_by_iter>true</limit_by_iter>
-	<limit_iter>505</limit_iter>
+	<limit_iter>610</limit_iter>
 	<display>0</display>
 	<callout>
 		<position_initialized>0</position_initialized>
