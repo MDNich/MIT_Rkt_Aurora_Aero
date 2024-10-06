@@ -26,17 +26,6 @@ plt.rc('text.latex', preamble=r'\usepackage{amsmath}\usepackage{amssymb}')
 # UNITÉS: [Pa,  #, N, ->          Pa, ->               ]
 
 
-def importDataCSV(path):
-	raw = np.loadtxt(path,dtype='str',delimiter=',')
-	psd_avg = []
-	psd_err = []
-	for i in range(len(f_kwd.keys())):
-		if(i == 0):
-			continue
-		psd_avg.append(float(raw[i][3]))
-		psd_err.append(0.5*np.abs(float(raw[i][5])-float(raw[i][4])))
-
-	return np.array(psd_avg), np.array(psd_err)
 
 f = {
 	"DyP" : 0,
@@ -63,6 +52,19 @@ f_kwd = {
 	"ShrY" : 'GG Average Shear Stress (Y) 9',
 	"ShrZ" : 'GG Average Shear Stress (Z) 10',
 }
+def importDataCSV(path):
+	raw = np.loadtxt(path,dtype='str',delimiter=',')
+	psd_avg = []
+	psd_err = []
+	for i in range(len(f_kwd.keys())):
+		i += 1
+		#print("proceeding for " + str(list(f_kwd.keys())[i-1]))
+		psd_avg.append(float(raw[i][3]))
+		psd_err.append(0.5*np.abs(float(raw[i][5])-float(raw[i][4])))
+		#print(i)
+		#print(len(psd_avg))
+	#print("returning two arrays of sizes " + str(len(psd_avg)) + ", " + str(len(psd_err)))
+	return np.array(psd_avg), np.array(psd_err)
 
 header = "../../dat/csv/"
 t = {
@@ -89,24 +91,32 @@ for i in types:
 		ctr2 += 1
 		lFs.append(header + i + "_" + j + end)
 		lID.append(ctr1*10+ctr2)
-		print("Parsed file " + header + i + "_" + j + end)
-		print("Saving with identifier " + str(lID[-1]))
+		#print("Parsed file " + header + i + "_" + j + end)
+		#print("Saving with identifier " + str(lID[-1]))
 
 d = {}
+de = {}
 for i in range(len(lID)):
-	d[lID[i]] = importDataCSV(lFs[i])
+	d[lID[i]],de[lID[i]] = importDataCSV(lFs[i])
 
 # d conține datele.
 
 def getInfo_str(modelSTR,speedSTR,paramSTR):
-	return d[t[modelSTR]*10+m[speedSTR]][0][f[paramSTR]]
+	#print("req:")
+	#print(modelSTR)
+	#print(speedSTR)
+	#print(paramSTR)
+	#print("ID: " + str(t[modelSTR]*10+m[speedSTR]))
+	#print("place: " + str(f[paramSTR]))
+	#print("inter: " + str(d[t[modelSTR]*10+m[speedSTR]]))
+	return np.abs(d[t[modelSTR]*10+m[speedSTR]][f[paramSTR]])
 
 def getInfo_int(modelINT,speedINT,paramINT):
-	return d[modelINT*10+speedINT][0][paramINT]
+	return d[modelINT*10+speedINT][paramINT]
 
 # demonstrator: Fx of 1p5 new:
-val = getInfo_str("new","1p5","Fx")
-print(val)
+#val = getInfo_str("new","1p5","Fx")
+#print(val)
 
 
 
@@ -133,13 +143,16 @@ units = ["Pa","","N","N","N","Pa","Pa","Pa"]
 
 
 for i in range(len(m.keys())):
-	v = m.keys()[i]
-	out = "Cat.,New,Old\n"
+	v = list(m.keys())[i]
+	print("---,---,---")
+	out = "*" + v + "*," + "New,Old"
 	for j in range(len(toTablSub)):
+		#print("Current v " + str(v) + " param " + toTablSub[j])
 		unitPart = ""
 		if(units[j] != ""):
-			unitPart = " (" + units[j] + ")"
-		out += toTablSub[j] + unitPart + "," + getInfo_str("new",v,toTablSub[j])+"\n"
+			unitPart = " (" + str(units[j]) + ")"
+		out += "\n" + str(toTablSub[j]) + str(unitPart) + "," + str(np.round(getInfo_str("new",v,toTablSub[j]),2)) + "," + str(np.round(getInfo_str("old",v,toTablSub[j]),2))
+	print(out)
 
 
 
