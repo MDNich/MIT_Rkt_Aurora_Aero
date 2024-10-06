@@ -140,26 +140,26 @@
 	<dyn_traj_vel_min>20</dyn_traj_vel_min>
 	<dyn_traj_vel_max>500</dyn_traj_vel_max>
 	<support>false</support>
-	<project_name>Mach1</project_name>
+	<project_name>Mach1.5</project_name>
 	<config_name>Default</config_name>
 	<model_name>Aeroshell_Prometheus_Assem_FINAL_12Apr2024.SLDASM</model_name>
 	<res_file_key>
 		<key0/>
 		<key1/>
 		<key2/>
-		<key3>63047a01-0fe7-49d2-b6c9-4c9a91b32fb8</key3>
-		<key4>0db6234d-b7c7-48af-b0e9-df8af1f608fa</key4>
-		<key5>cd7bc1be-f2d9-4315-be94-140de5a4f883</key5>
-		<key6>4acd57d7-fd9b-4f61-8f73-24e72e1f5ae9</key6>
-		<key7>32cb87ce-2011-4fc9-9a9c-c57762fe4b91</key7>
-		<key8>993470b2-b9e5-44a4-b3bc-d5cd4137970f</key8>
-		<key9>9e061206-26de-409b-af8e-5b33bfe05708</key9>
-		<key10>78e45c4b-8e1e-466b-aca4-ea842c2e3998</key10>
+		<key3>94f1c9b6-4757-41d9-8055-9e1a085ef491</key3>
+		<key4>e8163684-92e5-4671-8b0a-a7ccde1e722b</key4>
+		<key5>72fed12f-567a-4352-afec-99c0994ef515</key5>
+		<key6>9baafdc2-08d3-4071-acb7-45c0cd150a9f</key6>
+		<key7>dfb09318-4982-438e-9f08-7b74a9405d59</key7>
+		<key8>0ee74ae6-0543-47f4-8efc-26df8c4ae51f</key8>
+		<key9>6496b415-e526-4a7b-8bcd-ef9ed7f2ebcf</key9>
+		<key10>0e720c38-2d0d-484f-8114-d5ef0eb857a0</key10>
 		<key11/>
 		<key12/>
 		<key13/>
 		<key14/>
-		<key15>858d514f-1ed8-484a-9317-01831ce38702</key15>
+		<key15>c0c4e799-1982-4142-a806-d8956fc8f8b2</key15>
 		<key16/>
 	</res_file_key>
 	<license>
