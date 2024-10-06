@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Mach0.5</name>
+	<uuid>72f6d4b2-a7d6-4b91-a5cd-03cb93b87522</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>3</vwr_res_files_dir>
+	<geom_db_uuid>854ff53d-42f0-4eac-b889-d87d72529d22</geom_db_uuid>
+	<gdb_light_uuid>00e0cfd4-1fc0-4c6f-ad88-a5a144daba00</gdb_light_uuid>
+	<model_geom_uuid>d5590d86-05b8-45fd-b3fd-54146ac39b57</model_geom_uuid>
+	<template_id/>
+</project>
