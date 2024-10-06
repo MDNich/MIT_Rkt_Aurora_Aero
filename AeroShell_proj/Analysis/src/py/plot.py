@@ -77,6 +77,12 @@ m = {
 	"1p5": 3,
 	"2" : 4
 }
+mFLT = {
+	"0p5": 0.5,
+	"1": 1,
+	"1p5": 1.5,
+	"2" : 2
+}
 types = t.keys()
 machs = m.keys()
 end = ".csv"
@@ -138,27 +144,28 @@ def getInfo_int(modelINT,speedINT,paramINT):
 	"ShrZ" : 'GG Average Shear Stress (Z) 10',
 	"ShrY" : 'GG Average Shear Stress (Y) 9',
 """
-toTablSub = ["DyP","M","F","Fy","Fz","Shr","ShrY","ShrZ"]
-units = ["Pa","","N","N","N","Pa","Pa","Pa"]
+def writeTabToSTDOUT():
+	toTablSub = ["DyP","M","F","Fy","Fz","Shr","ShrY","ShrZ"]
+	units = ["Pa","","N","N","N","Pa","Pa","Pa"]
 
 
-for i in range(len(m.keys())):
-	v = list(m.keys())[i]
-	print("---,---,---")
-	out = "*" + v + "*," + "New,Old"
-	for j in range(len(toTablSub)):
-		#print("Current v " + str(v) + " param " + toTablSub[j])
-		unitPart = ""
-		if(units[j] != ""):
-			unitPart = " (" + str(units[j]) + ")"
-		out += "\n" + str(toTablSub[j]) + str(unitPart) + "," + str(np.round(getInfo_str("new",v,toTablSub[j]),2)) + "," + str(np.round(getInfo_str("old",v,toTablSub[j]),2))
-	print(out)
+	for i in range(len(m.keys())):
+		v = list(m.keys())[i]
+		print("---,---,---")
+		out = "*" + v + "*," + "New,Old"
+		for j in range(len(toTablSub)):
+			#print("Current v " + str(v) + " param " + toTablSub[j])
+			unitPart = ""
+			if(units[j] != ""):
+				unitPart = " (" + str(units[j]) + ")"
+			out += "\n" + str(toTablSub[j]) + str(unitPart) + "," + str(np.round(getInfo_str("new",v,toTablSub[j]),2)) + "," + str(np.round(getInfo_str("old",v,toTablSub[j]),2))
+		print(out)
 
 
 
 ###### PLOT ######
 def plot():
-	outPDF = 'figure1.pdf'
+	outPDF = 'figure1.pdf' # shear, force func viteza 
 	matplotlib.rcParams['figure.figsize'] = (8.5, 11*2/3)  # 17,22
 	plt.rc('font', size=16)  # controls default text size
 	plt.rc('axes', labelsize=12)  # fontsize of the x and y labels
@@ -168,9 +175,44 @@ def plot():
 	print("init complete, beginning plotting...")
 	# plt.rcParams['font.size'] = '10'
 	with matplotlib.backends.backend_pdf.PdfPages(outPDF) as pdf:
-		fig, ax = plt.subplots(nrows=1, ncols=1, sharex='col')
+		fig, axs = plt.subplots(nrows=3, ncols=1, sharex='col')
  
-		
+		ax = axs[0]
+
+		v = mFLT.values()
+		vInd = list(m.values())
+		forceNet_n = []
+		forceNetY_n = []
+		ShrNet_n = []
+		ShrZ_n = []
+		ShrY_n = []
+
+		forceNet_o = []
+		forceNetY_o = []
+		ShrNet_o = []
+		ShrZ_o = []
+		ShrY_o = []
+		for i in range(len(v)):
+			forceNet_n.append(getInfo_int(t["new"],vInd[i],f["F"]))
+			forceNetY_n.append(getInfo_int(t["new"],vInd[i],f["Fy"]))
+			ShrNet_n.append(getInfo_int(t["new"],vInd[i],f["Shr"]))
+			ShrZ_n.append(getInfo_int(t["new"],vInd[i],f["ShrZ"]))
+			ShrY_n.append(getInfo_int(t["new"],vInd[i],f["ShrY"]))
+			forceNet_o.append(getInfo_int(t["old"],vInd[i],f["F"]))
+			forceNetY_o.append(getInfo_int(t["old"],vInd[i],f["Fy"]))
+			ShrNet_o.append(getInfo_int(t["old"],vInd[i],f["Shr"]))
+			ShrZ_o.append(getInfo_int(t["old"],vInd[i],f["ShrZ"]))
+			ShrY_o.append(getInfo_int(t["old"],vInd[i],f["ShrY"]))
+
+		masterArr = [forceNet_n,forceNetY_n,ShrNet_n,ShrZ_n,ShrY_n,forceNet_o,forceNetY_o,ShrNet_o,ShrZ_o,ShrY_o]
+		for i in range(len(masterArr))
+		ax.plot(v,forceNet_n,marker='v',linestyle='solid',c='blue',label="Net Force (N) (New)")
+		ax.plot(v,forceNetY_n,marker='v',linestyle='solid',c='blue',label="Y Force (N) (New)")
+
+
+		ax = axs[2]
+		ax.set_xlim(0.25,2.25)
+		ax.set_xlabel("Mach Number")
 
 
 
@@ -179,4 +221,19 @@ def plot():
 		plt.close()
 
 		print("COMPLETELY done!")
+
+
+
+
+plot()
+
+
+
+
+
+
+
+
+
+
 
