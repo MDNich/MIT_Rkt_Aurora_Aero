@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>M0p5A2</name>
+	<uuid>bada5c01-e3dc-4056-8ed0-2efa6b247082</uuid>
+	<directory>prj4</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>532c95d4-a163-4722-a7d9-bbd9e8415354</geom_db_uuid>
+	<gdb_light_uuid>ee9ff05c-13c3-416f-aa66-0fd455430dec</gdb_light_uuid>
+	<model_geom_uuid>edcd0b04-2647-4dff-a3c7-774c2951f73d</model_geom_uuid>
+	<template_id/>
+</project>
