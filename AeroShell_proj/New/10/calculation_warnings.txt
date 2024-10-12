@@ -1,0 +1,7 @@
+2024-Oct-12 15:26:00
+Computer name:	DESKTOP-H9COBF1
+Number of cores used in calculation:	16
+Configuration name:	Default
+Project name:	M1p0A5
+
+Warnings on last iteration: 
