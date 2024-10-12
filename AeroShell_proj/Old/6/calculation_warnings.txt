@@ -1,0 +1,9 @@
+2024-Oct-12 15:19:56
+Computer name:	DESKTOP-H9COBF1
+Number of cores used in calculation:	16
+Configuration name:	Default
+Project name:	M1p0A2
+
+Warnings on last iteration: 
+1. The flow has low Mach number, the «High Mach number flow» option is not recommended. :
+	Maximum Mach number=1.35626
