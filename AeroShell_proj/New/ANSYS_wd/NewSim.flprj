@@ -1,0 +1,22 @@
+<Project type="object" class="PFolder">
+    <URL class="string" value=""/>
+    <Metadata type="object" class="ansys::Project::MetadataHoof">
+        <FormatVersion class="int" value="2"/>
+        <ReleaseID class="string" value="24.2"/>
+        <Subclass class="string" value="SimProject"/>
+        <ProjectStoragePolicy::FolderEnabled class="string" value="true"/>
+        <ProjectStoragePolicy::FolderName class="string" value=""/>
+        <ProjectStoragePolicy::FolderSuffix class="string" value=".cffdb"/>
+        <ProjectStoragePolicy::SimFolder class="string" value=""/>
+        <ProjectType class="string" value="SimProject"/>
+        <CurrentSimulation class="string" value="LINK:NewSim/"/>
+        <PItem::displayOrder class="string" value="NewSim"/>
+        <WorkflowType class="string" value="AET"/>
+        <Project::displayColumns class="string" value="Name"/>
+        <Project::displayAllFiles class="int" value="0"/>
+        <Project::displayHidden class="int" value="0"/>
+        <Project::displayFilenames class="int" value="0"/>
+        <Project::displaySorted class="int" value="0"/>
+        <Project::sortColumn class="int" value="0"/>
+    </Metadata>
+</Project>

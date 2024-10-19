@@ -1,0 +1,348 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ANSYS Report</title>
+<style>
+BODY, P, TABLE, DIV.CAPTION {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 95%;
+}
+H1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #3b577d;
+}
+H2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #3b577d;
+}
+H3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #3b577d;
+}
+H4 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #3b577d;
+}
+H5 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #3b577d;
+}
+H6 {
+  font-size: 1.05em;
+  font-weight: normal;
+  color: #3b577d;
+}
+P {
+  font-weight: normal;
+}
+P.Subject {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #000099;
+  text-align: center;
+}
+P.Heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+P.Title {
+  font-size: 1.0em;
+  text-align: center;
+  margin-top: 0pt;
+}
+P.Bold {
+  font-weight: bold;
+}
+TABLE{
+  border-collapse: collapse;
+  border: solid 1px #A5BAD5;
+}
+TD {
+  border: solid 1px #A5BAD5;
+  padding: 3px 5px 3px 5px;
+  font-weight: normal;
+  vertical-align:top
+}
+DIV.CAPTION {
+  font-weight: normal;
+  text-align: left;
+}
+TABLE.FigureTable { 
+  border-collapse: collapse;
+  border: 0px;
+  margin: 0px 0px 0px 0px;
+  page-break-inside: avoid;
+}
+TD.FigureTitle {
+  border: 0px;
+  padding: 3px 5px 3px 5px;
+  font-weight: normal;
+  text-align: left;
+}
+TD.FigurePicture {
+  border: 0px;
+  padding: 0px 0px 0px 0px;
+  font-weight: normal;
+  text-align: left;
+}
+TD.Figure3D {
+  border: 1px solid black;
+  padding: 0px 0px 0px 0px;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+TD.FigureClose3D {
+  border: 0px;
+  padding: 0px 0px 0px 0px;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+TD.TDStyle1 {
+  font-size: 1.0em;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #d1dcea
+}
+
+TD.TDStyle2 {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff
+}
+
+TD.TDStyle3 {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #e8eef5
+}
+
+TD.TDStyle4 {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: right;
+  color: #000000;
+  background-color: #ffffff
+}
+
+TD.TDStyle5 {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  color: #000000;
+  background-color: #e8eef5
+}
+
+TD.TDStyle6 {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff
+}
+
+TD.TDStyle7 {
+  font-size: 1.0em;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #e8eef5
+}
+
+
+</style>
+
+</head>
+<body>
+<p class='Title'><img src='Report/AnsysReportLogo.png' alt='ANSYS Logo'></p>
+<p class='Heading'>Date</p>
+<p class='Title'> 2024/10/16 18:46:21</p>
+<hr>
+<h1>Contents</h1>
+<p><a href="#SECTION1.">1.&nbsp;File Report</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#TABLE1">Table 1</a>&nbsp;&nbsp;File Information for FFF<br>
+<a href="#SECTION2.">2.&nbsp;Mesh Report</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#TABLE2">Table 2</a>&nbsp;&nbsp;Mesh Information for FFF<br>
+<a href="#SECTION3.">3.&nbsp;Physics Report</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#TABLE3">Table 3</a>&nbsp;&nbsp;Domain Physics for FFF<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#TABLE4">Table 4</a>&nbsp;&nbsp;Boundary Physics for FFF<br>
+<a href="#SECTION4.">4.&nbsp;User Data</a><br>
+</p>
+<hr>
+
+<h1 style='page-break-before:always'><a id=SECTION1.></a>1.&nbsp;File Report</h1>
+
+<a id=TABLE1></a><DIV CLASS=CAPTION><b>Table 1.</b>&nbsp;&nbsp;File Information for FFF</DIV>
+<TABLE>
+  <TR>
+    <TD CLASS=TDStyle1>Case</TD>
+    <TD CLASS=TDStyle2>FFF</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1>File Path</TD>
+    <TD CLASS=TDStyle2>\\Mac\Home\Downloads\new_files\dp0\FFF\Fluent\FFF.flprj</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1>File Date</TD>
+    <TD CLASS=TDStyle2>16 október 2024</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1>File Time</TD>
+    <TD CLASS=TDStyle2>06:39:04 du.</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1>File Type</TD>
+    <TD CLASS=TDStyle2>CFF</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1>File Version</TD>
+    <TD CLASS=TDStyle2>--</TD>
+  </TR>
+</TABLE>
+&nbsp;<br>
+
+<h1 style='page-break-before:always'><a id=SECTION2.></a>2.&nbsp;Mesh Report</h1>
+
+<a id=TABLE2></a><DIV CLASS=CAPTION><b>Table 2.</b>&nbsp;&nbsp;Mesh Information for FFF</DIV>
+<TABLE>
+  <TR>
+    <TD CLASS=TDStyle1>Domain</TD>
+    <TD CLASS=TDStyle1>Nodes</TD>
+    <TD CLASS=TDStyle1>Elements</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle3>solide</TD>
+    <TD CLASS=TDStyle4>101767</TD>
+    <TD CLASS=TDStyle4>532187</TD>
+  </TR>
+</TABLE>
+&nbsp;<br>
+
+<h1 style='page-break-before:always'><a id=SECTION3.></a>3.&nbsp;Physics Report</h1>
+
+<a id=TABLE3></a><DIV CLASS=CAPTION><b>Table 3.</b>&nbsp;&nbsp;Domain Physics for FFF</DIV>
+<TABLE>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Domain - solide</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>FLUID</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>solide</TD>
+  </TR>
+</TABLE>
+&nbsp;<br>
+
+<a id=TABLE4></a><DIV CLASS=CAPTION><b>Table 4.</b>&nbsp;&nbsp;Boundary Physics for FFF</DIV>
+<TABLE>
+  <TR>
+    <TD CLASS=TDStyle7>Domain</TD>
+    <TD CLASS=TDStyle7 colspan="2" >Boundaries</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle2 rowspan="18" >solide</TD>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - backwind</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>PRESSURE-OUTLET</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>backwind</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - forwardwind</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>VELOCITY-INLET</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>forwardwind</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - sidel</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>PRESSURE-OUTLET</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>sidel</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - sider</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>PRESSURE-OUTLET</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>sider</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - top</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>PRESSURE-OUTLET</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>top</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle1 colspan="2" >Boundary - wall solide</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Type</TD>
+    <TD CLASS=TDStyle6>WALL</TD>
+  </TR>
+  <TR>
+    <TD CLASS=TDStyle5>Location</TD>
+    <TD CLASS=TDStyle6>wall-solide</TD>
+  </TR>
+</TABLE>
+&nbsp;<br>
+
+<h1 style='page-break-before:always'><a id=SECTION4.></a>4.&nbsp;User Data</h1>
+
+
+</body>
+</html>
