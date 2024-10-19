@@ -1,0 +1,116 @@
+Transcript Start Time:  16:35:19, 19 Oct 2024 Keleti nyári ido 
+Current Directory: "C:\Users\mdn"
+
+Build Time: May 13 2024 11:24:49 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v242/fluent/ntbin/win64/fluent.exe
+
+---------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                         
+---------------------------------------------------------------------------------
+n0*   DESKTOP-H9COBF1  1/16  Windows-x64  17692  Intel(R) Xeon(R) W-10885M      
+host  DESKTOP-H9COBF1        Windows-x64  1092   Intel(R) Xeon(R) W-10885M      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+---------------------------------------------------------------------------------
+
+Cortex Process ID: 15612 
+License Server Path: () 
+Multicore SMT processors detected. Processor affinity set!
+Reading "C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\MECH\FFF.msh"...
+Buffering for file scan...
+
+  139045 nodes, binary.
+   26177 nodes, binary.
+   24758 mixed wall faces, zone  1, binary.
+  673799 mixed interior faces, zone  2, binary.
+    2412 quadrilateral wall faces, zone  6, binary.
+    2412 quadrilateral wall faces, zone  7, binary.
+    1872 quadrilateral wall faces, zone  8, binary.
+    3484 quadrilateral wall faces, zone  9, binary.
+    1872 quadrilateral wall faces, zone 10, binary.
+  283390 mixed cells, zone  3, binary.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+     zones,
+	spate
+	sus
+	fata
+	stanga
+	dreapta
+	aeroshell1.0_ansys
+	interior-aeroshell1.0_ansys
+	wall-aeroshell1.0_ansys
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Writing Settings file "C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.set"...
+	writing rp variables ... Done.
+	writing domain variables ... Done.
+	writing aeroshell1.0_ansys (type fluid) (mixture) ... Done.
+	writing wall-aeroshell1.0_ansys (type wall) (mixture) ... Done.
+	writing interior-aeroshell1.0_ansys (type interior) (mixture) ... Done.
+	writing dreapta (type wall) (mixture) ... Done.
+	writing stanga (type wall) (mixture) ... Done.
+	writing fata (type wall) (mixture) ... Done.
+	writing sus (type wall) (mixture) ... Done.
+	writing spate (type wall) (mixture) ... Done.
+	writing zones map name-id ... Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Initialization based on settings...
+
+Initialize using the hybrid initialization method.
+
+Checking case topology... 
+-This case has no inlets & no outlets 
+-Case will be initialized with constant parameters
+
+Hybrid initialization is done.
+Writing data to C:\\Users\\mdn\\Developer\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\Fluent\\FFF.ip ...
+	x-coord
+	y-coord
+	z-coord
+	pressure
+	x-velocity
+	y-velocity
+	z-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+("Unable to update solution. Number of iterations should be greater than zero.")
+
+Error: Unable to update solution. Number of iterations should be greater than zero.
+Error Object: #f
+
+Performance Timer for 0 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.000 sec
+  Global reductions per iteration:                          0 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              0 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  0 solves
+  LE wall-clock time per iteration:                     0.000 sec (0.0%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             0.000 cycles
+  Relaxation sweeps per iteration:                          0 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    382
+
+  Total wall-clock time:                                0.000 sec
+
+Transcript Stop Time:  16:35:34, 19 Oct 2024 Keleti nyári ido 
+Total Transcript Time: 0 Minute 15 Second.
