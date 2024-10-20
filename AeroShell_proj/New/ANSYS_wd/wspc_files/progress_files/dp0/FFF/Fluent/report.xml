@@ -85,22 +85,27 @@ Boundary Conditions
 
       name                      id   type              
       ----------------------------------------------
-      sus                       9    pressure-outlet   
-      stanga                    7    pressure-outlet   
-      spate                     10   pressure-outlet   
-      dreapta                   6    pressure-outlet   
       fata                      8    velocity-inlet    
+      dreapta                   6    pressure-outlet   
+      spate                     10   pressure-outlet   
+      stanga                    7    pressure-outlet   
+      sus                       9    pressure-outlet   
+      wall-14                   14   wall              
+      wall-13                   13   wall              
       wall-aeroshell1.0_ansys   1    wall              
+      zone_de_contact-src       11   interface         
+      zone_de_contact-trg       12   interface         
 
    Setup Conditions
 
-      sus
+      fata
 
-         Condition                          Value   
-         ----------------------------------------
-         Backflow Turbulent Intensity [%]   1       
+         Condition                  Value   
+         --------------------------------
+         Velocity Magnitude [m/s]   343     
+         Turbulent Intensity [%]    2       
 
-      stanga
+      dreapta
 
          Condition   Value   
          -----------------
@@ -111,17 +116,32 @@ Boundary Conditions
          ----------------------------------------
          Backflow Turbulent Intensity [%]   2       
 
-      dreapta
+      stanga
 
          Condition   Value   
          -----------------
 
-      fata
+      sus
 
-         Condition                  Value   
-         --------------------------------
-         Velocity Magnitude [m/s]   343     
-         Turbulent Intensity [%]    2       
+         Condition                          Value   
+         ----------------------------------------
+         Backflow Turbulent Intensity [%]   1       
+
+      wall-14
+
+         Condition                  Value             
+         ------------------------------------------
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     Standard          
+
+      wall-13
+
+         Condition                  Value             
+         ------------------------------------------
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     Standard          
 
       wall-aeroshell1.0_ansys
 
@@ -131,6 +151,18 @@ Boundary Conditions
          Shear Boundary Condition    No Slip           
          Wall Surface Roughness      Standard          
          Wall Roughness Height [m]   0.001             
+
+      zone_de_contact-src
+
+         Condition   Value     
+         -------------------
+                     wall-13   
+
+      zone_de_contact-trg
+
+         Condition   Value     
+         -------------------
+                     wall-14   
 
 </BoundaryConditions>
 

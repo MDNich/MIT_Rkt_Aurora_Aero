@@ -1,4 +1,4 @@
-# State file created:  2024/10/19 17:04:54
+# State file created:  2024/10/20 13:05:40
 # CFX-24.2
 
 COMMENT:User Data
@@ -66,10 +66,12 @@ DATA READER:
   Clear All Objects = False
   Construct Variables From Fourier Coefficients = True
   Current Case List = Case FFF
-  Current Case Name = C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\\
-AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
-  Current Results File = C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\\
-AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
+  Current Case Name = Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\\
+MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\\
+FFF.1.flprj
+  Current Results File = Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\\
+MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\\
+FFF.1.flprj
   Current Timestep = -1
   Current Timevalue = 0
   Edit Case Names = false
@@ -96,10 +98,12 @@ AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
   Timevalue Match Criterion = Same Value
   CASE:Case FFF
     Construct Variables From Fourier Coefficients = True
-    Current Case Name = C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\\
-AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
-    Current Results File = C:\Users\mdn\Developer\MIT_Rkt_Aurora_Aero\\
-AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
+    Current Case Name = Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\\
+MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\\
+FFF.1.flprj
+    Current Results File = Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\\
+MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\\
+FFF.1.flprj
     Current Timestep = -1
     Current Timevalue = 0
     File Angle Units = rad
@@ -318,6 +322,74 @@ AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.flprj
       Transparency = 0.0
       Visibility = On
     END
+    BOUNDARY:zone_de_contact src
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = false
+    END
+    BOUNDARY:zone_de_contact trg
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = false
+    END
     DOMAIN:aeroshell1.0_ansys
       Angle Definition Method = Instances in 360
       Apply Reflection = false
@@ -489,11 +561,11 @@ END
 LIBRARY:
   CEL:
     EXPRESSIONS:
-      Accumulated Time Step = 100
+      Accumulated Time Step = 40
       Current Phase Position = 0
-      Current Time Step = 100
+      Current Time Step = 40
       Phase = Current Phase Position
-      Sequence Step = 100
+      Sequence Step = 40
       Time = 0 [s]
       atstep = Accumulated Time Step
       ctstep = Current Time Step
