@@ -64,11 +64,11 @@ Cell Zone Conditions
 
       name                              id   type    
       --------------------------------------------
-      aeroshell1.0_ansys_surfacefront   3    fluid   
+      aeroshell1.0_ansys_thiswillwork   3    fluid   
 
    Setup Conditions
 
-      aeroshell1.0_ansys_surfacefront
+      aeroshell1.0_ansys_thiswillwork
 
          Condition       Value   
          ---------------------
@@ -83,11 +83,11 @@ Boundary Conditions
 
    Zones
 
-      name                                   id   type             
-      ----------------------------------------------------------
-      fata                                   6    velocity-inlet   
-      wall-aeroshell1.0_ansys_surfacefront   1    wall             
-      shell                                  7    wall             
+      name                                   id   type              
+      -----------------------------------------------------------
+      fata                                   6    velocity-inlet    
+      wall-aeroshell1.0_ansys_thiswillwork   1    wall              
+      out                                    7    pressure-outlet   
 
    Setup Conditions
 
@@ -95,23 +95,21 @@ Boundary Conditions
 
          Condition                  Value   
          --------------------------------
-         Velocity Magnitude [m/s]   -343    
+         Velocity Magnitude [m/s]   343     
+         Turbulent Intensity [%]    2       
 
-      wall-aeroshell1.0_ansys_surfacefront
-
-         Condition                  Value             
-         ------------------------------------------
-         Wall Motion                Stationary Wall   
-         Shear Boundary Condition   No Slip           
-         Wall Surface Roughness     Standard          
-
-      shell
+      wall-aeroshell1.0_ansys_thiswillwork
 
          Condition                  Value             
          ------------------------------------------
          Wall Motion                Stationary Wall   
          Shear Boundary Condition   No Slip           
          Wall Surface Roughness     Standard          
+
+      out
+
+         Condition   Value   
+         -----------------
 
 </BoundaryConditions>
 

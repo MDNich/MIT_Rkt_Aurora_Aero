@@ -2,15 +2,16 @@
 <Storage>
   <Project Version="24.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">6098</timestamp-max>
+    <timestamp-max valType="Int64">7070</timestamp-max>
     <framework-build-version valType="String">24.2.133.0</framework-build-version>
     <external-version-string valType="String">2024 R2</external-version-string>
-    <last-saved-utc valType="String">10/20/2024 20:04:27</last-saved-utc>
+    <last-saved-utc valType="String">10/20/2024 21:28:17</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">mdn@DESKTOP-H9COBF1:C:\Users\mdn\AppData\Local\Temp\WorkbenchLogs\CoreEvents11340.log</ArrayEntry>
       <ArrayEntry Index="1">mdn@MARCDNICHITBF25:C:\Users\mdn\AppData\Local\Temp\WorkbenchLogs\CoreEvents9156.log</ArrayEntry>
       <ArrayEntry Index="2">mdn@MARCDNICHITBF25:C:\Users\mdn\AppData\Local\Temp\WorkbenchLogs\CoreEvents12740.log</ArrayEntry>
+      <ArrayEntry Index="3">mdn@MARCDNICHITBF25:C:\Users\mdn\AppData\Local\Temp\WorkbenchLogs\CoreEvents12708.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -48,14 +49,20 @@
 "369c4f6e-fcb7-4fd7-8773-84932cf9e5dc": "/FileTypesContainer/FileType:FLUENTCase",
 "89da401e-1d28-4834-8735-08443c93368e": "/FileTypesContainer/FileType:FLUENTData",
 "ff6835ef-6f48-4b1a-9b2b-f6b5eed6971e": "/FileContainer/FileReference:F307",
-"35eb506b-7d98-4984-8114-80f424897701": "/FileContainer/FileReference:F350",
 "2f0f7941-2552-491d-9c24-f7151efd06ab": "/Schematic/ComponentTemplate:FluentTGridCellTemplate",
 "ccf22988-505d-484b-ad8a-165635cbbab4": "/Schematic/Template:Fluid Flow with Fluent Meshing",
 "477b5e56-1992-4d56-961a-43382880be44": "/FileTypesContainer/FileType:CFFMesh",
 "39e78d11-21f6-4045-902f-cbce4c274a47": "/FileTypesContainer/FileType:FlprjFile",
 "ebc25c9e-c982-4a76-8473-5c9ec5a163eb": "/FileTypesContainer/FileType:FluentResidualFile",
 "fe42afa1-28ba-4aa2-abd3-10ff5a3b2538": "/FileTypesContainer/FileType:CFDPostState",
-"a99b4bf9-d7f7-4ffc-93fa-8b6b5ccbb6a5": "/FileContainer/FileReference:F351"
+"2c0cd6fd-7790-461a-a391-2642cd1a9842": "/FileContainer/FileReference:F363",
+"fe9e2eb2-b218-40b8-8907-0a24944c328f": "/FileContainer/FileReference:F364",
+"236ee0ed-2ef9-41d6-b244-8430098ff591": "/FileContainer/FileReference:F362",
+"fdfa5eff-b843-4f1e-8b89-47897445f776": "/FileContainer/FileReference:F368",
+"81d552c1-1312-400c-aa0a-74b664e92fc7": "/FileContainer/FileReference:F361",
+"fce0882c-f51c-4e6e-89e9-3d6638402f34": "/FileContainer/FileReference:F366",
+"924c5db4-4c3a-46b1-9531-62564b555619": "/FileContainer/FileReference:F367",
+"ab001d68-e6b8-46bb-bb08-4cb426ca6961": "/FileContainer/FileReference:F365"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -73,8 +80,8 @@
 "38b7619a-6cee-4b1a-b634-3bd3adf10e87": "/Solution/AxisContinuous:AxisX",
 "58f4ad3d-5576-46bd-8cde-2786243148f9": "/Solution/AxisContinuous:AxisY",
 "c28a514c-8ab8-4e98-aee3-a3587ced511f": "/Solution/ConvergenceChart:Residual",
-"93ddd8a4-f6fd-44ab-9150-1fad338b4b8f": "/Mesh/MechanicalModel:MechanicalModel",
-"69745875-04b3-4e4f-8b3d-afd02c740778": "/Results/CFDResults:Results Source"
+"b3dd4970-9332-494b-b978-184c19319004": "/Mesh/MechanicalModel:MechanicalModel",
+"c594bdb9-28e9-45ff-a9e6-55857900ef4f": "/Results/CFDResults:Results Source"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -106,7 +113,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6095, "Input": 1474, "Output": 1474}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7067, "Input": 1474, "Output": 1474}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
@@ -117,7 +124,7 @@
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F3</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$4293d1b0-4a5f-43d7-bbfb-3beb04487f9c, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 36}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$4293d1b0-4a5f-43d7-bbfb-3beb04487f9c, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 44}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F4" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -127,17 +134,47 @@
       <Object Name="/FileContainer/FileReference:F307" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F307</object-name>
-        <member-data valType="String">{"DisplayText": "SolutionMonitor.gz", "FileType": $$ebc25c9e-c982-4a76-8473-5c9ec5a163eb, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\SolutionMonitor.gz", "ReferenceCount": 3}</member-data>
+        <member-data valType="String">{"DisplayText": "SolutionMonitor.gz", "FileType": $$ebc25c9e-c982-4a76-8473-5c9ec5a163eb, "DependentFiles": [], "ContainerAssociations": ["Solution"], "SkipForDesignPointDuplication": False, "IsDeletable": False, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\SolutionMonitor.gz", "ReferenceCount": 4}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F351" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F366" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F351</object-name>
+        <object-name valType="String">F366</object-name>
+        <member-data valType="String">{"DisplayText": "FFF-1.cas.h5", "FileType": $$369c4f6e-fcb7-4fd7-8773-84932cf9e5dc, "DependentFiles": [$$924c5db4-4c3a-46b1-9531-62564b555619], "ContainerAssociations": ["Solution"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\FFF-1.cas.h5", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F362" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F362</object-name>
+        <member-data valType="String">{"DisplayText": "FFF.msh", "FileType": $$f242622e-430b-4816-9136-b3a1a955527e, "DependentFiles": [], "ContainerAssociations": ["Mesh", "Setup"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\MECH\FFF.msh", "ReferenceCount": 2}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F365" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F365</object-name>
+        <member-data valType="String">{"DisplayText": "FFF.ip", "FileType": $$38daafa3-fafc-4dc9-8162-a9abcffb087c, "DependentFiles": [], "ContainerAssociations": ["Solution"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\FFF.ip", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F364" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F364</object-name>
+        <member-data valType="String">{"DisplayText": "FFF-Setup-Output.cas.h5", "FileType": $$369c4f6e-fcb7-4fd7-8773-84932cf9e5dc, "DependentFiles": [], "ContainerAssociations": ["Setup"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\FFF-Setup-Output.cas.h5", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F361" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F361</object-name>
+        <member-data valType="String">{"DisplayText": "Aeroshell1.0_ANSYS_THISWILLWORK.STEP", "FileType": $$5a7f7db6-c8cd-4931-a1c5-33b2c16bdce7, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\Aeroshell1.0_ANSYS_THISWILLWORK.STEP", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F363" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F363</object-name>
+        <member-data valType="String">{"DisplayText": "FFF.set", "FileType": $$e9b35e5f-15ae-4b04-84a9-633c127406be, "DependentFiles": [], "ContainerAssociations": ["Setup"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\FFF.set", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F367" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F367</object-name>
+        <member-data valType="String">{"DisplayText": "FFF-1-00050.dat.h5", "FileType": $$89da401e-1d28-4834-8735-08443c93368e, "DependentFiles": [], "ContainerAssociations": ["Solution"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\Fluent\FFF-1-00050.dat.h5", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F368" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F368</object-name>
         <member-data valType="String">{"DisplayText": "FFF.mshdb", "FileType": $$f1dda963-43a8-4c8a-9cca-2a7d2ebeddcb, "DependentFiles": [], "ContainerAssociations": ["Mesh"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\FFF.mshdb", "ReferenceCount": 1}</member-data>
-      </Object>
-      <Object Name="/FileContainer/FileReference:F350" Version="1.0">
-        <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F350</object-name>
-        <member-data valType="String">{"DisplayText": "Aeroshell1.0_ANSYS_surfacefront.STEP", "FileType": $$5a7f7db6-c8cd-4931-a1c5-33b2c16bdce7, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\Aeroshell1.0_ANSYS_surfacefront.STEP", "ReferenceCount": 1}</member-data>
       </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
@@ -145,7 +182,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6078, "Input": 1475, "Output": 1475}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 6875, "Input": 1475, "Output": 1475}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Messages/StoredMessage:Message" Version="1.0">
@@ -412,6 +449,213 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
         <object-name valType="String">Message 27</object-name>
         <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Cette opération va entraîner la recréation de la géométrie à partir des maillages fournis par SpaceClaim. De ce fait, toutes les affectations géométriques sur des corps depuis SpaceClaim seront perdues.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:02:39, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
       </Object>
+      <Object Name="/Messages/StoredMessage:Message 28" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 28</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Cette opération va entraîner la recréation de la géométrie à partir des maillages fournis par SpaceClaim. De ce fait, toutes les affectations géométriques sur des corps depuis SpaceClaim seront perdues.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:26:44, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 29" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 29</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Cette opération va entraîner la recréation de la géométrie à partir des maillages fournis par SpaceClaim. De ce fait, toutes les affectations géométriques sur des corps depuis SpaceClaim seront perdues.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:33:11, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 30" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 30</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent).", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:52:07, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 31" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 31</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent).", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:52:40, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 32" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 32</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:53:19, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 33" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 33</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent) : Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": """Ansys.Addins.Infrastructure.Exceptions.AddinUserException: Impossible d'écrire le fichier de maillage dans Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\MECH. Impossible d'écrire le fichier de maillage.
+   a következő helyen: Ansys.Addins.Infrastructure.Remoting.RemotingApiHelper.FatalApiMethodUserError[TReturn](String message, DataContainerReference container, RemotingApiMethod`1 callback)
+   a következő helyen: Ansys.Meshing.Core.ISimulationHelperWrapper.WriteMeshFile(String workDirectory, String EntityType, Int32 dsid)
+   a következő helyen: Ansys.Meshing.Core.Commands.MeshDataCreator.CreateData(IFullContext context, DataContainerReference container, String meshType)
+   a következő helyen: Ansys.Meshing.Core.Commands.DataTransferHelper.GenerateTransferData(IFullContext context, DataContainerReference container, DataTransferCreator creator, Dictionary`2 transferDataMap)
+   a következő helyen: Ansys.Meshing.Core.Commands.UpdateModel.ExecuteCommand(IFullContext context)
+--- Ansys.Core.Commands.UserReadableFailureException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+CommandName: Meshing.UpdateModel(Container=\"Mesh\", RemainingDownstreamContainers=[\"Setup\", \"Solution\", \"Results\"])
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:54:03, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 34" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 34</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:54:04, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 35" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 35</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent) : Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": """Ansys.Addins.Infrastructure.Exceptions.AddinUserException: Impossible d'écrire le fichier de maillage dans Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\MECH. Impossible d'écrire le fichier de maillage.
+   a következő helyen: Ansys.Addins.Infrastructure.Remoting.RemotingApiHelper.FatalApiMethodUserError[TReturn](String message, DataContainerReference container, RemotingApiMethod`1 callback)
+   a következő helyen: Ansys.Meshing.Core.ISimulationHelperWrapper.WriteMeshFile(String workDirectory, String EntityType, Int32 dsid)
+   a következő helyen: Ansys.Meshing.Core.Commands.MeshDataCreator.CreateData(IFullContext context, DataContainerReference container, String meshType)
+   a következő helyen: Ansys.Meshing.Core.Commands.DataTransferHelper.GenerateTransferData(IFullContext context, DataContainerReference container, DataTransferCreator creator, Dictionary`2 transferDataMap)
+   a következő helyen: Ansys.Meshing.Core.Commands.UpdateModel.ExecuteCommand(IFullContext context)
+--- Ansys.Core.Commands.UserReadableFailureException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+CommandName: Meshing.UpdateModel(Container=\"Mesh\", RemainingDownstreamContainers=[\"Setup\", \"Solution\", \"Results\"])
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:55:25, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 36" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 36</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:55:28, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 37" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 37</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent) : Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": """Ansys.Addins.Infrastructure.Exceptions.AddinUserException: Impossible d'écrire le fichier de maillage dans Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\MECH. Impossible d'écrire le fichier de maillage.
+   a következő helyen: Ansys.Addins.Infrastructure.Remoting.RemotingApiHelper.FatalApiMethodUserError[TReturn](String message, DataContainerReference container, RemotingApiMethod`1 callback)
+   a következő helyen: Ansys.Meshing.Core.ISimulationHelperWrapper.WriteMeshFile(String workDirectory, String EntityType, Int32 dsid)
+   a következő helyen: Ansys.Meshing.Core.Commands.MeshDataCreator.CreateData(IFullContext context, DataContainerReference container, String meshType)
+   a következő helyen: Ansys.Meshing.Core.Commands.DataTransferHelper.GenerateTransferData(IFullContext context, DataContainerReference container, DataTransferCreator creator, Dictionary`2 transferDataMap)
+   a következő helyen: Ansys.Meshing.Core.Commands.UpdateModel.ExecuteCommand(IFullContext context)
+--- Ansys.Core.Commands.UserReadableFailureException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+CommandName: Meshing.UpdateModel(Container=\"Mesh\", RemainingDownstreamContainers=[\"Setup\", \"Solution\", \"Results\"])
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:56:14, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 38" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 38</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:56:15, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 39" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 39</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent) : Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": """Ansys.Addins.Infrastructure.Exceptions.AddinUserException: Impossible d'écrire le fichier de maillage dans Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\MECH. Impossible d'écrire le fichier de maillage.
+   a következő helyen: Ansys.Addins.Infrastructure.Remoting.RemotingApiHelper.FatalApiMethodUserError[TReturn](String message, DataContainerReference container, RemotingApiMethod`1 callback)
+   a következő helyen: Ansys.Meshing.Core.ISimulationHelperWrapper.WriteMeshFile(String workDirectory, String EntityType, Int32 dsid)
+   a következő helyen: Ansys.Meshing.Core.Commands.MeshDataCreator.CreateData(IFullContext context, DataContainerReference container, String meshType)
+   a következő helyen: Ansys.Meshing.Core.Commands.DataTransferHelper.GenerateTransferData(IFullContext context, DataContainerReference container, DataTransferCreator creator, Dictionary`2 transferDataMap)
+   a következő helyen: Ansys.Meshing.Core.Commands.UpdateModel.ExecuteCommand(IFullContext context)
+--- Ansys.Core.Commands.UserReadableFailureException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.
+CommandName: Meshing.UpdateModel(Container=\"Mesh\", RemainingDownstreamContainers=[\"Setup\", \"Solution\", \"Results\"])
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:57:37, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 40" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 40</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Mesh dans Fluid Flow (Fluent).  Erreur lors de la mise à jour de la cellule Mesh dans le système Fluid Flow (Fluent). Consultez les messages dans l'éditeur Maillage pour plus de détails.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:57:39, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$11bbe42f-f9cc-4ded-aaca-6307e35ba8f3, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 41" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 41</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Solution dans Fluid Flow (Fluent) : Update Solution Failed", "Details": """Ansys.Fluent.Cortex.CortexNotAvailableException: A program „Ansys.Fluent.Cortex.CortexNotAvailableException” típusú kivételt váltott ki.
+   a következő helyen: Ansys.Fluent.Data.SetupData.GetCommunicator(IReadLockContainer context)
+   a következő helyen: Ansys.Fluent.Data.SetupData.ReadCaseModelInfo(IFullContext context)
+   a következő helyen: Ansys.Fluent.Data.SetupData.ReadMeshAndModelInfo(IFullContext context)
+   a következő helyen: Ansys.Fluent.Data.SetupData.LoadFiles(IFullContext context)
+   a következő helyen: Ansys.Fluent.Data.SolutionData.LaunchFluentForUpdate(IFullContext context, State state, Boolean pendingMode, Boolean IsUadpViaRsm, Boolean resumeSolution)
+   a következő helyen: Ansys.Fluent.Data.SolutionData.Update(IFullContext context, SolutionUpdateType solutionUpdateType, Boolean pendingMode, Boolean IsUadpViaRsm)
+--- Ansys.Fluent.Cortex.CortexCommException: Update Solution Failed
+   a következő helyen: Ansys.Fluent.Data.SolutionData.Update(IFullContext context, SolutionUpdateType solutionUpdateType, Boolean pendingMode, Boolean IsUadpViaRsm)
+   a következő helyen: Ansys.Fluent.Commands.UpdateOrPretendToUpdateSolutionCommand.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Update Solution Failed
+CommandName: Fluent.UpdateOrPretendToUpdateSolution(Container=\"Solution\", PendingMode=False)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.Wait(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.Fluent.Commands.UpdateOrPretendToUpdateSolutionCommand.InvokeAndWait(IProtectedContext context, IProgressMonitor progressMonitor, DataContainerReference Container, Boolean PendingMode, Boolean IsUadpViaRsm, Boolean Restart)
+   a következő helyen: Ansys.Fluent.Commands.UpdateSolutionCommand.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: Update Solution Failed
+CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpUpdateType=None, HeldLicenseId=None, LicenseStatsId=\"f2eb65c26bb347ca98357e5a726ca21c\", DesignPointUpdateQueue=None, MaxNumberOfCores=0))
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:58:40, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$5c1d8baf-7791-4f00-a077-fcdbf92c7e29, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 42" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 42</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Échec de la mise à jour du composant Solution dans Fluid Flow (Fluent).  Update Solution Failed", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:58:42, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$5c1d8baf-7791-4f00-a077-fcdbf92c7e29, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 43" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 43</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "Model information is incompatible with incoming mesh.Fluent failed to apply some mesh operations", "Details": """Following zones were missing in the mesh:
+aeroshell1.0_ansys_surfacefront ,wall-aeroshell1.0_ansys_surfacefront
+Following new zones were found in the mesh:
+aeroshell1.0_ansys_onebox ,zone_de_contact-trg ,shell-zone_de_contact-src ,wall-aeroshell1.0_ansys_onebox ,wall-10 ,wall-11
+Following mesh operations failed while applying in FLUENT:
+Change Zone Type (Failed) ,Change Zone Type [ 2 ] (Failed)
+""", "Association": "", "DateTimeStamp": 10/20/2024 16:59:29, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 44" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 44</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "A dialog is open in the FLUENT Application. Please close the dialog before trying this operation.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 16:59:29, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 45" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 45</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Cette opération va entraîner la recréation de la géométrie à partir des maillages fournis par SpaceClaim. De ce fait, toutes les affectations géométriques sur des corps depuis SpaceClaim seront perdues.", "Details": None, "Association": "", "DateTimeStamp": 10/20/2024 17:18:36, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
     </Container>
     <Container Name="Parameters" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
@@ -420,7 +664,7 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 5856, "Input": 3660, "Output": 1478}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7008, "Input": 6625, "Output": 1478}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
@@ -442,7 +686,7 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6082, "Input": 5975, "Output": 1481}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7009, "Input": 6951, "Output": 1481}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:FFF" Version="1.0">
@@ -518,7 +762,7 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
       <Object Name="/Schematic/Component:Mesh" Version="1.0">
         <class-type valType="String">Component</class-type>
         <object-name valType="String">Mesh</object-name>
-        <member-data valType="String">{"DisplayText": "Mesh", "ImageName": "model2", "ComponentStateOnLastFailure": "Incomplete", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh", "_overwrittenUpdatable": None, "Template": $$86072e7a-8045-47b0-8f43-beb2f799aad8, "InSystem": $$78d56ea7-8ac3-4786-97ca-f5ee5561e7dc, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$e5855d2d-4345-4dee-857a-6b13df9aca42, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {"cfd_base": 2, "cfd_preppost": 2, "cfd_preppost_pro": 2}, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Mesh", "ImageName": "model2", "ComponentStateOnLastFailure": "Incomplete", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh", "_overwrittenUpdatable": None, "Template": $$86072e7a-8045-47b0-8f43-beb2f799aad8, "InSystem": $$78d56ea7-8ac3-4786-97ca-f5ee5561e7dc, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$e5855d2d-4345-4dee-857a-6b13df9aca42, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {}, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
       </Object>
       <Object Name="/Schematic/Component:Setup" Version="1.0">
         <class-type valType="String">Component</class-type>
@@ -528,7 +772,7 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
       <Object Name="/Schematic/Component:Solution" Version="1.0">
         <class-type valType="String">Component</class-type>
         <object-name valType="String">Solution</object-name>
-        <member-data valType="String">{"DisplayText": "Solution", "ImageName": "solution", "ComponentStateOnLastFailure": "Modified", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Solution", "_overwrittenUpdatable": None, "Template": $$03b84b29-c3b4-4aa1-98b8-8b289dee7e91, "InSystem": $$78d56ea7-8ac3-4786-97ca-f5ee5561e7dc, "MasterSources": {"Sources": [[{"DataType": "FluentSetup", "Component": $$ff08268b-8588-44f4-a700-ad0b091f07ef, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {"cfd_base": 1, "cfd_solve_level1": 1, "cfd_solve_level2": 1}, "ActiveTransferComponents": [], "Solver": "FLUENT", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Solution", "ImageName": "solution", "ComponentStateOnLastFailure": "OutOfDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Solution", "_overwrittenUpdatable": None, "Template": $$03b84b29-c3b4-4aa1-98b8-8b289dee7e91, "InSystem": $$78d56ea7-8ac3-4786-97ca-f5ee5561e7dc, "MasterSources": {"Sources": [[{"DataType": "FluentSetup", "Component": $$ff08268b-8588-44f4-a700-ad0b091f07ef, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {"cfd_base": 1, "cfd_solve_level1": 1, "cfd_solve_level2": 1}, "ActiveTransferComponents": [], "Solver": "FLUENT", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
       </Object>
       <Object Name="/Schematic/Component:Results" Version="1.0">
         <class-type valType="String">Component</class-type>
@@ -587,7 +831,7 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1808, "Input": 1805, "Output": 1805}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 6627, "Input": 1805, "Output": 1805}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/RepContainer/RepSettings:Rep Settings Entity" Version="1.0">
@@ -599,6 +843,11 @@ CommandName: Fluent.UpdateSolution(Container=\"Solution\", UpdateOptions=Set(DpU
         <class-type valType="String">RepProjectIDMap</class-type>
         <object-name valType="String">REP ProjectID Map Entity</object-name>
         <member-data valType="String">{"DisplayText": "REP ProjectID Map Entity", "RepProjectIDMap": {}}</member-data>
+      </Object>
+      <Object Name="/RepContainer/ConnectionInfo:ConnectionInfo" Version="1.0">
+        <class-type valType="String">ConnectionInfo</class-type>
+        <object-name valType="String">ConnectionInfo</object-name>
+        <member-data valType="String">{"DisplayText": "ConnectionInfo", "IsConnected": False, "ProjectId": None, "LastSyncStateId": "00000000-0000-0000-0000-000000000000", "ConnectionSettingsModified": False, "DesignPointsBeingEvaluated": [], "ParameterToRepId": {}, "DpReferenceToRepDatabaseId": {}, "ProjectUpdateRepId": None}</member-data>
       </Object>
     </Container>
   </Containers>
