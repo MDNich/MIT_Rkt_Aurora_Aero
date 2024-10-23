@@ -1,0 +1,70 @@
+Transcript Start Time:  12:05:17, 23 Oct 2024 Dél-amerikai nyugati téli ido 
+Current Directory: "C:\Users\mdn"
+
+Build Time: May 13 2024 11:24:49 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v242/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor 
+-------------------------------------------------------------------------------
+n3    MARCDNICHITBF25  4/12  Windows-x64  5440   UNKNOWN
+n2    MARCDNICHITBF25  3/12  Windows-x64  2660   UNKNOWN
+n1    MARCDNICHITBF25  2/12  Windows-x64  11328  UNKNOWN
+n0*   MARCDNICHITBF25  1/12  Windows-x64  10808  UNKNOWN
+host  MARCDNICHITBF25        Windows-x64  8056   UNKNOWN
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 13248 
+License Server Path: () 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v242\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+Multicore processors detected. Processor affinity set!
+Reading setting file in cache: "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.set"
+
+Reading from MARCDNICHITBF25:"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      418755 cells,     1 cell zone  ...
+         418755 tetrahedral cells,  zone id: 3
+      854773 faces,     4 face zones ...
+          11898 triangular wall faces,  zone id: 1
+         820247 triangular interior faces,  zone id: 2
+           3115 triangular velocity-inlet faces,  zone id: 6
+          19513 triangular pressure-outlet faces,  zone id: 7
+       78719 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 104621/3065 = 34.1341
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	out
+	interior-aeroshell1.0_ansys_thiswillwork
+	wall-aeroshell1.0_ansys_thiswillwork
+	fata
+	aeroshell1.0_ansys_thiswillworkSetting aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
+ Setting zone id of aeroshell1.0_ansys_thiswillwork to 3.
+ Setting zone id of fata to 6.
+ Setting zone id of wall-aeroshell1.0_ansys_thiswillwork to 1.
+ Setting zone id of interior-aeroshell1.0_ansys_thiswillwork to 2.
+ Setting zone id of out to 7.
+Done.
+Setting aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
+Setting fata (mixture) ... Done.
+Setting wall-aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
+Setting interior-aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
+Setting out (mixture) ... Done.
+

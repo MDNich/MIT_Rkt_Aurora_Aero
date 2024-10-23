@@ -1,0 +1,13 @@
+Starting a new Nexus server instance
+Beginning migration setup
+Migrating the database...
+Migrating 3D geometry...
+Migration complete.
+Collecting static files...
+Static files collection failed with the error:
+[WinError 5] A hozzáférés megtagadva: 'C:\\Program Files\\ANSYS Inc\\ANSYS Student\\v242\\CEI\\nexus242\\django\\static\\ansys242\\nexus\\angular'
+Static files collection output:
+Building new nginx config file: \\Mac\Home\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FluentReportServer\nginx\nexus.conf
+Launching Nexus server on port: 9492
+Launching Nginx server on port: 5256
+Nginx running as process id: 3492
