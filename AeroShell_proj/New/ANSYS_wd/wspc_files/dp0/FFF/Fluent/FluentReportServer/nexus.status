@@ -1,0 +1,15 @@
+[launcher]
+pid = 12944
+
+[nginx]
+pid = 8580
+port = 9660
+
+[nexus]
+server_count = 1
+server0_pid = 11636
+server0_port = 13968
+
+[system]
+hostname = MARCDNICHITBF25
+
