@@ -180,7 +180,7 @@ def writeTabToSTDOUT():
 
 ###### PLOT ######
 def plot():
-	outPDF = 'figure1.pdf' # shear, force func viteza 
+	outPDF = '../out/figure1.pdf' # shear, force func viteza 
 	matplotlib.rcParams['figure.figsize'] = (8.5, 11*2/3)  # 17,22
 	plt.rc('font', size=12)  # controls default text size
 	plt.rc('axes', labelsize=12)  # fontsize of the x and y labels

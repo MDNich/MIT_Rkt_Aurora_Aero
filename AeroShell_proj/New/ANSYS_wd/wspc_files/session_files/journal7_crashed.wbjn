@@ -1,0 +1,18 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="FFF")
+solution1 = system1.GetContainer(ComponentName="Solution")
+solution1.Edit()
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command="/file/set-tui-version \"24.2\"(cx-use-window-id 51)(cx-set-camera-relative '(0.144224 -0.117218 -0.218908) '(0 0 0) '(0.109441 0.159695 0.189969) 0 0)(cx-use-window-id 51)(cx-set-camera-relative '(-0.329509 0.209332 -0.026407) '(0 0 0) '(0.0553232 -0.676983 1.23285) 0 0)(cx-use-window-id 51)(cx-set-camera-relative '(-0.00885029 -0.087639 0.310699) '(0 0 0) '(0.174209 -0.880616 -0.217923) 0 0)(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Simulation Reports|Report Outline\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Contours\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Contours|tot_p\"))(cx-gui-do cx-list-tree-right-click \"NavigationPane*Frame2*Table1*List_Tree2\" )")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*PopupMenuTree-tot_p*Display")')
+setup1.SendCommand(Command="(cx-use-window-id 51)(cx-set-camera-relative '(0.229189 -0.0556973 -0.0409693) '(0 0 0) '(-0.25232 0.296521 0.115899) 0 0)(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Simulation Reports|Report Outline\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Reports\"))")
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Reports"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Reports"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))')
+setup1.SendCommand(Command="(cx-use-window-id 51)")
+system1.Copy(KeepConnections=True)
+system1.Notes = "NEW MODEL"
