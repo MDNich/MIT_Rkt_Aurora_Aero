@@ -40,6 +40,15 @@ rawO_T = np.transpose(rawO)
 cmapp = 'inferno'
 
 
+dataset = rawN_T
+
+
+
+
+
+
+
+
 def plotShear():
 	outPDF = '../out/figure2_shear_3D.pdf' # shear, force func viteza 
 	matplotlib.rcParams['figure.figsize'] = (8.5, 11*2/3)  # 17,22
@@ -55,7 +64,7 @@ def plotShear():
 
 		dataset = rawN_T
 		
-		varLabel = 'Shear (kPa)'
+		varLabel = 'Shear (Pa)'
 
 		a = 121
 		ax = fig.add_subplot(a,projection='3d')
@@ -65,18 +74,19 @@ def plotShear():
 
 		shear = np.array(dataset[53][1:],dtype='float')
 		varToPlot = shear	
-		df_describe = pd.DataFrame(varToPlot)
-		print(df_describe.describe())
+		#df_describe = pd.DataFrame(varToPlot)
+		#print(df_describe.describe())
 		
-		max0 = (np.ceil(np.max(varToPlot)/100)*100)*1e-3
+		max0 = (np.ceil(np.max(varToPlot)/100)*100)#*1e-3
 		n = matplotlib.colors.Normalize(0, max0)
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
+		print(scaleF)
 
 		fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.plot_trisurf(y,-x,z,color='k')
-		ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		ax.scatter(y,-x,z,alpha=alph,c=varToPlot,norm=n,s=7,cmap=cmapp)
 
 		plt.gca().set_title("Aurora")
 
@@ -101,16 +111,19 @@ def plotShear():
 		shear = np.array(dataset[53][1:],dtype='float')
 		varToPlot = shear	
 
-		df_describe = pd.DataFrame(varToPlot)
-		print(df_describe.describe())
-		scaleF = np.max(varToPlot)/max0
+		#df_describe = pd.DataFrame(varToPlot)
+		#print(df_describe.describe())
+
+		scaleF = max0/np.max(varToPlot)
 		
 		fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.plot_trisurf(x,-z,y,color='k')
-		ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
-
+		ax.scatter(x,-z,y,alpha=alph,c=varToPlot,norm=n,s=7,cmap=cmapp)
+		
+		print(scaleF)
+		
 		plt.gca().set_title("Prometheus")
 
 		ax.set_box_aspect((5,7,2))
@@ -119,7 +132,6 @@ def plotShear():
 		plt.close()
 
 		print("COMPLETELY done!")
-
 
 def plotPressure(which='Total'):
 	outPDF = '../out/figure2_pressure_' + which + '_3D.pdf' # shear, force func viteza 
@@ -154,13 +166,13 @@ def plotPressure(which='Total'):
 		
 		max0 = (np.ceil(np.max(varToPlot)/100)*100)*1e-3 if which != 'Abs' else 200
 		n = matplotlib.colors.Normalize(0, max0)
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
 
 		fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=40)
 		
 		ax.plot_trisurf(y,-x,z,color='k')
-		ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 
 		plt.gca().set_title("Aurora")
 
@@ -196,8 +208,8 @@ def plotPressure(which='Total'):
 		             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=40)
 		
 		ax.plot_trisurf(x,-z,y,color='k')
-		scaleF = np.max(varToPlot)/max0
-		ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		scaleF = max0/np.max(varToPlot)
+		ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 
 		plt.gca().set_title("Prometheus")
 
@@ -239,13 +251,13 @@ def plotMesh():
 		
 		max0 = (np.ceil(np.max(varToPlot)/100)*100)*1e-3
 		n = matplotlib.colors.Normalize(0, max0)
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
 
 		#fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		#             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.plot_trisurf(y,-x,z,color='r',alpha=0.9)
-		#ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		#ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 
 		plt.gca().set_title("Aurora")
 
@@ -272,13 +284,13 @@ def plotMesh():
 
 		df_describe = pd.DataFrame(varToPlot)
 		print(df_describe.describe())
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
 		
 		#fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		#             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.plot_trisurf(x,-z,y,color='r',alpha=0.9)
-		#ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		#ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 
 		plt.gca().set_title("Prometheus")
 
@@ -319,14 +331,14 @@ def plotMesh2D():
 		
 		max0 = (np.ceil(np.max(varToPlot)/100)*100)*1e-3
 		n = matplotlib.colors.Normalize(0, max0)
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
 
 		#fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		#             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.scatter(y,z-np.min(z),color='r',alpha=0.4)
 		ax.set_xlim(-4,4)
-		#ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		#ax.scatter(y,-x,z,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 
 		ax.set_title("Aurora")
 
@@ -353,13 +365,13 @@ def plotMesh2D():
 
 		df_describe = pd.DataFrame(varToPlot)
 		print(df_describe.describe())
-		scaleF = np.max(varToPlot)/max0
+		scaleF = max0/np.max(varToPlot)
 		
 		#fig.colorbar(matplotlib.cm.ScalarMappable(norm=n, cmap=cmapp),
 		#             ax=ax, orientation='horizontal', label=varLabel,pad=0.1,location='bottom',shrink=0.6,aspect=30)
 		
 		ax.scatter(x,y-np.min(y),color='r',alpha=0.4)
-		#ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,s=7,cmap=cmapp)
+		#ax.scatter(x,-z,y,alpha=alph,c=varToPlot*scaleF,norm=n,s=7,cmap=cmapp)
 		ax.set_xlim(-4,4)
 
 		ax.set_title("Prometheus")
@@ -372,11 +384,8 @@ def plotMesh2D():
 		print("COMPLETELY done!")
 
 
-
-
-#plotShear()
+plotShear()
 #plotPressure('Dynamic')
 #plotPressure('Total')
 #plotPressure('Abs')
-
-plotMesh2D()
+#plotMesh2D()
