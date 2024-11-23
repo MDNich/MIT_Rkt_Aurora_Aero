@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EngineeringData version="24.2.0.202" versiondate="2024. 05. 13. 17:34:00">
+  <Notes>
+  </Notes>
+  <Materials>
+    <MatML_Doc>
+      <Material>
+        <BulkDetails>
+          <Name>G10</Name>
+          <Description>G10 Core</Description>
+          <PropertyData property="pr0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa0" format="float">
+              <Data>234</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" format="float">
+              <Data>117</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa2" format="float">
+              <Data>224</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa3" format="string">
+              <Data>Appearance</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr1">
+            <Data format="string">-</Data>
+            <Qualifier name="Behavior">Orthotropic</Qualifier>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa4" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa5" format="float">
+              <Data>18.6</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [GPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">GPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" format="float">
+              <Data>0.0165</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [GPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">GPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa7" format="float">
+              <Data>448</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [MPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">MPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" format="float">
+              <Data>0.27</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa9" format="float">
+              <Data>0.559</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa10" format="float">
+              <Data>0.27</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa11" format="float">
+              <Data>16.5</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [GPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">GPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa12" format="float">
+              <Data>16.5</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [GPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">GPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa13" format="float">
+              <Data>18.6</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [GPa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">GPa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa14" format="float">
+              <Data>20</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+              <Qualifier name="Field Variable">Temperature</Qualifier>
+              <Qualifier name="Default Data">22</Qualifier>
+              <Qualifier name="Field Units">C</Qualifier>
+              <Qualifier name="Upper Limit">Program Controlled</Qualifier>
+              <Qualifier name="Lower Limit">Program Controlled</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr2">
+            <Data format="string">-</Data>
+            <Qualifier name="Type">Adhesive</Qualifier>
+          </PropertyData>
+          <PropertyData property="pr3">
+            <Data format="string">-</Data>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa4" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa15" format="float">
+              <Data>45</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [degree]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">degree</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa14" format="float">
+              <Data>7.88860905221012e-31</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Offset">0 [C]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">C</Qualifier>
+              <Qualifier name="Field Variable">Temperature</Qualifier>
+              <Qualifier name="Default Data">22</Qualifier>
+              <Qualifier name="Field Units">C</Qualifier>
+              <Qualifier name="Upper Limit">Program Controlled</Qualifier>
+              <Qualifier name="Lower Limit">Program Controlled</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa0">
+          <Name>Red</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa1">
+          <Name>Green</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa2">
+          <Name>Blue</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa3">
+          <Name>Material Property</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa4">
+          <Name>Options Variable</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa5">
+          <Name>Young's Modulus X direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa6">
+          <Name>Young's Modulus Y direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa7">
+          <Name>Young's Modulus Z direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa8">
+          <Name>Poisson's Ratio XY</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa9">
+          <Name>Poisson's Ratio YZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa10">
+          <Name>Poisson's Ratio XZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa11">
+          <Name>Shear Modulus XY</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa12">
+          <Name>Shear Modulus YZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa13">
+          <Name>Shear Modulus XZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa14">
+          <Name>Temperature</Name>
+          <Units name="Temperature" />
+        </ParameterDetails>
+        <ParameterDetails id="pa15">
+          <Name>Fabric Fiber Angle</Name>
+          <Units name="Angle" />
+        </ParameterDetails>
+        <PropertyDetails id="pr0">
+          <Name>Color</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr1">
+          <Name>Elasticity</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr2">
+          <Name>Ply Type</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr3">
+          <Name>Fabric Fiber Angle</Name>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+  <ANSYSWBTransferData>
+    <Materials>
+      <Material>
+        <Name>G10</Name>
+        <DataTransferID>83cea13a-ff86-4afa-9354-a1056d44e129</DataTransferID>
+        <PreviousTransferIDs>
+        </PreviousTransferIDs>
+      </Material>
+    </Materials>
+  </ANSYSWBTransferData>
+</EngineeringData>

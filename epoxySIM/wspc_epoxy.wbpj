@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+  <Project Version="24.2.1.0">
+    <base-designpoint-name valType="String">0</base-designpoint-name>
+    <timestamp-max valType="Int64">32134</timestamp-max>
+    <framework-build-version valType="String">24.2.133.0</framework-build-version>
+    <external-version-string valType="String">2024 R2</external-version-string>
+    <last-saved-utc valType="String">11/17/2024 21:42:16</last-saved-utc>
+    <managed-categories valType="String">[report, misc, progress]</managed-categories>
+    <logHistory valType="StringArray">
+      <ArrayEntry Index="0">mdn@MARCDNICHITBF25:C:\Users\mdn\AppData\Local\Temp\WorkbenchLogs\CoreEvents6736.log</ArrayEntry>
+    </logHistory>
+    <expression-scope-container valType="String">Parameters</expression-scope-container>
+    <project-type valType="String">WB2</project-type>
+    <project-id valType="String">c0239144-de72-4026-8f80-1c7ca61bfb4e</project-id>
+    <ReferenceCache>
+      <ProjectReferenceList>
+        <ReferenceList valType="String">{
+"942f1af0-cf26-40a1-863d-dd94bb1488a1": "/FileContainer/FileReference:F3",
+"2621df47-b4a8-4212-9118-61752b8e7a4a": "/FileTypesContainer/FileType:project",
+"97d422df-5da8-4aeb-88de-6be294033368": "/FileTypesContainer/FileType:ACTDatabase",
+"d9af7fc9-4a68-4727-a598-02ba041e7dc8": "/FileTypesContainer/FileType:EngineeringData",
+"065ca65b-638d-4642-8b51-a21ace661a0a": "/Schematic/Component:Engineering Data",
+"2ffcde01-a4f6-406a-af41-12af9161f75d": "/Schematic/Component:Geometry",
+"77a971b5-9b69-411e-826d-49ba2bb4c532": "/Schematic/Component:Model",
+"93d05205-3190-4bc6-a69a-d47b8d17c494": "/Schematic/Component:Setup",
+"8f6bc7e2-d7d4-4c05-90a2-bb517d567303": "/Schematic/Template:ACP (Pre)",
+"bbeafcdf-2d72-482f-8381-f334d7156af6": "/Schematic/Template:Fluid Flow (CFX)",
+"88afa7d1-60e8-4e2d-9b0f-8d2d5115117a": "/Schematic/Template:Static Structural (ANSYS)",
+"3ef67307-4530-4d4f-8070-2ab2492accbe": "/Schematic/Template:Fluid Flow",
+"49f5bc0d-eed5-4fdb-9833-6f7f24b280bc": "/Schematic/Template:Steady-State Thermal (ANSYS)",
+"f961b5e9-9366-4c0d-b831-d629d0d941f0": "/Schematic/Template:Modal (ANSYS)",
+"277c9263-3a14-479b-aab5-6587ebc0ba25": "/Schematic/Template:Random Vibration (ANSYS)",
+"04b18c0a-7f34-4809-878a-64601ec46442": "/Schematic/Template:Response Spectrum (ANSYS)",
+"7737fb83-b5ea-4caa-a740-ce0d834c06e6": "/Schematic/Template:Transient Thermal (ANSYS)",
+"fdc5eed0-0b58-43dd-9696-4e0ceaf2ed2b": "/Schematic/ComponentTemplate:EngDataCellTemplate",
+"5970dec7-211c-417c-a251-b862b863b5be": "/Schematic/System:ACP-Pre",
+"03fe705b-d5f2-45f3-831e-b59759ffef97": "/Schematic/ComponentTemplate:GeometryCellTemplate",
+"989fac73-5d2f-46fe-8a6d-949d2a5d3fdc": "/Schematic/ComponentTemplate:SimulationModelCellTemplate",
+"25eae5bb-49ac-495d-8cdf-478369e0a36a": "/Schematic/ComponentTemplate:ACPSetupCellTemplate",
+"f5d3f7a8-074b-4593-b2ac-dbbea0db572a": "/FileContainer/FileReference:F5",
+"d5abe3f3-0214-45a9-83b9-223c1acc9da9": "/FileContainer/FileReference:F4",
+"bc44cc6c-a988-4ea7-a2fe-8510d327a23e": "/FileTypesContainer/FileType:GeometryFileType",
+"6e40e06a-3583-4a30-9e76-cb2307b23437": "/FileContainer/FileReference:F11",
+"90df8d00-04c5-42bb-93d1-a23e213dedc4": "/FileTypesContainer/FileType:ANSYSHDF5ModelFileType",
+"1de7acfd-e38d-4de3-bd71-1f8e8fa57125": "/Schematic/Template:Material Designer",
+"321fdd97-dc14-4664-a0a5-9f509db2c872": "/Schematic/ComponentTemplate:MaterialDesignerCellTemplate",
+"1cbe9804-d736-49f9-8461-6baa613fea37": "/FileContainer/FileReference:F6",
+"3c46b9c3-8058-4e13-a301-fe2e4010e136": "/FileContainer/FileReference:F8",
+"531caa6b-8b99-4845-854a-092ebef7a4a3": "/FileContainer/FileReference:F7",
+"c3098860-a3c2-4a1c-982e-341935497dce": "/FileTypesContainer/FileType:MechanicalFileType",
+"ba39554e-b573-4aaf-a925-1eb55ae80a20": "/FileTypesContainer/FileType:default"
+}</ReferenceList>
+      </ProjectReferenceList>
+      <DesignPointReferenceListCollection>
+        <DesignPointReferenceList Name="0">
+          <ReferenceList valType="String">{
+"70a4f46d-c580-4bcd-9308-a87ed1b6b895": "/Engineering Data/ResourceTransferData:TransferData_material",
+"9f148ad5-381b-4e1c-96a9-f9023a8c34ff": "/Model/SimulationEngineeringData:SimulationEngineeringDataObject",
+"053c8350-d202-48d4-a611-0a140ba79a68": "/Model/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
+"0adbd4c9-72bd-42d5-8a26-97595572e9e3": "/Model/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
+"753ddb16-4e66-4ebd-8a1d-0dffcc65031f": "/Model/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
+"a5647664-cceb-4985-9099-ffdbf2b2cf5a": "/Engineering Data/EngineeringData:Engineering Data",
+"2da21605-b242-4ee8-a05d-199241489307": "/Geometry/Geometry:GeometryDataObject",
+"0af06e2e-d60c-4410-b375-a846374e1b10": "/Model/MechanicalMesh:SimulationMeshDataObject",
+"f53aed28-54ee-4f59-aabf-d2472fbca4c9": "/Setup/CompositeEngineeringData:CompositeEngineeringDataProvider",
+"a83fc8ab-cfb9-4213-b5d4-928dbdc9f57c": "/Setup/ACPSetupData:ACPSetupDataProvider",
+"1054b054-e1d9-4f9e-b589-00acb133a783": "/Engineering Data/Material:G10",
+"9a9268f7-8415-41a5-b2a8-2fced1077a09": "/Engineering Data/MaterialProperty:Appearance",
+"e666f0b3-1ff2-48a8-853c-819cea57532c": "/Engineering Data/MaterialPropertyData:Color",
+"32d38297-6d42-4768-8612-38c57400d13a": "/Engineering Data/MaterialVariable:Red",
+"1fb3f64e-54fc-4b09-a639-f0cba00e1533": "/Engineering Data/MaterialVariable:Green",
+"f8fd3546-5d71-4e40-b9cb-8ba9ed63f22f": "/Engineering Data/MaterialVariable:Blue",
+"e8a25be2-34ce-4dea-9ff4-d843964a4635": "/Engineering Data/MaterialProperty:Elasticity",
+"e113bee9-e2fa-490c-a87b-f8cfb9527889": "/Engineering Data/MaterialPropertyData:Elasticity",
+"69423304-4069-49cd-aace-e57e9378d4e3": "/Engineering Data/MaterialVariable:Temperature",
+"03f58820-2d75-4cdd-a66b-0687e7c088e0": "/Engineering Data/MaterialVariable:Young's Modulus X direction",
+"073056d2-146e-4422-a581-9c3a7bdc1a73": "/Engineering Data/MaterialVariable:Young's Modulus Y direction",
+"bfd6f6f1-39da-4f9e-ad94-a4e87c8da962": "/Engineering Data/MaterialVariable:Young's Modulus Z direction",
+"d7af2d9d-8641-4b0b-8561-565d185b722f": "/Engineering Data/MaterialVariable:Poisson's Ratio XY",
+"b4fda70a-7d6a-4fb8-b7c1-b5ba64e7fd09": "/Engineering Data/MaterialVariable:Poisson's Ratio YZ",
+"c57ce246-9f29-486e-ae2f-1c1a7ab85e83": "/Engineering Data/MaterialVariable:Poisson's Ratio XZ",
+"58c191e2-3f5f-49c6-9831-7c2b98287b8b": "/Engineering Data/MaterialVariable:Shear Modulus XY",
+"4bc2002f-1d1b-4305-bd92-53ed1af231c3": "/Engineering Data/MaterialVariable:Shear Modulus YZ",
+"30050d3a-7676-4a3b-ae58-c5d6f180081f": "/Engineering Data/MaterialVariable:Shear Modulus XZ",
+"18046199-5c07-4d4a-a25a-cb6c7e3638a7": "/Engineering Data/MaterialVariable:Interpolation Options",
+"753d858b-dbe9-40ed-8ac8-14494fadd142": "/Engineering Data/MaterialProperty:Ply Type",
+"63dbe503-b1bc-49f9-869b-49bdd56b2ce4": "/Engineering Data/MaterialPropertyData:Ply Type",
+"318723e6-e4d6-4d97-bc11-3c8d5ac7ec3f": "/Engineering Data/MaterialProperty:Fabric Fiber Angle",
+"50551618-b265-4bb7-a83f-77a26adae3ee": "/Engineering Data/MaterialPropertyData:Fabric Fiber Angle",
+"4833e43c-7ee5-4567-8eb4-891047e64352": "/Engineering Data/MaterialVariable:Fabric Fiber Angle",
+"c0660655-c956-4dfa-bc54-7859b3372625": "/Engineering Data/MaterialVariable:Temperature 1",
+"364f2bd2-fa88-41b5-bccd-c6aa6a01196a": "/Engineering Data/MaterialVariable:Interpolation Options 1",
+"23317065-7a0d-44de-8505-153ba8edf7f5": "/Model/MechanicalModel:MechanicalModel",
+"bd53ffbf-dee6-41f3-a129-2b2333e3216e": "/Model/MechanicalMeshFile:ANSYSHDF5Model"
+}</ReferenceList>
+        </DesignPointReferenceList>
+      </DesignPointReferenceListCollection>
+    </ReferenceCache>
+  </Project>
+  <Addins>
+    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.ProjectSchematic.ProjectSchematicAddin, Ansys.ProjectReporting.Addin, Ansys.Graphics.GraphicsAddin, Ansys.Units.Commands.Addin, Ansys.ACT.WorkBench.Addin, Ansys.Rep.RepAddin]</addin-list>
+    <Addin Name="Ansys.ParameterManager.ParameterManagerAddin" Version="7.3" />
+    <Addin Name="Ansys.ProjectSchematic.ProjectSchematicAddin" Version="14.0" />
+    <Addin Name="Ansys.ProjectReporting.Addin" Version="6.0" />
+    <Addin Name="Ansys.Graphics.GraphicsAddin" Version="1.1" />
+    <Addin Name="Ansys.Units.Commands.Addin" Version="7.1" />
+    <Addin Name="Ansys.ACT.WorkBench.Addin" Version="4.2">
+      <ExtensionsLoaded valType="StringArray">
+        <ArrayEntry Index="0">1;LSDYNA;5f463412-bd3e-484b-87e7-cbc0a665e474;LSDYNA;wbex;2024;2</ArrayEntry>
+        <ArrayEntry Index="1">1;ANSYSMotion;20180725-3f81-49eb-9f31-41364844c769;ANSYSMotion;wbex;2024;2</ArrayEntry>
+      </ExtensionsLoaded>
+    </Addin>
+    <Addin Name="Ansys.Rep.RepAddin" Version="24.2.1.0">
+      <is-optional-on-resume valType="Boolean">true</is-optional-on-resume>
+    </Addin>
+  </Addins>
+  <Containers>
+    <container-map valType="String">{"FileContainer": Project:FileContainer, "Messages": Project:Messages, "Parameters": Ansys.ParameterManager.ParameterManagerAddin:parameters, "Schematic": Ansys.ProjectSchematic.ProjectSchematicAddin:Default, "ReportDataContainer": Ansys.ProjectReporting.Addin:ReportDataContainer, "Graphics": Ansys.Graphics.GraphicsAddin:graphics, "Units": Ansys.Units.Commands.Addin:Units, "RepContainer": Ansys.Rep.RepAddin:RepContainer}</container-map>
+    <static-container-ids valType="String">{"FileContainer": FileManager, "Parameters": Parameters, "Schematic": Schematic, "ReportDataContainer": ReportDataContainer, "Graphics": Graphics, "Units": Units, "RepContainer": RepContainer}</static-container-ids>
+    <Container Name="FileContainer" Version="1.0">
+      <container-type valType="String">Project:FileContainer</container-type>
+      <static-id valType="String">FileManager</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 32106, "Input": 7857, "Output": 7857}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/FileContainer/FileReference:F1" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F1</object-name>
+        <member-data valType="String">{"DisplayText": "wspc_epoxy.wbpj", "FileType": $$2621df47-b4a8-4212-9118-61752b8e7a4a, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": "$(ProjectName).wbpj", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F2" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F2</object-name>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$97d422df-5da8-4aeb-88de-6be294033368, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 16}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F3" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F3</object-name>
+        <member-data valType="String">{"DisplayText": "EngineeringData.xml", "FileType": $$d9af7fc9-4a68-4727-a598-02ba041e7dc8, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ACP-Pre\ENGD\EngineeringData.xml", "ReferenceCount": 2}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F4" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F4</object-name>
+        <member-data valType="String">{"DisplayText": "finCan_justfin.STEP", "FileType": $$bc44cc6c-a988-4ea7-a2fe-8510d327a23e, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"\\.psf\Home\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\FinCan\finCan_justfin.STEP", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F5" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F5</object-name>
+        <member-data valType="String">{"DisplayText": "ACP-Pre.agdb", "FileType": $$bc44cc6c-a988-4ea7-a2fe-8510d327a23e, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ACP-Pre\DM\ACP-Pre.agdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F6" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F6</object-name>
+        <member-data valType="String">{"DisplayText": "material.engd", "FileType": $$d9af7fc9-4a68-4727-a598-02ba041e7dc8, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ACP-Pre\ENGD\material.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F7" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F7</object-name>
+        <member-data valType="String">{"DisplayText": "ACP-Pre.engd", "FileType": $$d9af7fc9-4a68-4727-a598-02ba041e7dc8, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\ACP-Pre.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F8" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F8</object-name>
+        <member-data valType="String">{"DisplayText": "ACP-Pre.mechdb", "FileType": $$c3098860-a3c2-4a1c-982e-341935497dce, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\ACP-Pre.mechdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F11" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F11</object-name>
+        <member-data valType="String">{"DisplayText": "ACP-Pre.h5", "FileType": $$90df8d00-04c5-42bb-93d1-a23e213dedc4, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ACP-Pre\MECH\ACP-Pre.h5", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F10" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F10</object-name>
+        <member-data valType="String">{"DisplayText": "runACP.py", "FileType": $$ba39554e-b573-4aaf-a925-1eb55ae80a20, "DependentFiles": [], "ContainerAssociations": ["Setup"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ACP-Pre\ACP\runACP.py", "ReferenceCount": 1}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Messages" Version="1.0">
+      <container-type valType="String">Project:Messages</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 32132, "Input": 7858, "Output": 7858}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Messages/StoredMessage:Message" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Des données saisies par l'utilisateur sont requises avant la mise à jour du composant Engineering Data dans ACP (Pre). Pour des instructions sur comment corriger la cellule dans son état en cours, cliquez sur le triangle bleu dans le coin inférieur droit de la cellule dans le schéma du projet.", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 15:54:43, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 1" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 1</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": "Des données saisies par l'utilisateur sont requises avant la mise à jour du composant Geometry dans ACP (Pre). Pour des instructions sur comment corriger la cellule dans son état en cours, cliquez sur le triangle bleu dans le coin inférieur droit de la cellule dans le schéma du projet.", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 15:54:43, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 2" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 2</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Les composants suivants requièrent votre attention avant de continuer :
+Engineering Data""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:01:11, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 3" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 3</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Les composants suivants requièrent votre attention avant de continuer :
+Engineering Data""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:01:32, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 4" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 4</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:16:33, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 5" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 5</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:16:37, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 6" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 6</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre) : ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": """Ansys.Core.Commands.UserReadableFailureException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+   a következő helyen: ACP.Commands.RefreshSetupCommand.RefreshSetupModelData(IFullContext context, DataObject dataObject, SourceContainerDictionary modifiedUpstreamContainers, SourceContainerDictionary allUpstreamContainers, ExternalSourceListOfDicts&amp; modelDataDict)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.ExecuteCommand(IFullContext context)
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.RefreshSetup(Container=\"Setup\", KeepACPOpen=True)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.Wait(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.InvokeAndWait(IProtectedContext context, DataContainerReference Container, Boolean KeepACPOpen, Boolean BatchMode)
+   a következő helyen: ACP.Commands.UpdateSetupCommand.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.UpdateSetupCommand(Container=\"Setup\")
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 11/17/2024 16:16:41, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 7" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 7</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre).  ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:16:42, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 8" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 8</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:16:46, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 9" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 9</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre) : ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": """Ansys.Core.Commands.UserReadableFailureException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+   a következő helyen: ACP.Commands.RefreshSetupCommand.RefreshSetupModelData(IFullContext context, DataObject dataObject, SourceContainerDictionary modifiedUpstreamContainers, SourceContainerDictionary allUpstreamContainers, ExternalSourceListOfDicts&amp; modelDataDict)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.ExecuteCommand(IFullContext context)
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.RefreshSetup(Container=\"Setup\", KeepACPOpen=True)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.Wait(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.InvokeAndWait(IProtectedContext context, DataContainerReference Container, Boolean KeepACPOpen, Boolean BatchMode)
+   a következő helyen: ACP.Commands.UpdateSetupCommand.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.UpdateSetupCommand(Container=\"Setup\")
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 11/17/2024 16:20:23, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 10" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 10</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre).  ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:20:24, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 11" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 11</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre) : ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": """Ansys.Core.Commands.UserReadableFailureException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+   a következő helyen: ACP.Commands.RefreshSetupCommand.RefreshSetupModelData(IFullContext context, DataObject dataObject, SourceContainerDictionary modifiedUpstreamContainers, SourceContainerDictionary allUpstreamContainers, ExternalSourceListOfDicts&amp; modelDataDict)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.ExecuteCommand(IFullContext context)
+   a következő helyen: Ansys.Addins.Infrastructure.CommandUtilities.CommandHelper.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.RefreshSetup(Container=\"Setup\", KeepACPOpen=True)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.Wait(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: ACP.Commands.RefreshSetupCommand.InvokeAndWait(IProtectedContext context, DataContainerReference Container, Boolean KeepACPOpen, Boolean BatchMode)
+   a következő helyen: ACP.Commands.UpdateSetupCommand.Execute(IFullContext context)
+   a következő helyen: Ansys.Core.Commands.Concurrency.CommandWorkUnit.executeInContext(CommandContext subContext, IExecutionEngineCallback tracer)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.doExecute(IExecutionEngineCallback executionEngine, CommandContext subContext)
+   a következő helyen: Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
+--- Ansys.Core.Commands.CommandFailedException: ACP Input Validation Failure.
+No Mesh information was found in the input mesh file
+CommandName: ACP.UpdateSetupCommand(Container=\"Setup\")
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.RethrowFailureException(Exception e)
+   a következő helyen: Ansys.Core.Commands.CommandAsyncResult.WaitForSuspendOrComplete(Int32 milliSecondsTimeout, Boolean exitContext)
+   a következő helyen: Ansys.ProjectSchematic.Data.ComponentTemplateEntity.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, DataContainerReference container, String dataGroup, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.UpdateTask.Update(IFullContext context, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, UpdateOptions updateOptions, IEnumerable`1 downstream, IEnumerable`1 allRemaining)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.updateComponent(IContextForUpdatePlugin callbacks, UpdateTask task, String trackToken, IProgressMonitor progressMonitor, Int32 milliSecondsTimeout, TaskHolder remainingTasksInThisDp, List`1 dependentTasks)
+   a következő helyen: Ansys.ProjectSchematic.Update.ComponentUpdatePlugin.&lt;&gt;c__DisplayClass0_0.&lt;UpdateComponent&gt;b__0()
+   a következő helyen: Ansys.ProjectSchematic.Update.ExecuteWithErrorBehaviour.Execute(IContextForUpdatePlugin callbacks, UpdateErrorBehavior behavior, Action op, UpdateTask forTask, Action opUponError)
+""", "Association": "", "DateTimeStamp": 11/17/2024 16:21:08, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 12" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 12</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": """Échec de la mise à jour du composant Setup dans ACP (Pre).  ACP Input Validation Failure.
+No Mesh information was found in the input mesh file""", "Details": None, "Association": "", "DateTimeStamp": 11/17/2024 16:21:08, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": $$93d05205-3190-4bc6-a69a-d47b8d17c494, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Parameters" Version="1.0">
+      <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
+      <static-id valType="String">Parameters</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <maxUpdateOrder valType="Double">1</maxUpdateOrder>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 32131, "Input": 31544, "Output": 7861}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Parameters/DesignPoint:0" Version="1.0">
+        <class-type valType="String">DesignPoint</class-type>
+        <object-name valType="String">0</object-name>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {"$$93d05205-3190-4bc6-a69a-d47b8d17c494": """Échec de la mise à jour du composant Setup dans ACP (Pre) : ACP Input Validation Failure.
+No Mesh information was found in the input mesh file"""}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Model in ACP-Pre, Setup in ACP-Pre"}, "Parameters": {}, "ParameterErrors": {}, "CurrentValues": {}, "ParameterStatus": {}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
+        <properties-setByUserFlag-data valType="String">["IsDataModelValid"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
+        <class-type valType="String">DesignPointReportSetting</class-type>
+        <object-name valType="String">Design Points Report Setting</object-name>
+        <member-data valType="String">{"DisplayText": "Design Points Report Setting", "DesignPointReportImage": "None"}</member-data>
+      </Object>
+      <ParameterToPropertyMap />
+    </Container>
+    <Container Name="Schematic" Version="1.0">
+      <container-type valType="String">Ansys.ProjectSchematic.ProjectSchematicAddin:Default</container-type>
+      <static-id valType="String">Schematic</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 32125, "Input": 32119, "Output": 7864}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Schematic/System:ACP-Pre" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">ACP-Pre</object-name>
+        <member-data valType="String">{"DisplayText": "ACP (Pre)", "Components": [$$065ca65b-638d-4642-8b51-a21ace661a0a, $$2ffcde01-a4f6-406a-af41-12af9161f75d, $$77a971b5-9b69-411e-826d-49ba2bb4c532, $$93d05205-3190-4bc6-a69a-d47b8d17c494], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$93d05205-3190-4bc6-a69a-d47b8d17c494], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "AnyACP", "AnalysisType": "Mechanical", "SolverType": "ACP", "SolverTypeDisplayString": "Any", "PhysicsTypeDisplayString": "Any", "AnalysisTypeDisplayString": "Composites", "SystemName": "ACP (Pre)", "IsCreated": "True", "VOLATILE:SystemName": "ACP-Pre"}, "SystemType": "ACP (Pre)", "HeaderText": "ACP (Pre)", "SystemTypeAbbreviation": "ACP-Pre", "UniqueSystemDirectoryName": "ACP-Pre", "Physics": [], "AnalysisType": None, "SystemHelpId": None, "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$8f6bc7e2-d7d4-4c05-90a2-bb517d567303, "Notes": None, "LayoutChildren": [], "LayoutIndex": 1}</member-data>
+      </Object>
+      <Object Name="/Schematic/SchematicSettings:Schematic Settings" Version="1.0">
+        <class-type valType="String">SchematicSettings</class-type>
+        <object-name valType="String">Schematic Settings</object-name>
+        <member-data valType="String">{"DisplayText": "Schematic Settings", "WireBundling": False, "ShowSystemCoordinates": True, "Notes": None, "SuspendCollectingRSMResult": False}</member-data>
+      </Object>
+      <Object Name="/Schematic/DesignPointSolveSettings:Design Points Update Settings" Version="1.0">
+        <class-type valType="String">DesignPointSolveSettings</class-type>
+        <object-name valType="String">Design Points Update Settings</object-name>
+        <member-data valType="String">{"DisplayText": "Design Points Update Settings", "UpdateOption": "Foreground", "RsmUserString": None, "ConfiguredQueue": {"OptionIcons": None, "OptionLabels": "Local", "Options": "Local", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": "Local"}, "RsmJobName": "Workbench", "UpdateMethod": "Foreground", "UpdateOrder": "UpdateFromCurrentDesignPoint", "PreRSMUpdate": "Geometry", "PartialUpdate": "None", "RetainPartialUpdate": "None", "ComponentExecutionMode": "Serial", "NumberOfCoresPerJob": 2, "RetainFailedDesignPoints": False, "DesignPointRetainedOrExportedUpdate": "Parameters", "DesignPointUpdateTimeout": 0, "JobStatusCheckIntervalInSeconds": 20, "NumberOfJobsToBeCreated": 1, "NumberOfTasksToBeCreated": 1}</member-data>
+      </Object>
+      <Object Name="/Schematic/Bookkeeper:Schematic bookkeeper" Version="1.0">
+        <class-type valType="String">Bookkeeper</class-type>
+        <object-name valType="String">Schematic bookkeeper</object-name>
+        <member-data valType="String">{"DisplayText": "Schematic bookkeeper", "UpfrontLicenseCheckoutSelection": []}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:FSI: Fluid Flow (CFX) -&gt; Static Structural" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">FSI: Fluid Flow (CFX) -&gt; Static Structural</object-name>
+        <member-data valType="String">{"DisplayText": "FSI : Mécanique des Fluides (CFX) -&gt; Structure statique", "SystemTemplates": [$$bbeafcdf-2d72-482f-8381-f334d7156af6, $$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Fluid Flow (CFX)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Fluid Flow (CFX):Geometry", "Static Structural (ANSYS):Geometry"], ["Connect", "Fluid Flow (CFX):Solution:CFXTransferResultsTemplate", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Fluid Flow (CFX)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Fluid Flow (CFX)": ["Static Structural (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:FSI: Fluid Flow (FLUENT) -&gt; Static Structural" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">FSI: Fluid Flow (FLUENT) -&gt; Static Structural</object-name>
+        <member-data valType="String">{"DisplayText": "FSI : Mécanique des Fluides (FLUENT) -&gt; Structure statique", "SystemTemplates": [$$3ef67307-4530-4d4f-8070-2ab2492accbe, $$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Fluid Flow (FLUENT)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Fluid Flow (FLUENT):Geometry", "Static Structural (ANSYS):Geometry"], ["Connect", "Fluid Flow (FLUENT):Solution", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Fluid Flow (FLUENT)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Fluid Flow (FLUENT)": ["Static Structural (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Thermal-Stress" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Thermal-Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Thermomécanique", "SystemTemplates": [$$49f5bc0d-eed5-4fdb-9833-6f7f24b280bc, $$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Steady-State Thermal (ANSYS)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Steady-State Thermal (ANSYS):Engineering Data", "Static Structural (ANSYS):Engineering Data"], ["Share", "Steady-State Thermal (ANSYS):Geometry", "Static Structural (ANSYS):Geometry"], ["Share", "Steady-State Thermal (ANSYS):Model", "Static Structural (ANSYS):Model"], ["Connect", "Steady-State Thermal (ANSYS):Solution", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Steady-State Thermal (ANSYS)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Steady-State Thermal (ANSYS)": ["Static Structural (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Pre-Stress Modal" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Pre-Stress Modal</object-name>
+        <member-data valType="String">{"DisplayText": "Modal précontraint", "SystemTemplates": [$$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a, $$f961b5e9-9366-4c0d-b831-d629d0d941f0], "SystemNames": ["Static Structural (ANSYS)", "Modal (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Static Structural (ANSYS):Engineering Data", "Modal (ANSYS):Engineering Data"], ["Share", "Static Structural (ANSYS):Geometry", "Modal (ANSYS):Geometry"], ["Share", "Static Structural (ANSYS):Model", "Modal (ANSYS):Model"], ["Connect", "Static Structural (ANSYS):Solution", "Modal (ANSYS):Setup"]], "LayoutIndices": {"Static Structural (ANSYS)": 1, "Modal (ANSYS)": 0}, "LayoutChildren": {"Static Structural (ANSYS)": ["Modal (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Random Vibration" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Random Vibration</object-name>
+        <member-data valType="String">{"DisplayText": "Vibration aléatoire", "SystemTemplates": [$$f961b5e9-9366-4c0d-b831-d629d0d941f0, $$277c9263-3a14-479b-aab5-6587ebc0ba25], "SystemNames": ["Modal (ANSYS)", "Random Vibration (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Modal (ANSYS):Engineering Data", "Random Vibration (ANSYS):Engineering Data"], ["Share", "Modal (ANSYS):Geometry", "Random Vibration (ANSYS):Geometry"], ["Share", "Modal (ANSYS):Model", "Random Vibration (ANSYS):Model"], ["Connect", "Modal (ANSYS):Solution", "Random Vibration (ANSYS):Setup"]], "LayoutIndices": {"Modal (ANSYS)": 1, "Random Vibration (ANSYS)": 0}, "LayoutChildren": {"Modal (ANSYS)": ["Random Vibration (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:Response Spectrum" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">Response Spectrum</object-name>
+        <member-data valType="String">{"DisplayText": "Spectre de réponse", "SystemTemplates": [$$f961b5e9-9366-4c0d-b831-d629d0d941f0, $$04b18c0a-7f34-4809-878a-64601ec46442], "SystemNames": ["Modal (ANSYS)", "Response Spectrum (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Modal (ANSYS):Engineering Data", "Response Spectrum (ANSYS):Engineering Data"], ["Share", "Modal (ANSYS):Geometry", "Response Spectrum (ANSYS):Geometry"], ["Share", "Modal (ANSYS):Model", "Response Spectrum (ANSYS):Model"], ["Connect", "Modal (ANSYS):Solution", "Response Spectrum (ANSYS):Setup"]], "LayoutIndices": {"Modal (ANSYS)": 1, "Response Spectrum (ANSYS)": 0}, "LayoutChildren": {"Modal (ANSYS)": ["Response Spectrum (ANSYS)"]}, "Attributes": {}, "SystemDisplayTexts": {}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:AM DED Process" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">AM DED Process</object-name>
+        <member-data valType="String">{"DisplayText": "Processus AM DED", "SystemTemplates": [$$7737fb83-b5ea-4caa-a740-ce0d834c06e6, $$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Transient Thermal (ANSYS)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Transient Thermal (ANSYS):Engineering Data", "Static Structural (ANSYS):Engineering Data"], ["Share", "Transient Thermal (ANSYS):Geometry", "Static Structural (ANSYS):Geometry"], ["Share", "Transient Thermal (ANSYS):Model", "Static Structural (ANSYS):Model"]], "LayoutIndices": {"Transient Thermal (ANSYS)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Transient Thermal (ANSYS)": ["Static Structural (ANSYS)"]}, "Attributes": {"Transient Thermal (ANSYS)": {"IsAMDEDSystem": "True"}, "Static Structural (ANSYS)": {"IsAMDEDSystem": "True"}}, "SystemDisplayTexts": {"Transient Thermal (ANSYS)": "AM DED Thermique", "Static Structural (ANSYS)": "AM DED Structurel"}, "DisabledOnPlatform": "Linux"}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:AM LPBF Thermal-Structural" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">AM LPBF Thermal-Structural</object-name>
+        <member-data valType="String">{"DisplayText": "AM LPBF Thermo-Structurel", "SystemTemplates": [$$7737fb83-b5ea-4caa-a740-ce0d834c06e6, $$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Transient Thermal (ANSYS)", "Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [["Share", "Transient Thermal (ANSYS):Engineering Data", "Static Structural (ANSYS):Engineering Data"], ["Share", "Transient Thermal (ANSYS):Geometry", "Static Structural (ANSYS):Geometry"], ["Share", "Transient Thermal (ANSYS):Model", "Static Structural (ANSYS):Model"], ["Connect", "Transient Thermal (ANSYS):Solution", "Static Structural (ANSYS):Setup"]], "LayoutIndices": {"Transient Thermal (ANSYS)": 1, "Static Structural (ANSYS)": 0}, "LayoutChildren": {"Transient Thermal (ANSYS)": ["Static Structural (ANSYS)"]}, "Attributes": {"Transient Thermal (ANSYS)": {"IsAMSystem": "True"}, "Static Structural (ANSYS)": {"IsAMSystem": "True"}}, "SystemDisplayTexts": {"Transient Thermal (ANSYS)": "AM LPBF Thermique", "Static Structural (ANSYS)": "AM LPBF Struturel"}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/CustomProjectTemplate:AM LPBF Inherent Strain" Version="1.0">
+        <class-type valType="String">CustomProjectTemplate</class-type>
+        <object-name valType="String">AM LPBF Inherent Strain</object-name>
+        <member-data valType="String">{"DisplayText": "AM LPBF Déformation inhérente", "SystemTemplates": [$$88afa7d1-60e8-4e2d-9b0f-8d2d5115117a], "SystemNames": ["Static Structural (ANSYS)"], "ToolboxGroup": "Custom Systems", "AdditionalSystemHelpId": None, "PostCreationSteps": [], "LayoutIndices": {}, "LayoutChildren": {}, "Attributes": {"Static Structural (ANSYS)": {"IsAMSystem": "True"}}, "SystemDisplayTexts": {"Static Structural (ANSYS)": "AM LPBF Déformation inhérente"}, "DisabledOnPlatform": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Engineering Data" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Engineering Data</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "ImageName": "EngDataComponent16x16", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Engineering Data", "_overwrittenUpdatable": None, "Template": $$fdc5eed0-0b58-43dd-9696-4e0ceaf2ed2b, "InSystem": $$5970dec7-211c-417c-a251-b862b863b5be, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ImageName": "cad_designmodeler", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Geometry", "_overwrittenUpdatable": None, "Template": $$03fe705b-d5f2-45f3-831e-b59759ffef97, "InSystem": $$5970dec7-211c-417c-a251-b862b863b5be, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Model" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Model</object-name>
+        <member-data valType="String">{"DisplayText": "Model", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Model", "_overwrittenUpdatable": None, "Template": $$989fac73-5d2f-46fe-8a6d-949d2a5d3fdc, "InSystem": $$5970dec7-211c-417c-a251-b862b863b5be, "MasterSources": {"Sources": [[{"DataType": "EngineeringData", "Component": $$065ca65b-638d-4642-8b51-a21ace661a0a, "Transfer": None}], [{"DataType": "Geometry", "Component": $$2ffcde01-a4f6-406a-af41-12af9161f75d, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {}, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Setup" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Setup</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "ImageName": "acp_pre", "ComponentStateOnLastFailure": "OutOfDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Setup", "_overwrittenUpdatable": None, "Template": $$25eae5bb-49ac-495d-8cdf-478369e0a36a, "InSystem": $$5970dec7-211c-417c-a251-b862b863b5be, "MasterSources": {"Sources": [[{"DataType": "SimulationGeneratedMesh", "Component": $$77a971b5-9b69-411e-826d-49ba2bb4c532, "Transfer": None}], [{"DataType": "EngineeringData", "Component": $$065ca65b-638d-4642-8b51-a21ace661a0a, "Transfer": None}], [{"DataType": "SimulationEngineeringData", "Component": $$77a971b5-9b69-411e-826d-49ba2bb4c532, "Transfer": None}], [{"DataType": "SimulationModelGeneratedMesh", "Component": $$77a971b5-9b69-411e-826d-49ba2bb4c532, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": True, "UpdateConditionParameter": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="ReportDataContainer" Version="1.0">
+      <container-type valType="String">Ansys.ProjectReporting.Addin:ReportDataContainer</container-type>
+      <static-id valType="String">ReportDataContainer</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8200, "Input": 8191, "Output": 8191}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Graphics" Version="1.0">
+      <container-type valType="String">Ansys.Graphics.GraphicsAddin:graphics</container-type>
+      <static-id valType="String">Graphics</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 31521, "Input": 8201, "Output": 8201}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Units" Version="1.0">
+      <container-type valType="String">Ansys.Units.Commands.Addin:Units</container-type>
+      <static-id valType="String">Units</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8202, "Input": 15532, "Output": 8202}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Units/UnitSystemProjectSettings:UnitSystemProjectSettings" Version="1.0">
+        <class-type valType="String">UnitSystemProjectSettings</class-type>
+        <object-name valType="String">UnitSystemProjectSettings</object-name>
+        <member-data valType="String">{"DisplayText": "UnitSystemProjectSettings", "DataContainerUnitSystemRegistry": {"Geometry": "DesignModelerUnitSystem_m"}}</member-data>
+      </Object>
+      <Object Name="/Units/UnitSystem:UnitSys" Version="1.0">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys</object-name>
+        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {"Density Derivative wrt Temperature": "kg m^-3 C^-1", "Energy Source Coefficient": "W m^-3 C^-1", "Heat Transfer Coefficient": "W m^-2 C^-1", "Molar Entropy": "J mol^-1 C^-1", "Piezoelectric Strain Coefficient": "A s N^-1", "Piezoelectric Stress Coefficient": "A s m^-2", "Pressure Derivative wrt Temperature": "Pa C^-1", "Seebeck Coefficient": "V C^-1", "Specific Entropy": "J kg^-1 C^-1", "Specific Heat Capacity": "J kg^-1 C^-1", "Stress Per Temperature": "Pa C^-1", "Temperature": "C", "Temperature Difference": "C", "Temperature Gradient": "C m^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Thermal Capacitance": "J C^-1", "Thermal Compliance": "W C", "Thermal Conductance": "W C^-1", "Thermal Conductivity": "W m^-1 C^-1", "Thermal Contact Resistance": "W^-1 m^2 C", "Thermal Expansivity": "C^-1"}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
+      </Object>
+      <Object Name="/Units/UnitSystem:UnitSys 1" Version="1.0">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys 1</object-name>
+        <member-data valType="String">{"DisplayText": "DesignModeler Unit System (m, degree)", "ChangedQuantityUnits": {"Angle": "degree", "Density Derivative wrt Temperature": "kg m^-3 C^-1", "Energy Source Coefficient": "W m^-3 C^-1", "Heat Transfer Coefficient": "W m^-2 C^-1", "Inverse Angle": "degree^-1", "Molar Entropy": "J mol^-1 C^-1", "Piezoelectric Strain Coefficient": "A s N^-1", "Piezoelectric Stress Coefficient": "A s m^-2", "Pressure Derivative wrt Temperature": "Pa C^-1", "Seebeck Coefficient": "V C^-1", "Specific Entropy": "J kg^-1 C^-1", "Specific Heat Capacity": "J kg^-1 C^-1", "Stress Per Temperature": "Pa C^-1", "Temperature": "C", "Temperature Difference": "C", "Temperature Gradient": "C m^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Thermal Capacitance": "J C^-1", "Thermal Compliance": "W C", "Thermal Conductance": "W C^-1", "Thermal Conductivity": "W m^-1 C^-1", "Thermal Contact Resistance": "W^-1 m^2 C", "Thermal Expansivity": "C^-1"}, "UnitSystemName": "DesignModelerUnitSystem_m", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": False, "IsDefault": False}</member-data>
+      </Object>
+    </Container>
+    <Container Name="RepContainer" Version="1.0">
+      <container-type valType="String">Ansys.Rep.RepAddin:RepContainer</container-type>
+      <static-id valType="String">RepContainer</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 31545, "Input": 8205, "Output": 8205}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/RepContainer/RepSettings:Rep Settings Entity" Version="1.0">
+        <class-type valType="String">RepSettings</class-type>
+        <object-name valType="String">Rep Settings Entity</object-name>
+        <member-data valType="String">{"DisplayText": "Rep Settings Entity", "ServerUrl": "https://localhost:8443/hps", "ServerUserName": None, "ServerPassword": None, "ProjectId": None, "ExecutionTime": 300, "UpdateDesignPointInSteps": False}</member-data>
+      </Object>
+      <Object Name="/RepContainer/RepProjectIDMap:REP ProjectID Map Entity" Version="1.0">
+        <class-type valType="String">RepProjectIDMap</class-type>
+        <object-name valType="String">REP ProjectID Map Entity</object-name>
+        <member-data valType="String">{"DisplayText": "REP ProjectID Map Entity", "RepProjectIDMap": {}}</member-data>
+      </Object>
+      <Object Name="/RepContainer/ConnectionInfo:ConnectionInfo" Version="1.0">
+        <class-type valType="String">ConnectionInfo</class-type>
+        <object-name valType="String">ConnectionInfo</object-name>
+        <member-data valType="String">{"DisplayText": "ConnectionInfo", "IsConnected": False, "ProjectId": None, "LastSyncStateId": "00000000-0000-0000-0000-000000000000", "ConnectionSettingsModified": False, "DesignPointsBeingEvaluated": [], "ParameterToRepId": {}, "DpReferenceToRepDatabaseId": {}, "ProjectUpdateRepId": None}</member-data>
+      </Object>
+    </Container>
+  </Containers>
+</Storage>

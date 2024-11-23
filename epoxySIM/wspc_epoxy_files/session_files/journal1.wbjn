@@ -1,0 +1,419 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+template1 = GetTemplate(
+    TemplateName="ACP",
+    Solver="Pre")
+system1 = template1.CreateSystem()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Acier standard")
+material1.Delete()
+matl1 = engineeringData1.CreateMaterial(Name="G10")
+matl1.Delete()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="ANSYS GRANTA Materials Data for Simulation (Sample)",
+    Source="Granta_Design_Typical_Materials.xml")
+library2 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+library3 = EngData.OpenLibrary(
+    Name="Additive Manufacturing Materials",
+    Source="Additive_Manufacturing_Materials.xml")
+library4 = EngData.OpenLibrary(
+    Name="Composite Materials",
+    Source="Composite_Materials.xml")
+EngData.EnableFilter(Enable=False)
+EngData.EnableFilter()
+EngData.EnableFilter(Enable=False)
+material2 = library4.GetMaterial(Name="Resin Epoxy")
+material2.AddToFavorites()
+matl2 = engineeringData1.ImportMaterial(
+    Name="Resin Epoxy",
+    Source="Composite_Materials.xml")
+EngData.EnableFilter()
+EngData.EnableFilter(Enable=False)
+matlProp1 = matl2.GetProperty(Name="Ply Type")
+matlProp1.SetQualifier(
+    Qualifier="Type",
+    Value="Adhesive")
+matlProp2 = matl2.GetProperty(Name="Tensile Yield Strength")
+matlProp2.SetVariableProperty(
+    VariableName="Tensile Yield Strength",
+    Property="Unit",
+    Value="psi")
+matlProp2.SetData(
+    Variables=["Tensile Yield Strength"],
+    Values=[["7919.0604800675419 [psi]"]])
+matlProp2.SetData(
+    Variables=["Tensile Yield Strength"],
+    Values=[["9.828 [psi]"]])
+matlProp3 = matl2.GetProperty(Name="Density")
+matlProp3.SetVariableProperty(
+    VariableName="Density",
+    Property="Unit",
+    Value="lb ft^-3")
+matlProp3.SetData(
+    Variables=["Density"],
+    Values=[["72.416434268327748 [lb ft^-3]"]])
+matlProp3.SetVariableProperty(
+    VariableName="Density",
+    Property="Unit",
+    Value="lb in^-3")
+matlProp3.SetData(
+    Variables=["Density"],
+    Values=[["0.041907658720097066 [lb in^-3]"]])
+matlProp3.SetData(
+    Variables=["Density"],
+    Values=[["401 [lb in^-3]"]])
+matlProp3.SetData(
+    Variables=["Density"],
+    Values=[["0.0401 [lb in^-3]"]])
+matlProp2.SetData(
+    Variables=["Tensile Yield Strength"],
+    Values=[["9828 [psi]"]])
+Save(Overwrite=True)
+matl2.DisplayName = "epoxy_20002060"
+matl2.Delete()
+matl3 = engineeringData1.ImportMaterial(
+    Name="Epoxy Carbon UD (230 GPa) Wet",
+    Source="Composite_Materials.xml")
+matlProp4 = matl3.GetProperty(Name="Density")
+matlProp4.SetData(
+    Variables=["Density"],
+    Values=[["0.0401 [kg m^-3]"]])
+matlProp4.SetVariableProperty(
+    VariableName="Density",
+    Property="Unit",
+    Value="lb in^-3")
+matlProp4.SetData(
+    Variables=["Density"],
+    Values=[["1.4487044092033555E-06 [lb in^-3]"]])
+matlProp5 = matl3.GetProperty(Name="Elasticity")
+matlProp5.SetVariableProperty(
+    VariableName="Young's Modulus X direction",
+    Property="Unit",
+    Value="psi")
+matlProp5.SetData(
+    Variables=["Young's Modulus X direction"],
+    Values=[["17888954.571639754 [psi]"]])
+matlProp5.SetVariableProperty(
+    VariableName="Young's Modulus Y direction",
+    Property="Unit",
+    Value="psi")
+matlProp5.SetData(
+    Variables=["Young's Modulus Y direction"],
+    Values=[["1128393.5995407596 [psi]"]])
+matlProp5.SetVariableProperty(
+    VariableName="Young's Modulus Z direction",
+    Property="Unit",
+    Value="psi")
+matlProp5.SetData(
+    Variables=["Young's Modulus Z direction"],
+    Values=[["1128393.5995407596 [psi]"]])
+matlProp6 = matl3.GetProperty(Name="Ply Type")
+matlProp6.SetQualifier(
+    Qualifier="Type",
+    Value="Woven")
+matlProp7 = matl3.CreateProperty(
+    Name="Fabric Fiber Angle",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp7.SetVariableProperty(
+    VariableName="Fabric Fiber Angle",
+    Property="Unit",
+    Value="degree")
+matlProp7.SetData(
+    Index=-1,
+    Variables=["Fabric Fiber Angle"],
+    Values=[["90 [degree]"]])
+matl3.Delete()
+matl4 = engineeringData1.CreateMaterial(Name="G10")
+matlProp8 = matl4.CreateProperty(
+    Name="Elasticity",
+    Behavior="Orthotropic",
+    Qualifiers={"Definition": "", "Behavior": "Orthotropic"})
+matlProp8.SetData(
+    Index=-1,
+    Variables=["Young's Modulus X direction"],
+    Values=[["18.6 [Pa]"]])
+matlProp8.SetVariableProperty(
+    VariableName="Young's Modulus X direction",
+    Property="Unit",
+    Value="GPa")
+matlProp8.SetData(
+    Variables=["Young's Modulus X direction"],
+    Values=[["1.86E-08 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Young's Modulus Y direction"],
+    Values=[["0.0165 [Pa]"]])
+matlProp8.SetVariableProperty(
+    VariableName="Young's Modulus Y direction",
+    Property="Unit",
+    Value="GPa")
+matlProp8.SetData(
+    Variables=["Young's Modulus Y direction"],
+    Values=[["1.65E-11 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Young's Modulus Y direction"],
+    Values=[["0.0165 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Young's Modulus X direction"],
+    Values=[["186 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Young's Modulus X direction"],
+    Values=[["18.6 [GPa]"]])
+matlProp8.SetVariableProperty(
+    VariableName="Young's Modulus Z direction",
+    Property="Unit",
+    Value="MPa")
+matlProp8.SetData(
+    Variables=["Young's Modulus Z direction"],
+    Values=[["7.8886090522101181E-31 [MPa]"]])
+matlProp8.SetData(
+    Variables=["Young's Modulus Z direction"],
+    Values=[["448 [MPa]"]])
+matlProp8.SetData(
+    Variables=["Poisson's Ratio XY"],
+    Values=[["0.27"]])
+matlProp8.SetData(
+    Variables=["Poisson's Ratio YZ"],
+    Values=[["0.559"]])
+matlProp8.SetData(
+    Variables=["Poisson's Ratio XZ"],
+    Values=[["0.27"]])
+matlProp9 = matl4.CreateProperty(
+    Name="Ply Type",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp9.SetQualifier(
+    Qualifier="Type",
+    Value="Adhesive")
+matlProp10 = matl4.CreateProperty(
+    Name="Fabric Fiber Angle",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp10.SetData(
+    Index=-1,
+    Variables=["Fabric Fiber Angle"],
+    Values=[["45 [radian]"]])
+matlProp10.SetVariableProperty(
+    VariableName="Fabric Fiber Angle",
+    Property="Unit",
+    Value="degree")
+matlProp10.SetData(
+    Variables=["Fabric Fiber Angle"],
+    Values=[["2578.3100780887039 [degree]"]])
+matlProp10.SetData(
+    Variables=["Fabric Fiber Angle"],
+    Values=[["45 [degree]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+matl4.SetColor(
+    Red=234,
+    Green=117,
+    Blue=224)
+matl4.Description = "G10 Core"
+Save(Overwrite=True)
+Refresh()
+matl4.SetAsDefaultSolidForModel()
+matlProp8.SetVariableProperty(
+    VariableName="Shear Modulus XZ",
+    Property="Unit",
+    Value="GPa")
+matlProp8.SetData(
+    Variables=["Shear Modulus XZ"],
+    Values=[["7.8886090522101181E-31 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Shear Modulus XZ"],
+    Values=[["18.6 [GPa]"]])
+matlProp8.SetVariableProperty(
+    VariableName="Shear Modulus XY",
+    Property="Unit",
+    Value="GPa")
+matlProp8.SetData(
+    Variables=["Shear Modulus XY"],
+    Values=[["7.8886090522101181E-31 [GPa]"]])
+matlProp8.SetVariableProperty(
+    VariableName="Shear Modulus YZ",
+    Property="Unit",
+    Value="GPa")
+matlProp8.SetData(
+    Variables=["Shear Modulus YZ"],
+    Values=[["7.8886090522101181E-31 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Shear Modulus XY"],
+    Values=[["16.5 [GPa]"]])
+matlProp8.SetData(
+    Variables=["Shear Modulus YZ"],
+    Values=[["16.5 [GPa]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)
+matlProp8.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Orthotropic"},
+    Variables=["Temperature"],
+    Values=[["20 [C]"]])
+Save(Overwrite=True)
+Refresh()
+matl4.Unlink()
+Update()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+Save(Overwrite=True)
+template2 = GetTemplate(TemplateName="Material Designer")
+system2 = template2.CreateSystem(
+    Position="Left",
+    RelativeTo=system1)
+engineeringData2 = system2.GetContainer(ComponentName="Engineering Data")
+matl5 = engineeringData2.CreateMaterial(Name="G10")
+matl5.Delete()
+library5 = EngData.OpenLibrary(
+    Name="Fluid Materials",
+    Source="Fluid_Materials.xml")
+library6 = EngData.OpenLibrary(
+    Name="Geomechanical Materials",
+    Source="GeoMechanical_Materials.xml")
+library7 = EngData.OpenLibrary(
+    Name="General Non-linear Materials",
+    Source="General Materials Non-linear.xml")
+library8 = EngData.OpenLibrary(
+    Name="Explicit Materials",
+    Source="Explicit_Materials.xml")
+library9 = EngData.OpenLibrary(
+    Name="Hyperelastic Materials",
+    Source="Hyperelastic_Materials.xml")
+library10 = EngData.OpenLibrary(
+    Name="Magnetic B-H Curves",
+    Source="Magnetic_B-H_curves_Soft_Materials.xml")
+library11 = EngData.OpenLibrary(
+    Name="Thermal Materials",
+    Source="Thermal_Materials.xml")
+matl4.Unlink()
+materialPropertyData1 = matlProp8.GetPropertyData(
+    Name="Elasticity",
+    Qualifiers={"Definition": "", "Behavior": "Orthotropic"})
+materialPropertyData1.SetSuppression(Suppressed=True)
+materialPropertyData2 = matlProp9.GetPropertyData(
+    Name="Ply Type",
+    Qualifiers={"Definition": "", "Behavior": "", "Type": "Adhesive"})
+materialPropertyData2.SetSuppression(Suppressed=True)
+materialPropertyData1.SetSuppression(Suppressed=False)
+materialPropertyData1.SetSuppression(Suppressed=True)
+materialPropertyData2.SetSuppression(Suppressed=False)
+materialPropertyData1.SetSuppression(Suppressed=False)
+materialPropertyData2.SetSuppression(Suppressed=True)
+materialPropertyData2.SetSuppression(Suppressed=False)
+matlProp9.SetQualifier(
+    Qualifier="Type",
+    Value="Honeycomb Core")
+matlProp9.SetQualifier(
+    Qualifier="Type",
+    Value="Adhesive")
+materialPropertyData2.SetSuppression(Suppressed=True)
+materialPropertyData2.SetSuppression(Suppressed=False)
+materialPropertyData1.SetSuppression(Suppressed=True)
+materialPropertyData1.SetSuppression(Suppressed=False)
+Save(Overwrite=True)
+materialPropertyData3 = matlProp10.GetPropertyData(
+    Name="Fabric Fiber Angle",
+    Qualifiers={"Definition": "", "Behavior": ""})
+materialPropertyData3.SetSuppression(Suppressed=True)
+materialPropertyData3.SetSuppression(Suppressed=False)
+materialPropertyData1.SetSuppression(Suppressed=True)
+materialPropertyData1.SetSuppression(Suppressed=False)
+Save(Overwrite=True)
+materialVariable1 = materialPropertyData1.GetVariable(Name="Shear Modulus XY")
+parameter1 = Parameters.CreateParameter(
+    Entity=materialVariable1,
+    PropertyName="ParameterValue",
+    DisplayText="Module de cisaillement - XY")
+parameter1.ValueQuantityName = "Stress"
+materialVariable2 = materialPropertyData1.GetVariable(Name="Shear Modulus YZ")
+parameter2 = Parameters.CreateParameter(
+    Entity=materialVariable2,
+    PropertyName="ParameterValue",
+    DisplayText="Module de cisaillement - YZ")
+parameter2.ValueQuantityName = "Stress"
+materialVariable3 = materialPropertyData1.GetVariable(Name="Shear Modulus XZ")
+parameter3 = Parameters.CreateParameter(
+    Entity=materialVariable3,
+    PropertyName="ParameterValue",
+    DisplayText="Module de cisaillement - XZ")
+parameter3.ValueQuantityName = "Stress"
+parameter3.Disassociate(
+    Entity=materialVariable3,
+    PropertyName="ParameterValue")
+parameter3.Delete()
+parameter2.Disassociate(
+    Entity=materialVariable2,
+    PropertyName="ParameterValue")
+parameter2.Delete()
+parameter1.Disassociate(
+    Entity=materialVariable1,
+    PropertyName="ParameterValue")
+parameter1.Delete()
+materialVariable4 = materialPropertyData1.GetVariable(Name="Young's Modulus X direction")
+parameter4 = Parameters.CreateParameter(
+    Entity=materialVariable4,
+    PropertyName="ParameterValue",
+    DisplayText="Module de Young - Direction X")
+parameter4.ValueQuantityName = "Stress"
+parameter4.Disassociate(
+    Entity=materialVariable4,
+    PropertyName="ParameterValue")
+parameter4.Delete()
+matlProp11 = matl4.CreateProperty(
+    Name="Gent",
+    Qualifiers={"Definition": "", "Behavior": ""})
+materialPropertyData4 = matlProp11.GetPropertyData(
+    Name="Gent",
+    Qualifiers={"Definition": "", "Behavior": ""})
+materialPropertyData4.SetSuppression(Suppressed=True)
+materialPropertyData4.SetSuppression(Suppressed=False)
+matlProp11.Delete()
+materialPropertyData2.SetSuppression(Suppressed=True)
+materialPropertyData2.SetSuppression(Suppressed=False)
+materialPropertyData3.SetSuppression(Suppressed=True)
+materialPropertyData3.SetSuppression(Suppressed=False)
+materialPropertyData1.SetSuppression(Suppressed=True)
+Save(Overwrite=True)
+system2.Delete()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+modelComponent1.Update(AllDependencies=True)
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Refresh(
+    KeepACPOpen=True,
+    BatchMode=False)
+setup1.Refresh(
+    KeepACPOpen=True,
+    BatchMode=False)
+Update()
+Refresh()
+model1.Edit()
+template3 = GetTemplate(TemplateName="Mesh")
+system3 = template3.CreateSystem(
+    Position="Left",
+    RelativeTo=system1)
+geometryComponent1 = system3.GetComponent(Name="Geometry")
+geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system1)
+system3.Delete()
+modelComponent1.Update(AllDependencies=True)
+Update()
+Save(Overwrite=True)
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Clean()
+modelComponent1.Clean()
+Update()
+Save(Overwrite=True)

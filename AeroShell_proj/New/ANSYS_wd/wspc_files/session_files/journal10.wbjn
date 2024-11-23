@@ -1,0 +1,427 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="FFF")
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Edit()
+Save(Overwrite=True)
+mesh1.Exit()
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Update(AllDependencies=True)
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system1.GetContainer(ComponentName="Setup")
+fluentLauncherSettings1 = setup1.GetFluentLauncherSettings()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}, NumberOfProcessorsMeshing=10, NumberOfProcessors=10))
+setup1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='/file/set-tui-version "24.2"(cx-use-window-id 51)')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Preferences...")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Warning*OK")')
+setup1.SendCommand(Command="(%py-exec \"preferences.Appearance.ColorTheme.set_state(r'Dark')\")")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Preferences*PanelButtons*PushButton1(OK)")')
+setup1.SendCommand(Command='(cx-use-window-id 51)(cx-use-window-id 51)(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Boundary Conditions|Inlet|fata (velocity-inlet, id=6)"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Initialization"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Initialization"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Initialization"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Initialization"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command="(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Solution|Initialization\"))(cx-gui-do cx-set-list-selections \"Solution Initialization*Table1*DropDownList1(Compute from)\" '( 1))")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Solution Initialization*Table1*DropDownList1(Compute from)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Solution Initialization*Table1*Frame9*PushButton1(Initialize)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Solution Initialization*Table1*Frame9*PushButton2(Reset)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Solution Initialization*Table1*Frame9*PushButton1(Initialize)")(cx-gui-do cx-activate-item "Question*OK")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Run Calculation"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Run Calculation"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Run Calculation"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Run Calculation"))')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Run Calculation*Table1*Table1*Table1*PushButton1(Check Case)")(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 1)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 2)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 3)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 4)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 1)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 2)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 3)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 4)(cx-gui-do cx-activate-tab-index "Case Check*Table1*Frame1" 0)')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Information*OK")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Run Calculation*Table1*Table6(Solution Advancement)*Table1*PushButton1(Calculate)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Information*OK")(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Solution|Cell Registers""Solution|Automatic Mesh Adaption""Solution|Initialization""Solution|Calculation Activities""Solution|Run Calculation"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|tot_p"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Contours|tot_p"))(cx-gui-do cx-list-tree-right-click "NavigationPane*Frame2*Table1*List_Tree2" )')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*PopupMenuTree-tot_p*Display")')
+setup1.SendCommand(Command="(cx-use-window-id 52)(build-popup-menu)(cx-use-window-id 52)")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "ToolBar*Pointer*rotate")')
+setup1.SendCommand(Command="(cx-use-window-id 52)(cx-set-camera-relative '(-0.135536 -0.00763233 -0.418766) '(0 0 0) '(-0.171539 -0.123555 0.956631) 0 0)(cx-use-window-id 52)(cx-set-camera-relative '(0.132188 0.0494725 0.33947) '(0 0 0) '(0.510384 -0.800385 0.506191) 0 0)(cx-use-window-id 52)(cx-set-camera-relative '(0.0481892 -0.0297876 -0.014569) '(0 0 0) '(0.0441693 0.0195002 0.0105184) 0 0)(cx-use-window-id 52)(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Pathlines|pathlines-1\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Mesh\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Mesh\"))(cx-gui-do cx-list-tree-right-click \"NavigationPane*Frame2*Table1*List_Tree2\" )(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Pathlines|pathlines-1\"))(cx-gui-do cx-set-list-tree-selections \"NavigationPane*Frame2*Table1*List_Tree2\" (list \"Results|Graphics|Pathlines|pathlines-1\"))(cx-gui-do cx-list-tree-right-click \"NavigationPane*Frame2*Table1*List_Tree2\" )")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*PopupMenuTree-pathlines-1*Display")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Pathlines|pathlines-1"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Pathlines|pathlines-1"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Results|Graphics|Pathlines|pathlines-1"))')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Pathlines*PanelButtons*PushButton7(Pulse)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Pathlines*PanelButtons*PushButton7(Pulse)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "Pathlines*PanelButtons*PushButton2(Cancel)")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Simulation Reports|Report Outline"))')
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+results1.SendCommand(Command="> report showItem=/REPORT/SOLUTION SUMMARY OPTIONS")
+results1.SendCommand(Command="""DATA READER:
+  Clear All Objects = false
+  Append Results = true
+  Edit Case Names = false
+  Multi Configuration File Load Option = Last Case
+  Open in New View = true
+  Keep Camera Position = true
+  Load Particle Tracks = true
+  Multi Configuration File Load Option = Last Case
+  Construct Variables From Fourier Coefficients = true
+  Open to Compare = false
+  Files to Compare = 
+END
+
+DATA READER:
+Run Selection = \"Simulation/Run/cff-restart-dat\"
+END
+
+>load filename=C:/Mac/Home/Developer/MIT_Rkt_Team/MIT_Rkt_Aurora_Aero/MIT_Rkt_Aurora_Aero/AeroShell_proj/New/ANSYS_wd/wspc_files/dp0/FFF/Fluent/FFF.1-Setup-Output.cas.h5, force_reload=true""")
+results1.SendCommand(Command="""VIEW:View 1
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 0.04, 0, 0.00361991
+    Scale = 14.4012
+    Pan = 0, 0
+    Rotation Quaternion = 0.279848, -0.364705, -0.115917, 0.880476
+    
+  END
+
+END
+
+> update
+# Sending visibility action from ViewUtilities
+>show /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:wall aeroshell1.0_ansys_thiswillwork, view=/VIEW:View 1""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>show /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:out, view=/VIEW:View 1""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>hide /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:out, view=/VIEW:View 1""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>show /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:fata, view=/VIEW:View 1""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>hide /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:fata, view=/VIEW:View 1""")
+results1.SendCommand(Command="""VIEW:View 1
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 0.04, 0, 0.00361991
+    Scale = 14.4012
+    Pan = 0, 0
+    Rotation Quaternion = -0.473998, 0.292518, 0.450772, 0.697542
+    
+  END
+
+END
+
+> update
+# Sending visibility action from ViewUtilities
+>show /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:fata, view=/VIEW:View 1""")
+results1.SendCommand(Command="> autolegend plot=/DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:wall aeroshell1.0_ansys_thiswillwork, view=VIEW:View 1")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>hide /DATA READER/CASE:Case FFF.1 Setup Output.cas/BOUNDARY:fata, view=/VIEW:View 1""")
+results1.SendCommand(Command="""VIEW:View 1
+  Camera Mode = User Specified
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pivot Point = 0.04, 0, 0.00361991
+    Scale = 14.4012
+    Pan = 0, 0
+    Rotation Quaternion = -0.488958, 0.233903, 0.37929, 0.749901
+    
+  END
+
+END
+
+> update
+>report save, format=preview""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>hide /DEFAULT LEGEND:Default Legend View 1, view=/VIEW:View 1""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>show /DEFAULT LEGEND:Default Legend View 1, view=/VIEW:View 1""")
+results1.SendCommand(Command="> autolegend plot=/CONTOUR:Contour 1, view=VIEW:View 1")
+results1.SendCommand(Command="""CONTOUR:Contour 1
+Apply Instancing Transform = On
+Clip Contour = Off
+Colour Map = Default Colour Map
+Colour Scale = Linear
+Colour Variable = X
+Colour Variable Boundary Values = Conservative
+Constant Contour Colour = Off
+Contour Range = Global
+Culling Mode = No Culling
+Domain List = /DOMAIN GROUP:All Domains
+Draw Contours = On
+Font = Sans Serif
+Fringe Fill = On
+Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+Lighting = On
+Line Colour = 0, 0, 0
+Line Colour Mode = Default
+Line Width = 1
+Location List = fata
+Max = 0.0
+Min = 0.0
+Number of Contours = 11
+Show Numbers = Off
+Specular Lighting = On
+Surface Drawing = Smooth Shading
+Text Colour = 0, 0, 0
+Text Colour Mode = Default
+Text Height = 0.024
+Transparency = 0.0
+Use Face Values = Off
+Value List = 0,1
+  OBJECT VIEW TRANSFORM:
+  Apply Reflection = Off
+  Apply Rotation = Off
+  Apply Scale = Off
+  Apply Translation = Off
+  Principal Axis = Z
+  Reflection Plane Option = XY Plane
+  Rotation Angle = 0.0 [degree]
+  Rotation Axis From = 0 [m], 0 [m], 0 [m]
+  Rotation Axis To = 0 [m], 0 [m], 0 [m]
+  Rotation Axis Type = Principal Axis
+  Scale Vector = 1 , 1 , 1 
+  Translation Vector = 0 [m], 0 [m], 0 [m]
+  X = 0.0 [m]
+  Y = 0.0 [m]
+  Z = 0.0 [m]
+  END
+END""")
+results1.SendCommand(Command="""# Sending visibility action from ViewUtilities
+>show /CONTOUR:Contour 1, view=/VIEW:View 1""")
+results1.SendCommand(Command="""CONTOUR:Contour 1
+Apply Instancing Transform = On
+Clip Contour = Off
+Colour Map = Default Colour Map
+Colour Scale = Linear
+Colour Variable = X
+Colour Variable Boundary Values = Conservative
+Constant Contour Colour = Off
+Contour Range = Global
+Culling Mode = No Culling
+Domain List = /DOMAIN GROUP:All Domains
+Draw Contours = On
+Font = Sans Serif
+Fringe Fill = On
+Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+Lighting = On
+Line Colour = 0, 0, 0
+Line Colour Mode = Default
+Line Width = 1
+Location List = wall aeroshell1.0_ansys_thiswillwork
+Max = 0.0 [m]
+Min = 0.0 [m]
+Number of Contours = 11
+Show Numbers = Off
+Specular Lighting = On
+Surface Drawing = Smooth Shading
+Text Colour = 0, 0, 0
+Text Colour Mode = Default
+Text Height = 0.024
+Transparency = 0.0
+Use Face Values = Off
+Value List = 0 [m],1 [m]
+  OBJECT VIEW TRANSFORM:
+  Apply Reflection = Off
+  Apply Rotation = Off
+  Apply Scale = Off
+  Apply Translation = Off
+  Principal Axis = Z
+  Reflection Plane Option = XY Plane
+  Rotation Angle = 0.0 [degree]
+  Rotation Axis From = 0 [m], 0 [m], 0 [m]
+  Rotation Axis To = 0 [m], 0 [m], 0 [m]
+  Rotation Axis Type = Principal Axis
+  Scale Vector = 1 , 1 , 1 
+  Translation Vector = 0 [m], 0 [m], 0 [m]
+  X = 0.0 [m]
+  Y = 0.0 [m]
+  Z = 0.0 [m]
+  END
+END""")
+results1.SendCommand(Command="""CONTOUR:Contour 1
+Apply Instancing Transform = On
+Clip Contour = Off
+Colour Map = Default Colour Map
+Colour Scale = Linear
+Colour Variable = X
+Colour Variable Boundary Values = Conservative
+Constant Contour Colour = Off
+Contour Range = Global
+Culling Mode = No Culling
+Domain List = /DOMAIN GROUP:All Domains
+Draw Contours = On
+Font = Sans Serif
+Fringe Fill = On
+Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+Lighting = On
+Line Colour = 0, 0, 0
+Line Colour Mode = Default
+Line Width = 1
+Location List = wall aeroshell1.0_ansys_thiswillwork
+Max = 0.0 [m]
+Min = 0.0 [m]
+Number of Contours = 11
+Show Numbers = Off
+Specular Lighting = On
+Surface Drawing = Smooth Shading
+Text Colour = 0, 0, 0
+Text Colour Mode = Default
+Text Height = 0.024
+Transparency = 0.0
+Use Face Values = Off
+Value List = 0 [m],1 [m]
+  OBJECT VIEW TRANSFORM:
+  Apply Reflection = Off
+  Apply Rotation = Off
+  Apply Scale = Off
+  Apply Translation = Off
+  Principal Axis = Z
+  Reflection Plane Option = XY Plane
+  Rotation Angle = 0.0 [degree]
+  Rotation Axis From = 0 [m], 0 [m], 0 [m]
+  Rotation Axis To = 0 [m], 0 [m], 0 [m]
+  Rotation Axis Type = Principal Axis
+  Scale Vector = 1 , 1 , 1 
+  Translation Vector = 0 [m], 0 [m], 0 [m]
+  X = 0.0 [m]
+  Y = 0.0 [m]
+  Z = 0.0 [m]
+  END
+END""")
+system2 = GetSystem(Name="FFF 1")
+solution1 = system2.GetContainer(ComponentName="Solution")
+MonitorChart1 = solution1.CreateMonitorChart(
+    defaultlogbasey="LogBaseCommon",
+    Name="",
+    ChartType="Residual")
+Refresh()
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+solution2 = system1.GetContainer(ComponentName="Solution")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+solutionComponent1 = system1.GetComponent(Name="Solution")
+solutionComponent1.Update(AllDependencies=True)
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+setup1.SendCommand(Command='/file/set-tui-version "24.2"')
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Fluent.UpdateMonitorChart(
+    Container=solution2,
+    ChartName="")
+Save(Overwrite=True)

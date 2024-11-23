@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EngineeringData version="24.2.0.202" versiondate="2024. 05. 13. 17:34:00">
+  <Notes>
+  </Notes>
+  <Materials>
+    <MatML_Doc>
+      <Material DefaultSolidMaterial="True">
+        <BulkDetails>
+          <Name>G10</Name>
+          <Description>G10 Core</Description>
+          <PropertyData property="pr0">
+            <Data format="string">-</Data>
+            <Qualifier name="Localized Name">Couleur</Qualifier>
+            <ParameterValue parameter="pa0" format="float">
+              <Data>234</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Localized Name">Rouge</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" format="float">
+              <Data>117</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Localized Name">Vert</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa2" format="float">
+              <Data>224</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Localized Name">Bleu</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa3" format="string">
+              <Data>Appearance</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr1">
+            <Data format="string">-</Data>
+            <Qualifier name="Type">Adhesive</Qualifier>
+            <Qualifier name="Localized Name">Type de pli</Qualifier>
+          </PropertyData>
+          <PropertyData property="pr2">
+            <Data format="string">-</Data>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <Qualifier name="Localized Name">Angle de fabrique de fibre</Qualifier>
+            <ParameterValue parameter="pa4" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="Localized Name">Interpolation Options</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa5" format="float">
+              <Data>0.785398163397449</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Localized Name">Angle de fabrique de fibre</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" format="float">
+              <Data>7.88860905221012e-31</Data>
+              <Qualifier name="Variable Type">Independent</Qualifier>
+              <Qualifier name="Localized Name">Température</Qualifier>
+              <Qualifier name="Field Variable">Temperature</Qualifier>
+              <Qualifier name="Default Data">22</Qualifier>
+              <Qualifier name="Upper Limit">Program Controlled</Qualifier>
+              <Qualifier name="Lower Limit">Program Controlled</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa0">
+          <Name>Red</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa1">
+          <Name>Green</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa2">
+          <Name>Blue</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa3">
+          <Name>Material Property</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa4">
+          <Name>Options Variable</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa5">
+          <Name>Fabric Fiber Angle</Name>
+          <Units name="Angle">
+            <Unit>
+              <Name>radian</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa6">
+          <Name>Temperature</Name>
+          <Units name="Temperature">
+            <Unit>
+              <Name>C</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <PropertyDetails id="pr0">
+          <Unitless />
+          <Name>Color</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr1">
+          <Unitless />
+          <Name>Ply Type</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr2">
+          <Unitless />
+          <Name>Fabric Fiber Angle</Name>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+  <ANSYSWBTransferData>
+    <Materials>
+      <Material>
+        <Name>G10</Name>
+        <DataTransferID>83cea13a-ff86-4afa-9354-a1056d44e129</DataTransferID>
+        <PreviousTransferIDs>
+        </PreviousTransferIDs>
+      </Material>
+    </Materials>
+  </ANSYSWBTransferData>
+</EngineeringData>

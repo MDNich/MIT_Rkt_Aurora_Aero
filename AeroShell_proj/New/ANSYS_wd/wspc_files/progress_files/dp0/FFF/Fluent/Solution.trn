@@ -1,39 +1,45 @@
-Transcript Start Time:  12:05:17, 23 Oct 2024 Dél-amerikai nyugati téli ido 
-Current Directory: "C:\Users\mdn"
+Transcript Start Time:  10:46:26, 17 Nov 2024 Hora est. Pacífico, Sudamérica 
+Current Directory: "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd"
 
-Build Time: May 13 2024 11:24:49 EST 
-Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v242/fluent/ntbin/win64/fluent.exe
+Build Time: Aug 16 2024 11:46:31 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v242/fluent/ntbin/win64/fluent.exe
 
 -------------------------------------------------------------------------------
-ID    Hostname         Core  O.S.         PID    Vendor 
+ID    Hostname         Core   O.S.         PID    Vendor 
 -------------------------------------------------------------------------------
-n3    MARCDNICHITBF25  4/12  Windows-x64  5440   UNKNOWN
-n2    MARCDNICHITBF25  3/12  Windows-x64  2660   UNKNOWN
-n1    MARCDNICHITBF25  2/12  Windows-x64  11328  UNKNOWN
-n0*   MARCDNICHITBF25  1/12  Windows-x64  10808  UNKNOWN
-host  MARCDNICHITBF25        Windows-x64  8056   UNKNOWN
+n9    MARCDNICHITBF25  10/12  Windows-x64  380    UNKNOWN
+n8    MARCDNICHITBF25  9/12   Windows-x64  19024  UNKNOWN
+n7    MARCDNICHITBF25  8/12   Windows-x64  26304  UNKNOWN
+n6    MARCDNICHITBF25  7/12   Windows-x64  24768  UNKNOWN
+n5    MARCDNICHITBF25  6/12   Windows-x64  11484  UNKNOWN
+n4    MARCDNICHITBF25  5/12   Windows-x64  2196   UNKNOWN
+n3    MARCDNICHITBF25  4/12   Windows-x64  14600  UNKNOWN
+n2    MARCDNICHITBF25  3/12   Windows-x64  3084   UNKNOWN
+n1    MARCDNICHITBF25  2/12   Windows-x64  26048  UNKNOWN
+n0*   MARCDNICHITBF25  1/12   Windows-x64  3832   UNKNOWN
+host  MARCDNICHITBF25         Windows-x64  9252   UNKNOWN
 
 MPI Option Selected: intel
 Selected system interconnect: default
 -------------------------------------------------------------------------------
 
-Cortex Process ID: 13248 
-License Server Path: () 
-Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v242\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
+Cortex Process ID: 12844 
+License Server Path: 1055@MARCDNICHITBF25 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v242\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
 Done.
 Multicore processors detected. Processor affinity set!
-Reading setting file in cache: "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.set"
+Reading setting file in cache: "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.1.set"
 
-Reading from MARCDNICHITBF25:"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF-Setup-Output.cas.h5" in NODE0 mode ...
+Reading from MARCDNICHITBF25:"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\FFF.1-Setup-Output.cas.h5" in NODE0 mode ...
   Reading mesh ...
-      418755 cells,     1 cell zone  ...
-         418755 tetrahedral cells,  zone id: 3
-      854773 faces,     4 face zones ...
-          11898 triangular wall faces,  zone id: 1
-         820247 triangular interior faces,  zone id: 2
-           3115 triangular velocity-inlet faces,  zone id: 6
-          19513 triangular pressure-outlet faces,  zone id: 7
-       78719 nodes,     1 node zone  ...
+      893119 cells,     1 cell zone  ...
+         893119 tetrahedral cells,  zone id: 3
+     1823682 faces,     4 face zones ...
+          23902 triangular wall faces,  zone id: 1
+           6853 triangular velocity-inlet faces,  zone id: 6
+          44133 triangular pressure-outlet faces,  zone id: 7
+        1748794 triangular interior faces,  zone id: 21
+      168141 nodes,     1 node zone  ...
   Done.
 
 
@@ -41,30 +47,276 @@ Reading from MARCDNICHITBF25:"Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_
 Building...
      mesh
 	distributing mesh
-		parts....,
-		faces....,
-		nodes....,
-		cells....,
-        bandwidth reduction using Reverse Cuthill-McKee: 104621/3065 = 34.1341
+		parts..........,
+		faces..........,
+		nodes..........,
+		cells..........,
+        bandwidth reduction using Reverse Cuthill-McKee: 89264/2388 = 37.3802
      materials,
      interface,
      domains,
 	mixture
      zones,
 	out
-	interior-aeroshell1.0_ansys_thiswillwork
 	wall-aeroshell1.0_ansys_thiswillwork
+	interior-1
 	fata
 	aeroshell1.0_ansys_thiswillworkSetting aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
  Setting zone id of aeroshell1.0_ansys_thiswillwork to 3.
  Setting zone id of fata to 6.
+ Setting zone id of interior-1 to 21.
  Setting zone id of wall-aeroshell1.0_ansys_thiswillwork to 1.
- Setting zone id of interior-aeroshell1.0_ansys_thiswillwork to 2.
  Setting zone id of out to 7.
 Done.
 Setting aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
 Setting fata (mixture) ... Done.
+Setting interior-1 (mixture) ... Done.
 Setting wall-aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
-Setting interior-aeroshell1.0_ansys_thiswillwork (mixture) ... Done.
 Setting out (mixture) ... Done.
 
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+Reading Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\Fluent\\FFF.1.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	z-coord
+	pressure
+	x-velocity
+	y-velocity
+	z-velocity
+	k
+	omega
+  Done.
+  Initializing values...
+  Done.
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\dyn_p_avg-rfile.out"  of Report File "dyn_p_avg-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\stat_p_avg-rfile.out"  of Report File "stat_p_avg-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\tot_p_avg-rfile.out"  of Report File "tot_p_avg-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_z-rfile.out"  of Report File "force_z-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_y-rfile.out"  of Report File "force_y-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_x-rfile.out"  of Report File "force_x-rfile"
+Overwriting "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\report-def-0-rfile.out"  of Report File "report-def-0-rfile"
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+
+ Reversed flow on 14267 faces (32.4% area) of pressure-outlet 7.
+     1  1.0000e+00  1.6635e-04  1.1493e-04  9.8009e-05  1.0916e-02  2.6539e-02  0:01:38   49
+
+ Reversed flow on 14649 faces (33.2% area) of pressure-outlet 7.
+     2  1.0000e+00  1.6007e-04  1.0796e-04  1.0018e-04  9.1894e-03  2.0652e-02  0:01:36   48
+
+ Reversed flow on 14810 faces (33.8% area) of pressure-outlet 7.
+     3  9.6034e-01  1.4078e-04  8.8601e-05  8.0465e-05  8.9470e-03  1.9054e-02  0:01:25   47
+
+ Reversed flow on 15354 faces (35.0% area) of pressure-outlet 7.
+     4  8.9630e-01  1.3777e-04  8.2163e-05  7.4084e-05  8.9528e-03  1.7388e-02  0:01:25   46
+
+ Reversed flow on 14876 faces (33.9% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+     5  8.8802e-01  1.3359e-04  7.9554e-05  7.2215e-05  8.8811e-03  1.7734e-02  0:01:33   45
+
+ Reversed flow on 14857 faces (33.8% area) of pressure-outlet 7.
+     6  8.6528e-01  1.3229e-04  7.8127e-05  7.0782e-05  8.7490e-03  1.7468e-02  0:01:22   44
+
+ Reversed flow on 14696 faces (33.4% area) of pressure-outlet 7.
+     7  8.6901e-01  1.3108e-04  7.5793e-05  6.9851e-05  8.8641e-03  1.7629e-02  0:01:21   43
+
+ Reversed flow on 14785 faces (33.6% area) of pressure-outlet 7.
+     8  8.5728e-01  1.3195e-04  7.5905e-05  6.9715e-05  9.1230e-03  1.7884e-02  0:01:20   42
+
+ Reversed flow on 14477 faces (33.1% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+     9  8.6024e-01  1.3309e-04  7.4603e-05  6.9326e-05  9.4710e-03  1.8674e-02  0:01:27   41
+
+ Reversed flow on 14514 faces (33.2% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    10  8.6241e-01  1.3429e-04  7.5045e-05  7.0569e-05  9.5545e-03  1.8916e-02  0:01:24   40
+
+ Reversed flow on 14801 faces (33.8% area) of pressure-outlet 7.
+    11  8.6047e-01  1.3368e-04  7.4889e-05  7.0491e-05  9.3493e-03  1.8176e-02  0:01:21   39
+
+ Reversed flow on 14881 faces (33.9% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+    12  8.5494e-01  1.3314e-04  7.4706e-05  6.9218e-05  9.1783e-03  1.7355e-02  0:01:26   38
+
+ Reversed flow on 14859 faces (33.8% area) of pressure-outlet 7.
+    13  8.6474e-01  1.3390e-04  7.6365e-05  6.8923e-05  9.2297e-03  1.8452e-02  0:01:22   37
+
+ Reversed flow on 14830 faces (33.7% area) of pressure-outlet 7.
+    14  8.7226e-01  1.3354e-04  7.6364e-05  6.8575e-05  9.3302e-03  2.0259e-02  0:01:11   36
+
+ Reversed flow on 15119 faces (34.6% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    15  8.7822e-01  1.3434e-04  7.6671e-05  6.9343e-05  9.5345e-03  2.0953e-02  0:01:23   35
+
+ Reversed flow on 15040 faces (34.3% area) of pressure-outlet 7.
+    16  8.8116e-01  1.3592e-04  7.7453e-05  6.9981e-05  9.4371e-03  1.9585e-02  0:01:18   34
+
+ Reversed flow on 15077 faces (34.3% area) of pressure-outlet 7.
+    17  8.6601e-01  1.3562e-04  7.7334e-05  6.9840e-05  9.4153e-03  2.0257e-02  0:01:07   33
+
+ Reversed flow on 14989 faces (34.1% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    18  8.6291e-01  1.3508e-04  7.6845e-05  7.0288e-05  9.4794e-03  2.0193e-02  0:01:18   32
+
+ Reversed flow on 14994 faces (34.1% area) of pressure-outlet 7.
+    19  8.6315e-01  1.3605e-04  7.7660e-05  7.1311e-05  9.3055e-03  1.9787e-02  0:01:13   31
+
+ Reversed flow on 14900 faces (33.9% area) of pressure-outlet 7.
+    20  8.6674e-01  1.3599e-04  7.6642e-05  7.0443e-05  9.2386e-03  2.0567e-02  0:01:02   30
+
+ Reversed flow on 15090 faces (34.3% area) of pressure-outlet 7.
+    21  8.6677e-01  1.3545e-04  7.7016e-05  6.9667e-05  9.3250e-03  2.1160e-02  0:01:00   29
+
+ Reversed flow on 15229 faces (34.7% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    22  8.6358e-01  1.3747e-04  7.8136e-05  7.0157e-05  9.3420e-03  2.1194e-02  0:01:20   28
+
+ Reversed flow on 15120 faces (34.3% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+    23  8.7284e-01  1.3935e-04  7.8439e-05  7.0616e-05  9.0841e-03  1.9723e-02  0:01:23   27
+
+ Reversed flow on 14690 faces (33.4% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    24  8.5566e-01  1.3740e-04  7.7467e-05  7.0492e-05  9.1361e-03  1.9600e-02  0:01:25   26
+
+ Reversed flow on 14865 faces (33.7% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    25  8.4582e-01  1.3591e-04  7.7490e-05  7.0427e-05  9.0441e-03  1.8548e-02  0:01:20   25
+
+ Reversed flow on 14920 faces (33.9% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    26  8.4126e-01  1.3435e-04  7.7588e-05  6.9573e-05  9.3777e-03  1.9855e-02  0:01:26   24
+
+ Reversed flow on 15170 faces (34.6% area) of pressure-outlet 7.
+    27  8.6580e-01  1.3798e-04  8.0398e-05  7.2192e-05  9.2915e-03  1.9640e-02  0:01:19   23
+
+ Reversed flow on 15207 faces (34.6% area) of pressure-outlet 7.
+    28  8.6285e-01  1.3693e-04  7.8297e-05  7.1473e-05  9.2443e-03  1.9920e-02  0:01:14   22
+
+ Reversed flow on 15309 faces (34.8% area) of pressure-outlet 7.
+    29  8.4641e-01  1.3559e-04  7.8435e-05  7.1114e-05  9.2502e-03  1.9676e-02  0:01:09   21
+
+ Reversed flow on 15150 faces (34.4% area) of pressure-outlet 7.
+    30  8.3511e-01  1.3669e-04  7.9778e-05  7.1359e-05  9.3190e-03  1.9396e-02  0:01:05   20
+
+ Reversed flow on 14819 faces (33.4% area) of pressure-outlet 7.
+    31  8.4974e-01  1.3696e-04  8.0237e-05  7.1321e-05  9.2349e-03  1.9988e-02  0:01:01   19
+
+ Reversed flow on 14966 faces (33.8% area) of pressure-outlet 7.
+    32  8.5392e-01  1.3784e-04  8.0062e-05  7.2237e-05  9.0553e-03  2.0180e-02  0:00:57   18
+
+ Reversed flow on 14676 faces (33.2% area) of pressure-outlet 7.
+    33  8.4886e-01  1.3802e-04  7.9060e-05  7.1683e-05  8.9927e-03  1.9805e-02  0:00:53   17
+
+ Reversed flow on 14382 faces (32.7% area) of pressure-outlet 7.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+    34  8.5845e-01  1.3931e-04  7.8444e-05  7.1373e-05  8.8585e-03  1.9857e-02  0:00:56   16
+
+ Reversed flow on 14289 faces (32.5% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+    35  8.5932e-01  1.3795e-04  7.8026e-05  7.1260e-05  8.7166e-03  1.9637e-02  0:00:57   15
+
+ Reversed flow on 14468 faces (32.9% area) of pressure-outlet 7.
+    36  8.5725e-01  1.3620e-04  7.6443e-05  7.0831e-05  8.5966e-03  1.9550e-02  0:00:51   14
+
+ Reversed flow on 14731 faces (33.4% area) of pressure-outlet 7.
+    37  8.5432e-01  1.3492e-04  7.5887e-05  6.9326e-05  8.5751e-03  1.9861e-02  0:00:46   13
+
+ Reversed flow on 14802 faces (33.6% area) of pressure-outlet 7.
+        Stabilizing pressure coupled to enhance linear solver robustness.
+
+ turbulent viscosity limited to viscosity ratio of 1.000000e+05 in 106 cells 
+    38  8.5377e-01  1.3357e-04  7.5274e-05  6.8801e-05  5.4054e-01  1.0933e+02  0:00:46   12
+
+ Reversed flow on 14422 faces (32.7% area) of pressure-outlet 7.
+
+ turbulent viscosity limited to viscosity ratio of 1.000000e+05 in 1 cells 
+    39  6.9149e+00  8.5206e-03  8.7955e-03  8.7143e-03  8.6735e-01  4.9971e-01  0:00:38   11
+
+ Reversed flow on 8574 faces (19.5% area) of pressure-outlet 7.
+    40  6.0454e+00  7.2223e-03  8.0975e-03  7.8115e-03  6.1184e-01  4.3112e-01  0:00:36   10
+
+ Reversed flow on 7524 faces (17.0% area) of pressure-outlet 7.
+    41  1.0841e+01  3.0367e-03  4.7554e-03  3.5364e-03  5.9657e-01  3.9915e-01  0:00:31    9
+
+ Reversed flow on 10003 faces (22.5% area) of pressure-outlet 7.
+    42  1.3429e+01  1.6157e-03  3.4321e-03  2.0060e-03  5.8175e-01  3.9869e-01  0:00:28    8
+
+ Reversed flow on 10275 faces (23.0% area) of pressure-outlet 7.
+    43  1.5099e+01  1.3267e-03  2.9897e-03  1.7809e-03  4.1448e-01  4.1564e-01  0:00:24    7
+
+ Reversed flow on 11115 faces (25.1% area) of pressure-outlet 7.
+    44  1.8009e+01  1.4479e-03  2.9233e-03  1.8998e-03  2.4489e-01  4.3758e-01  0:00:20    6
+
+ Reversed flow on 13301 faces (30.2% area) of pressure-outlet 7.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+    45  2.0443e+01  1.9081e-03  3.7003e-03  2.4811e-03  1.3400e-01  4.4408e-01  0:00:16    5
+
+ Reversed flow on 13970 faces (31.8% area) of pressure-outlet 7.
+    46  2.0009e+01  2.0334e-03  3.4776e-03  2.3415e-03  1.2465e-01  4.5333e-01  0:00:13    4
+
+ Reversed flow on 14837 faces (33.7% area) of pressure-outlet 7.
+    47  1.9140e+01  1.5820e-03  2.6273e-03  2.2192e-03  2.2933e-01  3.8300e-01  0:00:10    3
+
+ Reversed flow on 13974 faces (31.9% area) of pressure-outlet 7.
+    48  1.6813e+01  1.6273e-03  2.5684e-03  2.0910e-03  2.5949e-01  2.9343e-01  0:00:06    2
+
+ Reversed flow on 15215 faces (34.6% area) of pressure-outlet 7.
+    49  1.3922e+01  1.1631e-03  1.9885e-03  1.4224e-03  1.9016e-01  2.8193e-01  0:00:03    1
+
+ Reversed flow on 16124 faces (36.5% area) of pressure-outlet 7.
+    50  1.1462e+01  8.1615e-04  1.5430e-03  9.3525e-04  1.2085e-01  2.9780e-01  0:00:00    0
+Registering ReportDefFiles, ("Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\report-def-0-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_x-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_y-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\force_z-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\tot_p_avg-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\stat_p_avg-rfile.out" "Z:\Developer\MIT_Rkt_Team\MIT_Rkt_Aurora_Aero\MIT_Rkt_Aurora_Aero\AeroShell_proj\New\ANSYS_wd\wspc_files\dp0\FFF\Fluent\.\\dyn_p_avg-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\mdn\\AppData\\Local\\Temp\\flntgz-92522 ...
+Done.
+
+
+number tracked = 6853, escaped = 6845, incomplete = 8
+Writing data to Z:\\Developer\\MIT_Rkt_Team\\MIT_Rkt_Aurora_Aero\\MIT_Rkt_Aurora_Aero\\AeroShell_proj\\New\\ANSYS_wd\\wspc_files\\dp0\\FFF\\Fluent\\FFF.1.ip ...
+	x-coord
+	y-coord
+	z-coord
+	pressure
+	x-velocity
+	y-velocity
+	z-velocity
+	k
+	omega
+Done.
+
+Performance Timer for 50 iterations on 10 compute nodes
+  Average wall-clock time per iteration:                2.636 sec
+  Global reductions per iteration:                        126 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                          72066 messages
+  Data transfer per iteration:                         56.356 MB
+  LE solves per iteration:                                  4 solves
+  LE wall-clock time per iteration:                     1.242 sec (47.1%)
+  LE global solves per iteration:                           8 solves
+  LE global wall-clock time per iteration:              0.010 sec (0.4%)
+  LE global matrix maximum size:                           79
+  AMG cycles per iteration:                             8.340 cycles
+  Relaxation sweeps per iteration:                       2466 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.160 times
+  LE early protections (divergence) per iteration:      0.040 times
+  Total SVARS touched:                                    385
+
+  Total wall-clock time:                              131.785 sec
+
+Transcript Stop Time:  10:49:39, 17 Nov 2024 Hora est. Pacífico, Sudamérica 
+Total Transcript Time: 3 Minute 13 Second.
