@@ -1,0 +1,16 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+template1 = GetTemplate(TemplateName="External Model")
+system1 = GetSystem(Name="ACP-Pre")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system2.Delete()
+template2 = GetTemplate(TemplateName="Geometry")
+system3 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system3.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
