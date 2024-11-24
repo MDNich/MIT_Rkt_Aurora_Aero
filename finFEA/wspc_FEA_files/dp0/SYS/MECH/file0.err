@@ -1,0 +1,66 @@
+/COM,ANSYS RELEASE 2024 R2           BUILD 24.2      UP20240603       16:59:30
+
+ *** WARNING ***                         CP =       0.891   TIME= 16:59:31
+ Using 1 iteration per substep may result in unconverged solutions for   
+ nonlinear analysis and the program may not indicate divergence in this  
+ case.  Check your results.                                              
+
+ *** WARNING ***                         CP =       1.219   TIME= 16:59:31
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       1.219   TIME= 16:59:31
+ One or more single layer Shell elements (such as element 1) reference   
+ section 3, which defines a different material (2) than the attribute    
+ of the element (1).                                                     
+
+ *** WARNING ***                         CP =       1.656   TIME= 16:59:31
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       3.547   TIME= 16:59:32
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       4.969   TIME= 16:59:33
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       6.266   TIME= 16:59:33
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       7.516   TIME= 16:59:34
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       8.766   TIME= 16:59:34
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      10.125   TIME= 16:59:35
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      11.391   TIME= 16:59:36
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      12.750   TIME= 16:59:36
+ Material number 6 (used by element 6069) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** ERROR ***                           CP =      13.625   TIME= 16:59:36
+ The value of UZ at node 2 is 1000007.83.  It is greater than the        
+ current limit of 1000000 (which can be reset on the NCNV command).      
+ This generally indicates rigid body motion as a result of an            
+ unconstrained model.  Verify that your model is properly constrained.   
