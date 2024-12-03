@@ -29,17 +29,17 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction X</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa3" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>23000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction Y</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa6" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>23000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction Z</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>0.2</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de Poisson - XY</Qualifier>
@@ -59,12 +59,12 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - XY</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>8214285714</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - YZ</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa20" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>9000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - XZ</Qualifier>
@@ -82,19 +82,19 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa4" format="float">
               <Data>1800</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Masse volumique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr2">
+          <PropertyData property="pr3">
             <Data format="string">-</Data>
             <Qualifier name="guid">b0de5d7d-a9d8-49df-9d28-1e9d94012398</Qualifier>
             <Qualifier name="Localized Name">Material Unique Id</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr3">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Couleur</Qualifier>
             <ParameterValue parameter="pa14" format="float">
@@ -102,17 +102,17 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Rouge</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>181</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Vert</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>143</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Bleu</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
@@ -144,17 +144,17 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa4" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>0.22</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de Poisson</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa5" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>43452380952.381</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Compression</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>29918032786.8852</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement</Qualifier>
@@ -172,19 +172,19 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa4" format="float">
               <Data>2600</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Masse volumique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr2">
+          <PropertyData property="pr3">
             <Data format="string">-</Data>
             <Qualifier name="guid">22e77deb-812b-4134-bd6f-6d20c4c18f19</Qualifier>
             <Qualifier name="Localized Name">Material Unique Id</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr3">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Couleur</Qualifier>
             <ParameterValue parameter="pa14" format="float">
@@ -192,21 +192,21 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Rouge</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Vert</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Bleu</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -220,7 +220,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>5e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de dilatation thermique</Qualifier>
@@ -237,7 +237,7 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Température de référence de déformation thermique zéro</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
@@ -260,7 +260,7 @@
               <Qualifier name="Localized Name">Conductivité thermique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -274,7 +274,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa23" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>802</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Chaleur spécifique</Qualifier>
@@ -303,22 +303,22 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa7" format="float">
+            <ParameterValue parameter="pa3" format="float">
               <Data>18600000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa4" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>0.27</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de Poisson</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa5" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>13478260869.5652</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Compression</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>7322834645.66929</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement</Qualifier>
@@ -336,19 +336,19 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa4" format="float">
               <Data>2600</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Masse volumique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr2">
+          <PropertyData property="pr3">
             <Data format="string">-</Data>
             <Qualifier name="guid">b3e4d276-dfef-4ee5-a721-dd4430f961bf</Qualifier>
             <Qualifier name="Localized Name">Material Unique Id</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr3">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Couleur</Qualifier>
             <ParameterValue parameter="pa14" format="float">
@@ -356,21 +356,21 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Rouge</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Vert</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Bleu</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -384,7 +384,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>5e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de dilatation thermique</Qualifier>
@@ -401,7 +401,7 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Température de référence de déformation thermique zéro</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
@@ -424,7 +424,7 @@
               <Qualifier name="Localized Name">Conductivité thermique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -438,7 +438,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa23" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>802</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Chaleur spécifique</Qualifier>
@@ -465,13 +465,13 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa4" format="float">
               <Data>1451</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Masse volumique</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr2">
             <Data format="string">-</Data>
             <Qualifier name="source">ACP</Qualifier>
             <Qualifier name="Type">Woven</Qualifier>
@@ -495,17 +495,17 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction X</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa3" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>59160000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction Y</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa6" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>7500000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de Young - Direction Z</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>0.04</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient de Poisson - XY</Qualifier>
@@ -525,18 +525,18 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - XY</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>2700000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - YZ</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa20" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>2700000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Module de cisaillement - XZ</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -549,32 +549,32 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa23" format="float">
               <Data>0.0092</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction X en traction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
+            <ParameterValue parameter="pa24" format="float">
               <Data>0.0092</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction Y en traction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa26" format="float">
+            <ParameterValue parameter="pa25" format="float">
               <Data>0.0078</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction Z en traction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa27" format="float">
+            <ParameterValue parameter="pa26" format="float">
               <Data>-0.0084</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction X en compression</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa28" format="float">
+            <ParameterValue parameter="pa27" format="float">
               <Data>-0.0084</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction Y en compression</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa28" format="float">
               <Data>-0.011</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Direction Z en compression</Qualifier>
@@ -654,7 +654,7 @@
               <Qualifier name="Localized Name">Cisaillement XZ</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
@@ -694,7 +694,7 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Température de référence de déformation thermique zéro</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
@@ -722,13 +722,13 @@
               <Qualifier name="Localized Name">Température</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr2">
+          <PropertyData property="pr3">
             <Data format="string">-</Data>
             <Qualifier name="guid">7ab9c060-4547-4561-aab3-d3fd3c4952ed</Qualifier>
             <Qualifier name="Localized Name">Material Unique Id</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr3">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Couleur</Qualifier>
             <ParameterValue parameter="pa14" format="float">
@@ -736,17 +736,17 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Rouge</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Vert</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Bleu</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="string">
+            <ParameterValue parameter="pa18" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
@@ -765,7 +765,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa3">
+        <ParameterDetails id="pa5">
           <Name>Young's Modulus Y direction</Name>
           <Units name="Stress">
             <Unit>
@@ -773,7 +773,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa6">
+        <ParameterDetails id="pa8">
           <Name>Young's Modulus Z direction</Name>
           <Units name="Stress">
             <Unit>
@@ -781,7 +781,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa10">
+        <ParameterDetails id="pa9">
           <Name>Poisson's Ratio XY</Name>
           <Unitless />
         </ParameterDetails>
@@ -801,7 +801,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa18">
+        <ParameterDetails id="pa15">
           <Name>Shear Modulus YZ</Name>
           <Units name="Stress">
             <Unit>
@@ -809,7 +809,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa20">
+        <ParameterDetails id="pa19">
           <Name>Shear Modulus XZ</Name>
           <Units name="Stress">
             <Unit>
@@ -825,47 +825,15 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa4">
+        <ParameterDetails id="pa6">
           <Name>Poisson's Ratio</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa5">
+        <ParameterDetails id="pa7">
           <Name>Bulk Modulus</Name>
           <Units name="Stress">
             <Unit>
               <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa8">
-          <Name>Shear Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa14">
-          <Name>Red</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa15">
-          <Name>Green</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa16">
-          <Name>Blue</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa17">
-          <Name>Material Property</Name>
-          <Unitless />
-        </ParameterDetails>
-        <ParameterDetails id="pa19">
-          <Name>Coefficient of Thermal Expansion</Name>
-          <Units name="InvTemp1">
-            <Unit power="-1">
-              <Name>C</Name>
             </Unit>
           </Units>
         </ParameterDetails>
@@ -891,7 +859,47 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa23">
+        <ParameterDetails id="pa3">
+          <Name>Young's Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa10">
+          <Name>Shear Modulus</Name>
+          <Units name="Stress">
+            <Unit>
+              <Name>Pa</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa14">
+          <Name>Red</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa16">
+          <Name>Green</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa17">
+          <Name>Blue</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa18">
+          <Name>Material Property</Name>
+          <Unitless />
+        </ParameterDetails>
+        <ParameterDetails id="pa20">
+          <Name>Coefficient of Thermal Expansion</Name>
+          <Units name="InvTemp1">
+            <Unit power="-1">
+              <Name>C</Name>
+            </Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa29">
           <Name>Specific Heat</Name>
           <Units name="Specific Heat Capacity">
             <Unit>
@@ -905,15 +913,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa7">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress">
-            <Unit>
-              <Name>Pa</Name>
-            </Unit>
-          </Units>
-        </ParameterDetails>
-        <ParameterDetails id="pa9">
+        <ParameterDetails id="pa4">
           <Name>Density</Name>
           <Units name="Density">
             <Unit>
@@ -924,27 +924,27 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa24">
+        <ParameterDetails id="pa23">
           <Name>Tensile X direction</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa25">
+        <ParameterDetails id="pa24">
           <Name>Tensile Y direction</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa26">
+        <ParameterDetails id="pa25">
           <Name>Tensile Z direction</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa27">
+        <ParameterDetails id="pa26">
           <Name>Compressive X direction</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa28">
+        <ParameterDetails id="pa27">
           <Name>Compressive Y direction</Name>
           <Unitless />
         </ParameterDetails>
-        <ParameterDetails id="pa29">
+        <ParameterDetails id="pa28">
           <Name>Compressive Z direction</Name>
           <Unitless />
         </ParameterDetails>
@@ -1086,19 +1086,19 @@
         </PropertyDetails>
         <PropertyDetails id="pr2">
           <Unitless />
-          <Name>Material Unique Id</Name>
+          <Name>Ply Type</Name>
         </PropertyDetails>
         <PropertyDetails id="pr3">
           <Unitless />
-          <Name>Color</Name>
+          <Name>Material Unique Id</Name>
         </PropertyDetails>
         <PropertyDetails id="pr4">
           <Unitless />
-          <Name>Coefficient of Thermal Expansion</Name>
+          <Name>Color</Name>
         </PropertyDetails>
         <PropertyDetails id="pr5">
           <Unitless />
-          <Name>Ply Type</Name>
+          <Name>Coefficient of Thermal Expansion</Name>
         </PropertyDetails>
         <PropertyDetails id="pr6">
           <Unitless />
@@ -1110,11 +1110,11 @@
         </PropertyDetails>
         <PropertyDetails id="pr8">
           <Unitless />
-          <Name>Specific Heat</Name>
+          <Name>Strain Limits</Name>
         </PropertyDetails>
         <PropertyDetails id="pr9">
           <Unitless />
-          <Name>Strain Limits</Name>
+          <Name>Specific Heat</Name>
         </PropertyDetails>
         <PropertyDetails id="pr10">
           <Unitless />
@@ -1131,27 +1131,23 @@
     <Materials>
       <Material>
         <Name>Carbon Fiber (230 GPa)</Name>
-        <DataTransferID>95635c89-1695-4dfd-beec-228bdf050de1</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <DataTransferID>e6849d0c-32b8-42b0-a553-2d41f18bcd9a</DataTransferID>
+        <PreviousTransferIDs>95635c89-1695-4dfd-beec-228bdf050de1,,</PreviousTransferIDs>
       </Material>
       <Material>
         <Name>E-Glass</Name>
-        <DataTransferID>d87e6256-95ff-4077-a562-0c6f26d8b000</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <DataTransferID>bd30dd8d-80f4-41be-a093-172027c1a4b7</DataTransferID>
+        <PreviousTransferIDs>d87e6256-95ff-4077-a562-0c6f26d8b000,,</PreviousTransferIDs>
       </Material>
       <Material>
         <Name>E-Glass (G10)</Name>
-        <DataTransferID>98042f16-75a4-4d12-98d6-cd9019099489</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <DataTransferID>34d5b1ff-82bc-4ced-9be4-b113e8ce239a</DataTransferID>
+        <PreviousTransferIDs>98042f16-75a4-4d12-98d6-cd9019099489,,</PreviousTransferIDs>
       </Material>
       <Material>
         <Name>Époxy Carbone Tissé (230 GPa) humide</Name>
-        <DataTransferID>8640dc5c-2458-452f-9640-f956195280f7</DataTransferID>
-        <PreviousTransferIDs>
-        </PreviousTransferIDs>
+        <DataTransferID>be2111c1-3c86-4c5e-bf29-965c9918ab26</DataTransferID>
+        <PreviousTransferIDs>8640dc5c-2458-452f-9640-f956195280f7,,</PreviousTransferIDs>
       </Material>
     </Materials>
   </ANSYSWBTransferData>
