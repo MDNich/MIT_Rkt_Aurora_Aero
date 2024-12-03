@@ -1,0 +1,17 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="ACP-Pre")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="E-Glass (G10)")
+material1.Unlink()
+Save(Overwrite=True)
+material2 = engineeringData1.GetMaterial(Name="Époxy Carbone Tissé (230 GPa) humide")
+material2.Unlink()
+material3 = engineeringData1.GetMaterial(Name="E-Glass")
+material3.Unlink()
+material4 = engineeringData1.GetMaterial(Name="Carbon Fiber (230 GPa)")
+material4.Unlink()
+Save(Overwrite=True)
+material1.Unlink()
+material2.Delete()
