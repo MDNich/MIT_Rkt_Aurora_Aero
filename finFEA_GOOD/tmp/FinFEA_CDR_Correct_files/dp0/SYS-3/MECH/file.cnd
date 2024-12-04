@@ -1,0 +1,80 @@
+<SOLUTION>
+<HEADER FRQ="ITERATION">
+ <COLUMN ID="    1">Contact Pair ID</COLUMN>
+ <COLUMN ID="    2">Number of Contact Elements in Contact</COLUMN>
+ <COLUMN ID="    3">Number of Contact Elements in Contact (Sticking)</COLUMN>
+ <COLUMN ID="    4">Max. Chattering Level</COLUMN>
+ <COLUMN ID="    5">Max. Penetration/Min. Gap</COLUMN>
+ <COLUMN ID="    6">Max. Geometric Gap</COLUMN>
+ <COLUMN ID="    7">Max. Normal Stiffness</COLUMN>
+ <COLUMN ID="    8">Min. Normal Stiffness</COLUMN>
+ <COLUMN ID="    9">Max. Resulting Pinball</COLUMN>
+ <COLUMN ID="   10">Max. Elastic Slip Distance</COLUMN>
+ <COLUMN ID="   11">Max. Tangential Stiffness</COLUMN>
+ <COLUMN ID="   12">Min. Tangential Stiffness</COLUMN>
+ <COLUMN ID="   13">Max. Sliding Distance of Entire Solution</COLUMN>
+ <COLUMN ID="   14">Max. Contact Pressure</COLUMN>
+ <COLUMN ID="   15">Max. Friction Stress</COLUMN>
+ <COLUMN ID="   16">Average Contact Depth</COLUMN>
+ <COLUMN ID="   17">Max. Geometric Penetration</COLUMN>
+ <COLUMN ID="   18">Number of Contact Points Have Too Much Penetration</COLUMN>
+ <COLUMN ID="   19">Contacting Area</COLUMN>
+ <COLUMN ID="   20">Max. Contact Damping Pressure</COLUMN>
+ <COLUMN ID="   21">Max. Contact Damping Tangential stress</COLUMN>
+ <COLUMN ID="   22">Max. Sliding Distance including near field</COLUMN>
+ <COLUMN ID="   23">Min. Sliding Distance including near field</COLUMN>
+ <COLUMN ID="   24">Max. normal fluid penetration pressure on contact surface</COLUMN>
+ <COLUMN ID="   25">Max. normal fluid penetration pressure on target surface</COLUMN>
+ <COLUMN ID="   26">Total volume loss due to wear on contact surface</COLUMN>
+ <COLUMN ID="   27">Total strain energy due to contact</COLUMN>
+ <COLUMN ID="   28">Frictional dissipation energy</COLUMN>
+ <COLUMN ID="   29">Contact damping dissipation energy</COLUMN>
+ <COLUMN ID="   30">WB contact pair ID</COLUMN>
+ <COLUMN ID="   31">Total contact force due to pressure -x component</COLUMN>
+ <COLUMN ID="   32">Total contact force due to pressure -y component</COLUMN>
+ <COLUMN ID="   33">Total contact force due to pressure -z component</COLUMN>
+ <COLUMN ID="   34">Total contact force due to tangential stress -x component</COLUMN>
+ <COLUMN ID="   35">Total contact force due to tangential stress -y component</COLUMN>
+ <COLUMN ID="   36">Total contact force due to tangential stress -z component</COLUMN>
+ <COLUMN ID="   37">Number of Contact Points Have Too Much sliding</COLUMN>
+ <COLUMN ID="   38">Contact pair force convergence norm</COLUMN>
+ <COLUMN ID="   39">Contact pair force criterion</COLUMN>
+ <COLUMN ID="   40">Max. tangential fluid penetration pressure on contact surface</COLUMN>
+ <COLUMN ID="   41">Max. tangential fluid penetration pressure on target surface</COLUMN>
+ <COLUMN ID="   42">Max. sliding distance of current substep for closed contact</COLUMN>
+ <UNITS>SI</UNITS>
+</HEADER>
+<COLDATA LOAD_STEP="        1" SUBSTEP="        1" ITERATION="        0" TIME="    0.000000    ">
+       20     18940     18940         0    0.1984402E-30   -0.1387779E-16    0.2626754E+16    0.2626754E+16    0.1462379E-03     0.000000        0.5910197E+15    0.5910197E+15     0.000000        0.4549024E-02     0.000000        0.5849514E-03   -0.1040834E-16         0    0.7110894E-01     0.000000         0.000000         0.000000         0.000000         0.000000         0.000000         0.000000        0.2184099E-21     0.000000         0.000000           123     0.000000         0.000000         0.000000         0.000000         0.000000         0.000000             0    0.000000         0.000000         0.000000         0.000000         0.000000    
+</COLDATA>
+<COLDATA LOAD_STEP="        1" SUBSTEP="        1" ITERATION="        0" TIME="    1.000000    ">
+       20     18940     18940         0    0.2173828E-07   -0.2450419E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9075341E-07    0.5910197E+15    0.5910197E+15    0.9075341E-07    0.5710113E+08    0.5363706E+08    0.5849514E-03   -0.2173828E-07         0    0.7110894E-01     0.000000         0.000000        0.9075341E-07    0.3079640E-11     0.000000         0.000000         0.000000        0.8222338E-03     0.000000         0.000000           123   -0.1149057E-10   -0.7494666E-12     2314.596       -0.3089231E-04    0.4212363E-05   -0.2288863E-11         0    0.000000         0.000000         0.000000         0.000000        0.9075341E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        2" SUBSTEP="        1" ITERATION="        0" TIME="    2.000000    ">
+       20     18940     18940         0    0.2177168E-07   -0.2454183E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9089281E-07    0.5910197E+15    0.5910197E+15    0.9089281E-07    0.5718884E+08    0.5371945E+08    0.5849514E-03   -0.2177168E-07         0    0.7110894E-01     0.000000         0.000000        0.9089281E-07    0.3084381E-11     0.000000         0.000000         0.000000        0.8247618E-03     0.000000         0.000000           123   -0.1150822E-10   -0.7506179E-12     2318.152       -0.3373378E-04    0.3337840E-05   -0.2292378E-11         0    0.000000         0.000000         0.000000         0.000000        0.9089281E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        3" SUBSTEP="        1" ITERATION="        0" TIME="    3.000000    ">
+       20     18940     18940         0    0.2180507E-07   -0.2457947E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9103222E-07    0.5910197E+15    0.5910197E+15    0.9103222E-07    0.5727656E+08    0.5380184E+08    0.5849514E-03   -0.2180507E-07         0    0.7110894E-01     0.000000         0.000000        0.9103222E-07    0.3089111E-11     0.000000         0.000000         0.000000        0.8272937E-03     0.000000         0.000000           123   -0.1152587E-10   -0.7517691E-12     2321.707       -0.3738235E-04    0.3786042E-05   -0.2295894E-11         0    0.000000         0.000000         0.000000         0.000000        0.9103222E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        4" SUBSTEP="        1" ITERATION="        0" TIME="    4.000000    ">
+       20     18940     18940         0    0.2183846E-07   -0.2461711E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9117163E-07    0.5910197E+15    0.5910197E+15    0.9117163E-07    0.5736427E+08    0.5388423E+08    0.5849514E-03   -0.2183846E-07         0    0.7110894E-01     0.000000         0.000000        0.9117163E-07    0.3093833E-11     0.000000         0.000000         0.000000        0.8298295E-03     0.000000         0.000000           123   -0.1154353E-10   -0.7529204E-12     2325.263       -0.2695700E-04    0.3440660E-05   -0.2299410E-11         0    0.000000         0.000000         0.000000         0.000000        0.9117163E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        5" SUBSTEP="        1" ITERATION="        0" TIME="    5.000000    ">
+       20     18940     18940         0    0.2187185E-07   -0.2465475E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9131103E-07    0.5910197E+15    0.5910197E+15    0.9131103E-07    0.5745198E+08    0.5396662E+08    0.5849514E-03   -0.2187185E-07         0    0.7110894E-01     0.000000         0.000000        0.9131103E-07    0.3098576E-11     0.000000         0.000000         0.000000        0.8323691E-03     0.000000         0.000000           123   -0.1156118E-10   -0.7540716E-12     2328.818       -0.2516610E-04    0.3962403E-05   -0.2302926E-11         0    0.000000         0.000000         0.000000         0.000000        0.9131103E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        6" SUBSTEP="        1" ITERATION="        0" TIME="    6.000000    ">
+       20     18940     18940         0    0.2190525E-07   -0.2469239E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9145044E-07    0.5910197E+15    0.5910197E+15    0.9145044E-07    0.5753970E+08    0.5404901E+08    0.5849514E-03   -0.2190525E-07         0    0.7110894E-01     0.000000         0.000000        0.9145044E-07    0.3103283E-11     0.000000         0.000000         0.000000        0.8349126E-03     0.000000         0.000000           123   -0.1157883E-10   -0.7552229E-12     2332.374       -0.2864054E-04    0.3522689E-05   -0.2306442E-11         0    0.000000         0.000000         0.000000         0.000000        0.9145044E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        7" SUBSTEP="        1" ITERATION="        0" TIME="    7.000000    ">
+       20     18940     18940         0    0.2193864E-07   -0.2473003E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9158984E-07    0.5910197E+15    0.5910197E+15    0.9158984E-07    0.5762741E+08    0.5413141E+08    0.5849514E-03   -0.2193864E-07         0    0.7110894E-01     0.000000         0.000000        0.9158984E-07    0.3108019E-11     0.000000         0.000000         0.000000        0.8374600E-03     0.000000         0.000000           123   -0.1159648E-10   -0.7563741E-12     2335.929       -0.2894017E-04    0.8350659E-05   -0.2309958E-11         0    0.000000         0.000000         0.000000         0.000000        0.9158984E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        8" SUBSTEP="        1" ITERATION="        0" TIME="    8.000000    ">
+       20     18940     18940         0    0.2197203E-07   -0.2476768E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9172925E-07    0.5910197E+15    0.5910197E+15    0.9172925E-07    0.5771512E+08    0.5421380E+08    0.5849514E-03   -0.2197203E-07         0    0.7110894E-01     0.000000         0.000000        0.9172925E-07    0.3112762E-11     0.000000         0.000000         0.000000        0.8400113E-03     0.000000         0.000000           123   -0.1161413E-10   -0.7575254E-12     2339.484       -0.2555123E-04    0.3125945E-05   -0.2313474E-11         0    0.000000         0.000000         0.000000         0.000000        0.9172925E-07
+</COLDATA>
+<COLDATA LOAD_STEP="        9" SUBSTEP="        1" ITERATION="        0" TIME="    9.000000    ">
+       20     18940     18940         0    0.2200542E-07   -0.2480532E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9186866E-07    0.5910197E+15    0.5910197E+15    0.9186866E-07    0.5780284E+08    0.5429619E+08    0.5849514E-03   -0.2200542E-07         0    0.7110894E-01     0.000000         0.000000        0.9186866E-07    0.3117483E-11     0.000000         0.000000         0.000000        0.8425665E-03     0.000000         0.000000           123   -0.1163178E-10   -0.7586766E-12     2343.040       -0.2970246E-04    0.4699791E-05   -0.2316990E-11         0    0.000000         0.000000         0.000000         0.000000        0.9186866E-07
+</COLDATA>
+<COLDATA LOAD_STEP="       10" SUBSTEP="        1" ITERATION="        0" TIME="    10.00000    ">
+       20     18940     18940         0    0.2203881E-07   -0.2484296E-07    0.2626754E+16    0.2626754E+16    0.1462379E-03    0.9200806E-07    0.5910197E+15    0.5910197E+15    0.9200806E-07    0.5789055E+08    0.5437858E+08    0.5849514E-03   -0.2203881E-07         0    0.7110894E-01     0.000000         0.000000        0.9200806E-07    0.3122216E-11     0.000000         0.000000         0.000000        0.8451255E-03     0.000000         0.000000           123   -0.1164943E-10   -0.7598279E-12     2346.595       -0.2890109E-04    0.1110763E-05   -0.2320506E-11         0    0.000000         0.000000         0.000000         0.000000        0.9200806E-07
+</COLDATA>
+</SOLUTION>

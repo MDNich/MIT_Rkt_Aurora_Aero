@@ -1,0 +1,505 @@
+/COM,ANSYS RELEASE 2024 R2           BUILD 24.2      UP20240603       13:06:23
+
+ *** WARNING ***                         CP =       1.938   TIME= 13:06:24
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       2.250   TIME= 13:06:25
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       7.750   TIME= 13:06:29
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      11.656   TIME= 13:06:32
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      15.891   TIME= 13:06:35
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      19.797   TIME= 13:06:38
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      23.812   TIME= 13:06:41
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      27.797   TIME= 13:06:44
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      31.734   TIME= 13:06:48
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      35.719   TIME= 13:06:51
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      39.656   TIME= 13:06:54
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      43.656   TIME= 13:06:57
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      47.562   TIME= 13:07:00
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      51.547   TIME= 13:07:03
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      55.516   TIME= 13:07:06
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      59.234   TIME= 13:07:10
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      63.156   TIME= 13:07:13
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      67.281   TIME= 13:07:16
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      71.297   TIME= 13:07:19
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      75.656   TIME= 13:07:23
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      79.766   TIME= 13:07:26
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      83.812   TIME= 13:07:29
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      87.781   TIME= 13:07:32
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      91.688   TIME= 13:07:36
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      95.625   TIME= 13:07:39
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      99.562   TIME= 13:07:42
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     103.500   TIME= 13:07:45
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     107.453   TIME= 13:07:48
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     111.406   TIME= 13:07:51
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     115.297   TIME= 13:07:54
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     119.188   TIME= 13:07:57
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     123.156   TIME= 13:08:01
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     127.109   TIME= 13:08:04
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     131.016   TIME= 13:08:07
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     134.953   TIME= 13:08:10
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     138.938   TIME= 13:08:13
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     142.859   TIME= 13:08:16
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     146.812   TIME= 13:08:20
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     150.688   TIME= 13:08:23
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     154.859   TIME= 13:08:26
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     158.781   TIME= 13:08:29
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     162.625   TIME= 13:08:32
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     166.484   TIME= 13:08:35
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     170.406   TIME= 13:08:38
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     174.141   TIME= 13:08:41
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     178.266   TIME= 13:08:45
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     182.297   TIME= 13:08:48
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     186.375   TIME= 13:08:51
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     190.250   TIME= 13:08:54
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     194.250   TIME= 13:08:57
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     198.156   TIME= 13:09:00
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     202.062   TIME= 13:09:03
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     206.000   TIME= 13:09:07
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     209.938   TIME= 13:09:10
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     213.938   TIME= 13:09:13
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     217.875   TIME= 13:09:16
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     221.797   TIME= 13:09:19
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     225.672   TIME= 13:09:22
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     229.609   TIME= 13:09:25
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     233.469   TIME= 13:09:29
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     237.344   TIME= 13:09:32
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     241.234   TIME= 13:09:35
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     245.281   TIME= 13:09:38
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     249.125   TIME= 13:09:41
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     253.078   TIME= 13:09:44
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     257.047   TIME= 13:09:47
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     261.031   TIME= 13:09:51
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     265.062   TIME= 13:09:54
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     269.031   TIME= 13:09:57
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     272.969   TIME= 13:10:00
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     276.828   TIME= 13:10:03
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     280.703   TIME= 13:10:06
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     284.609   TIME= 13:10:09
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     288.516   TIME= 13:10:13
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     292.406   TIME= 13:10:16
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     296.344   TIME= 13:10:19
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     300.266   TIME= 13:10:22
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     304.188   TIME= 13:10:25
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     308.250   TIME= 13:10:28
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     312.141   TIME= 13:10:31
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     316.094   TIME= 13:10:34
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     320.031   TIME= 13:10:38
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     323.969   TIME= 13:10:41
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     327.859   TIME= 13:10:44
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     331.719   TIME= 13:10:47
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     337.766   TIME= 13:10:53
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     341.750   TIME= 13:10:56
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     345.656   TIME= 13:10:59
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     349.688   TIME= 13:11:02
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     353.469   TIME= 13:11:05
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     357.312   TIME= 13:11:08
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     361.125   TIME= 13:11:11
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     364.953   TIME= 13:11:15
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     368.844   TIME= 13:11:18
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     372.812   TIME= 13:11:21
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     376.797   TIME= 13:11:24
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     380.781   TIME= 13:11:27
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     384.672   TIME= 13:11:30
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     388.672   TIME= 13:11:34
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     392.578   TIME= 13:11:37
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     396.531   TIME= 13:11:40
+ Material number 5 (used by element 9336) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
