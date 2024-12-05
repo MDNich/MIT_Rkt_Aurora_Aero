@@ -23,14 +23,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa2" format="float">
+            <ParameterValue parameter="pa1" format="float">
               <Data>18.6</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [GPa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">GPa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa3" format="float">
+            <ParameterValue parameter="pa2" format="float">
               <Data>0.27</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -38,14 +38,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa4" format="float">
+            <ParameterValue parameter="pa3" format="float">
               <Data>13478260869.5652</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa5" format="float">
+            <ParameterValue parameter="pa4" format="float">
               <Data>7322834645.66929</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -63,7 +63,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa1" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>2600</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^-3]</Qualifier>
@@ -76,9 +76,9 @@
             <Qualifier name="guid">22e77deb-812b-4134-bd6f-6d20c4c18f19</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -86,7 +86,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -94,7 +94,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -102,11 +102,11 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr5">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -118,7 +118,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>5e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -126,22 +126,22 @@
               <Qualifier name="Units">C^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa39" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>
               </Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr10">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -152,7 +152,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa42" format="float">
+            <ParameterValue parameter="pa24" format="float">
               <Data>1.27</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [W m^-1 C^-1]</Qualifier>
@@ -160,7 +160,7 @@
               <Qualifier name="Units">W m^-1 C^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr11">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Constant Pressure</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -172,7 +172,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa50" format="float">
+            <ParameterValue parameter="pa34" format="float">
               <Data>802</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [J kg^-1 C^-1]</Qualifier>
@@ -199,7 +199,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa1" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>1451</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^-3]</Qualifier>
@@ -223,14 +223,14 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa7" format="float">
+            <ParameterValue parameter="pa9" format="float">
               <Data>59160000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>59160000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -252,6 +252,14 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
+            <ParameterValue parameter="pa14" format="float">
+              <Data>0.3</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
             <ParameterValue parameter="pa15" format="float">
               <Data>0.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
@@ -260,189 +268,22 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
-              <Data>0.3</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>3300000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa20" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>2700000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa22" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>2700000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr6">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
-            <ParameterValue parameter="pa0" format="string">
-              <Data>Interpolation Options</Data>
-              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
-              <Qualifier name="Normalized">True</Qualifier>
-              <Qualifier name="Cached">True</Qualifier>
-              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>0.0092</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa26" format="float">
-              <Data>0.0092</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa28" format="float">
-              <Data>0.0078</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa30" format="float">
-              <Data>-0.0084</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa31" format="float">
-              <Data>-0.0084</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa32" format="float">
-              <Data>-0.011</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa35" format="float">
-              <Data>0.02</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa36" format="float">
-              <Data>0.015</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa38" format="float">
-              <Data>0.015</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr9">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
-            <ParameterValue parameter="pa0" format="string">
-              <Data>Interpolation Options</Data>
-              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
-              <Qualifier name="Normalized">True</Qualifier>
-              <Qualifier name="Cached">True</Qualifier>
-              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa40" format="float">
-              <Data>513000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa41" format="float">
-              <Data>513000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa43" format="float">
-              <Data>50000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa44" format="float">
-              <Data>-437000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa45" format="float">
-              <Data>-437000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa46" format="float">
-              <Data>-150000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa47" format="float">
-              <Data>120000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa48" format="float">
-              <Data>55000000</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa49" format="float">
-              <Data>55000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -451,6 +292,165 @@
           </PropertyData>
           <PropertyData property="pr7">
             <Data format="string">-</Data>
+            <Qualifier name="Behavior">Orthotropic</Qualifier>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa0" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa21" format="float">
+              <Data>0.0092</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa22" format="float">
+              <Data>0.0092</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa23" format="float">
+              <Data>0.0078</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa25" format="float">
+              <Data>-0.0084</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa26" format="float">
+              <Data>-0.0084</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa28" format="float">
+              <Data>-0.011</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa29" format="float">
+              <Data>0.02</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa30" format="float">
+              <Data>0.015</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa32" format="float">
+              <Data>0.015</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr10">
+            <Data format="string">-</Data>
+            <Qualifier name="Behavior">Orthotropic</Qualifier>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa0" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa36" format="float">
+              <Data>513000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa37" format="float">
+              <Data>513000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa38" format="float">
+              <Data>50000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa40" format="float">
+              <Data>-437000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa41" format="float">
+              <Data>-437000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa43" format="float">
+              <Data>-150000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa45" format="float">
+              <Data>120000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa46" format="float">
+              <Data>55000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa47" format="float">
+              <Data>55000000</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">Pa</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr5">
+            <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -461,21 +461,21 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa57" format="float">
+            <ParameterValue parameter="pa51" format="float">
               <Data>2.2e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">C^-1</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa60" format="float">
+            <ParameterValue parameter="pa52" format="float">
               <Data>2.2e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">C^-1</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa62" format="float">
+            <ParameterValue parameter="pa53" format="float">
               <Data>1e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C^-1]</Qualifier>
@@ -483,24 +483,24 @@
               <Qualifier name="Units">C^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <ParameterValue parameter="pa39" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>20</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
           <PropertyData property="pr12">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa66" format="float">
+            <ParameterValue parameter="pa54" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -508,7 +508,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa67" format="float">
+            <ParameterValue parameter="pa55" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -516,7 +516,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa68" format="float">
+            <ParameterValue parameter="pa56" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -524,7 +524,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa69" format="float">
+            <ParameterValue parameter="pa57" format="float">
               <Data>7.88860905221012e-31</Data>
               <Qualifier name="Variable Type">Independent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -537,9 +537,9 @@
             <Qualifier name="guid">7ab9c060-4547-4561-aab3-d3fd3c4952ed</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -547,7 +547,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -555,7 +555,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>170</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -563,7 +563,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
@@ -586,7 +586,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa1" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>1160</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^-3]</Qualifier>
@@ -611,29 +611,29 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa6" format="float">
+            <ParameterValue parameter="pa27" format="float">
               <Data>548242.648620061</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa3" format="float">
-              <Data>0.35</Data>
+            <ParameterValue parameter="pa2" format="float">
+              <Data>0.349999999999999</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa8" format="float">
-              <Data>609158.498466734</Data>
+            <ParameterValue parameter="pa31" format="float">
+              <Data>609158.498466729</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa33" format="float">
               <Data>203052.832822245</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
@@ -641,9 +641,9 @@
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr4">
+          <PropertyData property="pr11">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa35" format="float">
               <Data>7919.06048006754</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
@@ -656,9 +656,9 @@
             <Qualifier name="guid">c99988b7-2dbb-450c-aef4-ecfe41eeb382</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>155</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -666,7 +666,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>244</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -674,7 +674,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>255</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -682,7 +682,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
@@ -705,7 +705,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa1" format="float">
+            <ParameterValue parameter="pa5" format="float">
               <Data>1850</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [kg m^-3]</Qualifier>
@@ -729,21 +729,21 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa23" format="float">
+            <ParameterValue parameter="pa39" format="float">
               <Data>10500000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa24" format="float">
+            <ParameterValue parameter="pa42" format="float">
               <Data>2404573.02026342</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa27" format="float">
+            <ParameterValue parameter="pa44" format="float">
               <Data>2404573.02026342</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
@@ -758,7 +758,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa15" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>0.4</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -766,7 +766,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa15" format="float">
               <Data>0.28</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -774,181 +774,22 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa33" format="float">
+            <ParameterValue parameter="pa48" format="float">
               <Data>681677.367331821</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa34" format="float">
+            <ParameterValue parameter="pa49" format="float">
               <Data>507632.082055612</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">psi</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa37" format="float">
+            <ParameterValue parameter="pa50" format="float">
               <Data>681677.367331821</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr6">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
-            <ParameterValue parameter="pa0" format="string">
-              <Data>Interpolation Options</Data>
-              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
-              <Qualifier name="Normalized">True</Qualifier>
-              <Qualifier name="Cached">True</Qualifier>
-              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa25" format="float">
-              <Data>0.0244</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa26" format="float">
-              <Data>0.0038</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa28" format="float">
-              <Data>0.0038</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa30" format="float">
-              <Data>-0.015</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa31" format="float">
-              <Data>-0.0125</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa32" format="float">
-              <Data>-0.0125</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa35" format="float">
-              <Data>0.015</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa36" format="float">
-              <Data>0.012</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa38" format="float">
-              <Data>0.015</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">
-              </Qualifier>
-            </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr9">
-            <Data format="string">-</Data>
-            <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
-            <ParameterValue parameter="pa0" format="string">
-              <Data>Interpolation Options</Data>
-              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
-              <Qualifier name="Normalized">True</Qualifier>
-              <Qualifier name="Cached">True</Qualifier>
-              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa51" format="float">
-              <Data>113129.435429536</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa52" format="float">
-              <Data>4496.16986963542</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa53" format="float">
-              <Data>4496.16986963542</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa54" format="float">
-              <Data>-69618.1141104839</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa55" format="float">
-              <Data>-14503.7737730175</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa56" format="float">
-              <Data>-14503.7737730175</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa58" format="float">
-              <Data>8702.26426381049</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa59" format="float">
-              <Data>5076.32082055612</Data>
-              <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [psi]</Qualifier>
-              <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">psi</Qualifier>
-            </ParameterValue>
-            <ParameterValue parameter="pa61" format="float">
-              <Data>8702.26426381049</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [psi]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -957,6 +798,165 @@
           </PropertyData>
           <PropertyData property="pr7">
             <Data format="string">-</Data>
+            <Qualifier name="Behavior">Orthotropic</Qualifier>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa0" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa21" format="float">
+              <Data>0.0244</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa22" format="float">
+              <Data>0.0038</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa23" format="float">
+              <Data>0.0038</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa25" format="float">
+              <Data>-0.015</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa26" format="float">
+              <Data>-0.0125</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa28" format="float">
+              <Data>-0.0125</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa29" format="float">
+              <Data>0.015</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa30" format="float">
+              <Data>0.012</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa32" format="float">
+              <Data>0.015</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">
+              </Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr10">
+            <Data format="string">-</Data>
+            <Qualifier name="Behavior">Orthotropic</Qualifier>
+            <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
+            <ParameterValue parameter="pa0" format="string">
+              <Data>Interpolation Options</Data>
+              <Qualifier name="AlgorithmType">Linear Multivariate (Qhull)</Qualifier>
+              <Qualifier name="Normalized">True</Qualifier>
+              <Qualifier name="Cached">True</Qualifier>
+              <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa58" format="float">
+              <Data>113129.435429536</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa59" format="float">
+              <Data>4496.16986963542</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa60" format="float">
+              <Data>4496.16986963542</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa61" format="float">
+              <Data>-69618.1141104839</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa62" format="float">
+              <Data>-14503.7737730175</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa63" format="float">
+              <Data>-14503.7737730175</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa64" format="float">
+              <Data>8702.26426381049</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa65" format="float">
+              <Data>5076.32082055612</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+            <ParameterValue parameter="pa66" format="float">
+              <Data>8702.26426381049</Data>
+              <Qualifier name="Variable Type">Dependent</Qualifier>
+              <Qualifier name="Offset">0 [psi]</Qualifier>
+              <Qualifier name="Scale">1</Qualifier>
+              <Qualifier name="Units">psi</Qualifier>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr5">
+            <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -967,21 +967,21 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa63" format="float">
+            <ParameterValue parameter="pa67" format="float">
               <Data>3e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [F^-1]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">F^-1</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa64" format="float">
+            <ParameterValue parameter="pa68" format="float">
               <Data>3e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [F^-1]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">F^-1</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa65" format="float">
+            <ParameterValue parameter="pa69" format="float">
               <Data>3e-06</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [F^-1]</Qualifier>
@@ -989,18 +989,18 @@
               <Qualifier name="Units">F^-1</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
-            <ParameterValue parameter="pa39" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>20</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">C</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Coefficient of Thermal Expansion</Data>
             </ParameterValue>
           </PropertyData>
@@ -1077,7 +1077,7 @@
           </PropertyData>
           <PropertyData property="pr12">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa66" format="float">
+            <ParameterValue parameter="pa54" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1085,7 +1085,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa67" format="float">
+            <ParameterValue parameter="pa55" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1093,7 +1093,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa68" format="float">
+            <ParameterValue parameter="pa56" format="float">
               <Data>-1</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1101,7 +1101,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa69" format="float">
+            <ParameterValue parameter="pa57" format="float">
               <Data>7.88860905221012e-31</Data>
               <Qualifier name="Variable Type">Independent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
@@ -1114,9 +1114,9 @@
             <Qualifier name="guid">6c403223-3647-494f-a1c3-c4abcdc714a8</Qualifier>
             <Qualifier name="Display">False</Qualifier>
           </PropertyData>
-          <PropertyData property="pr5">
+          <PropertyData property="pr4">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa6" format="float">
               <Data>181</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1124,7 +1124,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa7" format="float">
               <Data>194</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1132,7 +1132,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa8" format="float">
               <Data>156</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -1140,7 +1140,7 @@
               <Qualifier name="Units">
               </Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa21" format="string">
+            <ParameterValue parameter="pa10" format="string">
               <Data>Appearance</Data>
             </ParameterValue>
           </PropertyData>
@@ -1150,58 +1150,58 @@
         <ParameterDetails id="pa0">
           <Name>Options Variable</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa2">
+        <ParameterDetails id="pa1">
           <Name>Young's Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa3">
+        <ParameterDetails id="pa2">
           <Name>Poisson's Ratio</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa4">
+        <ParameterDetails id="pa3">
           <Name>Bulk Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa5">
+        <ParameterDetails id="pa4">
           <Name>Shear Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa14">
+        <ParameterDetails id="pa6">
           <Name>Red</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa16">
+        <ParameterDetails id="pa7">
           <Name>Green</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa18">
+        <ParameterDetails id="pa8">
           <Name>Blue</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa21">
+        <ParameterDetails id="pa10">
           <Name>Material Property</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa29">
+        <ParameterDetails id="pa18">
           <Name>Coefficient of Thermal Expansion</Name>
           <Units name="InvTemp1" />
         </ParameterDetails>
-        <ParameterDetails id="pa39">
+        <ParameterDetails id="pa20">
           <Name>Zero-Thermal-Strain Reference Temperature</Name>
           <Units name="Temperature" />
         </ParameterDetails>
-        <ParameterDetails id="pa42">
+        <ParameterDetails id="pa24">
           <Name>Thermal Conductivity</Name>
           <Units name="Thermal Conductivity" />
         </ParameterDetails>
-        <ParameterDetails id="pa50">
+        <ParameterDetails id="pa34">
           <Name>Specific Heat</Name>
           <Units name="Specific Heat Capacity" />
         </ParameterDetails>
-        <ParameterDetails id="pa1">
+        <ParameterDetails id="pa5">
           <Name>Density</Name>
           <Units name="Density" />
         </ParameterDetails>
-        <ParameterDetails id="pa7">
+        <ParameterDetails id="pa9">
           <Name>Young's Modulus X direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa10">
+        <ParameterDetails id="pa11">
           <Name>Young's Modulus Y direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
@@ -1212,197 +1212,197 @@
         <ParameterDetails id="pa13">
           <Name>Poisson's Ratio XY</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa15">
+        <ParameterDetails id="pa14">
           <Name>Poisson's Ratio YZ</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa17">
+        <ParameterDetails id="pa15">
           <Name>Poisson's Ratio XZ</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa19">
+        <ParameterDetails id="pa16">
           <Name>Shear Modulus XY</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa20">
+        <ParameterDetails id="pa17">
           <Name>Shear Modulus YZ</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa22">
+        <ParameterDetails id="pa19">
           <Name>Shear Modulus XZ</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa25">
+        <ParameterDetails id="pa21">
           <Name>Tensile X direction</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa26">
+        <ParameterDetails id="pa22">
           <Name>Tensile Y direction</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa28">
-          <Name>Tensile Z direction</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa30">
-          <Name>Compressive X direction</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa31">
-          <Name>Compressive Y direction</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa32">
-          <Name>Compressive Z direction</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa35">
-          <Name>Shear XY</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa36">
-          <Name>Shear YZ</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa38">
-          <Name>Shear XZ</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa40">
-          <Name>Tensile X direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa41">
-          <Name>Tensile Y direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa43">
-          <Name>Tensile Z direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa44">
-          <Name>Compressive X direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa45">
-          <Name>Compressive Y direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa46">
-          <Name>Compressive Z direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa47">
-          <Name>Shear XY</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa48">
-          <Name>Shear YZ</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa49">
-          <Name>Shear XZ</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa57">
-          <Name>Coefficient of Thermal Expansion X direction</Name>
-          <Units name="InvTemp1" />
-        </ParameterDetails>
-        <ParameterDetails id="pa60">
-          <Name>Coefficient of Thermal Expansion Y direction</Name>
-          <Units name="InvTemp1" />
-        </ParameterDetails>
-        <ParameterDetails id="pa62">
-          <Name>Coefficient of Thermal Expansion Z direction</Name>
-          <Units name="InvTemp1" />
-        </ParameterDetails>
-        <ParameterDetails id="pa66">
-          <Name>Coupling Coefficient XY</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa67">
-          <Name>Coupling Coefficient YZ</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa68">
-          <Name>Coupling Coefficient XZ</Name>
-        </ParameterDetails>
-        <ParameterDetails id="pa69">
-          <Name>Temperature</Name>
-          <Units name="Temperature" />
-        </ParameterDetails>
-        <ParameterDetails id="pa6">
-          <Name>Young's Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa8">
-          <Name>Bulk Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa9">
-          <Name>Shear Modulus</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa11">
-          <Name>Tensile Yield Strength</Name>
-          <Units name="Stress" />
         </ParameterDetails>
         <ParameterDetails id="pa23">
-          <Name>Young's Modulus X direction</Name>
-          <Units name="Stress" />
+          <Name>Tensile Z direction</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa24">
-          <Name>Young's Modulus Y direction</Name>
-          <Units name="Stress" />
+        <ParameterDetails id="pa25">
+          <Name>Compressive X direction</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa27">
-          <Name>Young's Modulus Z direction</Name>
-          <Units name="Stress" />
+        <ParameterDetails id="pa26">
+          <Name>Compressive Y direction</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa33">
-          <Name>Shear Modulus XY</Name>
-          <Units name="Stress" />
+        <ParameterDetails id="pa28">
+          <Name>Compressive Z direction</Name>
         </ParameterDetails>
-        <ParameterDetails id="pa34">
-          <Name>Shear Modulus YZ</Name>
+        <ParameterDetails id="pa29">
+          <Name>Shear XY</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa30">
+          <Name>Shear YZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa32">
+          <Name>Shear XZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa36">
+          <Name>Tensile X direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
         <ParameterDetails id="pa37">
-          <Name>Shear Modulus XZ</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa51">
-          <Name>Tensile X direction</Name>
-          <Units name="Stress" />
-        </ParameterDetails>
-        <ParameterDetails id="pa52">
           <Name>Tensile Y direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa53">
+        <ParameterDetails id="pa38">
           <Name>Tensile Z direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa54">
+        <ParameterDetails id="pa40">
           <Name>Compressive X direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa55">
+        <ParameterDetails id="pa41">
           <Name>Compressive Y direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa56">
+        <ParameterDetails id="pa43">
           <Name>Compressive Z direction</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa58">
+        <ParameterDetails id="pa45">
           <Name>Shear XY</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa59">
+        <ParameterDetails id="pa46">
           <Name>Shear YZ</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa61">
+        <ParameterDetails id="pa47">
           <Name>Shear XZ</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa63">
+        <ParameterDetails id="pa51">
           <Name>Coefficient of Thermal Expansion X direction</Name>
           <Units name="InvTemp1" />
         </ParameterDetails>
-        <ParameterDetails id="pa64">
+        <ParameterDetails id="pa52">
           <Name>Coefficient of Thermal Expansion Y direction</Name>
           <Units name="InvTemp1" />
         </ParameterDetails>
+        <ParameterDetails id="pa53">
+          <Name>Coefficient of Thermal Expansion Z direction</Name>
+          <Units name="InvTemp1" />
+        </ParameterDetails>
+        <ParameterDetails id="pa54">
+          <Name>Coupling Coefficient XY</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa55">
+          <Name>Coupling Coefficient YZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa56">
+          <Name>Coupling Coefficient XZ</Name>
+        </ParameterDetails>
+        <ParameterDetails id="pa57">
+          <Name>Temperature</Name>
+          <Units name="Temperature" />
+        </ParameterDetails>
+        <ParameterDetails id="pa27">
+          <Name>Young's Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa31">
+          <Name>Bulk Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa33">
+          <Name>Shear Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa35">
+          <Name>Tensile Yield Strength</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa39">
+          <Name>Young's Modulus X direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa42">
+          <Name>Young's Modulus Y direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa44">
+          <Name>Young's Modulus Z direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa48">
+          <Name>Shear Modulus XY</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa49">
+          <Name>Shear Modulus YZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa50">
+          <Name>Shear Modulus XZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa58">
+          <Name>Tensile X direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa59">
+          <Name>Tensile Y direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa60">
+          <Name>Tensile Z direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa61">
+          <Name>Compressive X direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa62">
+          <Name>Compressive Y direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa63">
+          <Name>Compressive Z direction</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa64">
+          <Name>Shear XY</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
         <ParameterDetails id="pa65">
+          <Name>Shear YZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa66">
+          <Name>Shear XZ</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa67">
+          <Name>Coefficient of Thermal Expansion X direction</Name>
+          <Units name="InvTemp1" />
+        </ParameterDetails>
+        <ParameterDetails id="pa68">
+          <Name>Coefficient of Thermal Expansion Y direction</Name>
+          <Units name="InvTemp1" />
+        </ParameterDetails>
+        <ParameterDetails id="pa69">
           <Name>Coefficient of Thermal Expansion Z direction</Name>
           <Units name="InvTemp1" />
         </ParameterDetails>
@@ -1440,28 +1440,28 @@
           <Name>Material Unique Id</Name>
         </PropertyDetails>
         <PropertyDetails id="pr4">
-          <Name>Tensile Yield Strength</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr5">
           <Name>Color</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr6">
-          <Name>Strain Limits</Name>
-        </PropertyDetails>
-        <PropertyDetails id="pr7">
+        <PropertyDetails id="pr5">
           <Name>Coefficient of Thermal Expansion</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr8">
+        <PropertyDetails id="pr6">
           <Name>Zero-Thermal-Strain Reference Temperature</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr9">
-          <Name>Stress Limits</Name>
+        <PropertyDetails id="pr7">
+          <Name>Strain Limits</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr10">
+        <PropertyDetails id="pr8">
           <Name>Thermal Conductivity</Name>
         </PropertyDetails>
-        <PropertyDetails id="pr11">
+        <PropertyDetails id="pr9">
           <Name>Specific Heat</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr10">
+          <Name>Stress Limits</Name>
+        </PropertyDetails>
+        <PropertyDetails id="pr11">
+          <Name>Tensile Yield Strength</Name>
         </PropertyDetails>
         <PropertyDetails id="pr12">
           <Name>Tsai-Wu Constants</Name>

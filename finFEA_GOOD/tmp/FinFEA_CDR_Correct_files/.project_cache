@@ -25,6 +25,9 @@ dp0/ACP-Pre-2/ACP/runACP.py
 dp0/ACP-Pre-2/DM/ACP-Pre-2.scdoc
 dp0/ACP-Pre-2/MECH/ACP-Pre-2.h5
 dp0/ACP-Pre-3/ACP/ACP-Pre.acph5
+dp0/ACP-Pre-3/ACP/ACPCompositeDefinitions.h5
+dp0/ACP-Pre-3/ACP/ACPSolidModel_solidModel.cdb
+dp0/ACP-Pre-3/ACP/ACPSolidModel_solidModel.h5
 dp0/ACP-Pre-3/ACP/material.apdl
 dp0/ACP-Pre-3/ACP/runACP.py
 dp0/ACP-Pre-3/MECH/Model 6/SYS-7.copy.mapping
@@ -115,6 +118,7 @@ session_files/journal1.wbjn
 session_files/journal10_crashed.wbjn
 session_files/journal11.wbjn
 session_files/journal12.wbjn
+session_files/journal13.wbjn
 session_files/journal2.wbjn
 session_files/journal3_crashed.wbjn
 session_files/journal4_crashed.wbjn
