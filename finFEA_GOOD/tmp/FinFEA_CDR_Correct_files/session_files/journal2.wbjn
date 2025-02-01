@@ -1,6 +1,0 @@
-# encoding: utf-8
-# 2024 R2
-SetScriptVersion(Version="24.2.133")
-system1 = GetSystem(Name="ACP-Pre")
-geometry1 = system1.GetContainer(ComponentName="Geometry")
-geometry1.SetFile(FilePath="C:/Users/mdn/Developer/MIT_Rkt_Aurora_Aero/finFEA/finJust.STEP")

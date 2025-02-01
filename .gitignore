@@ -1,4 +1,6 @@
 
 *.DS_Store
-AeroShell_proj/.DS_Store
+AeroShell_proj/
+finFEA_GOOD/
+*.mechdb
 *.rst
