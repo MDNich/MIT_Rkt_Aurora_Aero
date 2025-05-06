@@ -23,8 +23,6 @@ dp0/FFF/Fluent/FluentReportServer/view_report.nexdb
 dp0/FFF/Fluent/FluentReportServer/db.sqlite3
 dp0/FFF/Fluent/FluentReportServer/nexus.log
 dp0/FFF/Fluent/force_x-rfile.out
-dp0/FFF/Fluent/FFF.1-9.cas.h5
-dp0/FFF/Fluent/FFF.1-9-00050.dat.h5
 dp0/FFF/Fluent/fluent-2-error.log
 dp0/FFF/Fluent/FFF.1.set
 dp0/FFF/Fluent/FFF.1-Setup-Output.cas.h5
@@ -32,6 +30,9 @@ dp0/FFF/Fluent/fluent-999999-error.log
 dp0/FFF/Fluent/force_y-rfile.out
 dp0/FFF/Fluent/FFF.1.ip
 dp0/FFF/Fluent/fluent-3-error.log
+dp0/FFF/Fluent/SolutionMonitor.gz
+dp0/FFF/Fluent/FFF.1-10.cas.h5
+dp0/FFF/Fluent/FFF.1-10-00100.dat.h5
 dp0/FFF/Fluent/force_z-rfile.out
 dp0/FFF/Fluent/fluent-0-error.log
 dp0/FFF/Fluent/stat_p_avg-rfile.out
@@ -51,10 +52,12 @@ session_files/journal9_crashed.wbjn
 session_files/journal6.wbjn
 session_files/journal1.wbjn
 session_files/journal3.wbjn
+session_files/journal11.wbjn
 session_files/journal10.wbjn
 session_files/journal7_crashed.wbjn
 session_files/journal2.wbjn
 session_files/journal5.wbjn
+session_files/journal10_crashed.wbjn
 session_files/journal4.wbjn
 session_files/journal8.wbjn
 progress_files/dp0/FFF/Fluent/stat_p.png
