@@ -35,7 +35,6 @@ dp0/FFF/Fluent/FluentReportServer/nexus.log
 dp0/FFF/Fluent/force_x-rfile.out
 dp0/FFF/Fluent/FFF.set
 dp0/FFF/Fluent/fluent-999999-error.log
-dp0/FFF/Fluent/FFF-4.cas.h5
 dp0/FFF/Fluent/force_y-rfile.out
 dp0/FFF/Fluent/FFF.ip
 dp0/FFF/Fluent/vz_wall-rfile.out
@@ -44,9 +43,11 @@ dp0/FFF/Fluent/SolutionMonitor.gz
 dp0/FFF/Fluent/FFF-4-00050.dat.h5
 dp0/FFF/Fluent/force_z-rfile.out
 dp0/FFF/Fluent/fluent-0-error.log
+dp0/FFF/Fluent/FFF-5.cas.h5
 dp0/FFF/Fluent/skinfriction-rfile.out
 dp0/FFF/Fluent/shear-stress-rfile.out
 dp0/FFF/Fluent/FFF-Setup-Output.cas.h5
+dp0/FFF/Fluent/FFF-5-00070.dat.h5
 dp0/FFF/DM/FFF.agdb
 dp0/FFF/MECH/FFF
 dp0/FFF/MECH/FFF.msh
@@ -54,8 +55,10 @@ dp0/global/MECH/FFF-1.mshdb
 dp0/global/MECH/FFF.mshdb
 dp0/designPoint.wbdp
 dp0/act.dat
+session_files/journal7.wbjn
 session_files/journal1.wbjn
 session_files/journal3.wbjn
+session_files/journal6_crashed.wbjn
 session_files/journal2.wbjn
 session_files/journal5.wbjn
 session_files/journal4.wbjn
